@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+	</head>
+<body oncontextmenu="return false;"> 
+	<textarea id="llmResponse" rows="24" cols="80" style="resize: none;font-family: Arial; font-size: 16px; border:solid;  border-width:1px;"></textarea>	
+ 
+<script type="text/javascript">
+ 
+function getQueryVariable(variable)
+{
+    const parsedUrl = new URL(window.location.href);
+    return parsedUrl.searchParams.get(variable);
+}
+  
+var indexPath = getQueryVariable('indexPath');
+var userDefIdPath = getQueryVariable('userDefIdPath');
+var traceCount = 0;
+	 
+window.addEventListener("message", (event) => {
+   
+  if (JSON.parse(event.data)[0] == "SHOW_RESULT"){
+	let llmResponse = document.getElementById("llmResponse");
+	let lastPromptOutput = JSON.parse(event.data)[1];
+	if (lastPromptOutput != "(empty)"){
+		llmResponse.value=lastPromptOutput;  	        
+	} 	 	
+  }          
+  
+});
+
+var pass_data = {
+     indexPath: indexPath,
+     userDefIdPath: userDefIdPath, 
+     microfinEvent: 'EV_ShowPromtResultPage_Ready',
+     traceCount : traceCount++
+};			
+window.parent.postMessage(JSON.stringify(pass_data), '*');	
+
+</script>
+</html>
