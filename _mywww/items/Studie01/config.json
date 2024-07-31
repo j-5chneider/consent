@@ -5626,7 +5626,7 @@
                 "cssClassNames" : [ "Button" ],
                 "contributeVariable" : false,
                 "highlight" : "none",
-                "selectionHandlerType" : "next_task",
+                "selectionHandlerType" : "none",
                 "toggleType" : "none"
               }
             }, {
@@ -6262,6 +6262,146 @@
                   }
                 } ],
                 "scoringResultPerMember" : false
+              }
+            }, {
+              "type" : "CbaButton",
+              "config" : {
+                "position" : {
+                  "x" : 850,
+                  "y" : 710,
+                  "width" : 140,
+                  "height" : 30
+                },
+                "font" : {
+                  "name" : "Arial",
+                  "size" : 20,
+                  "alignmentHorizontal" : "center",
+                  "bold" : true,
+                  "italic" : false,
+                  "underlined" : false
+                },
+                "color" : {
+                  "text" : {
+                    "default" : "rgba(0, 0, 0, 1)",
+                    "selected" : "rgba(0, 0, 0, 1)",
+                    "visited" : "rgba(0, 0, 0, 1)",
+                    "disabled" : "rgba(167, 166, 170, 1)"
+                  },
+                  "background" : {
+                    "default" : "rgba(255, 255, 255, 1)"
+                  }
+                },
+                "border" : {
+                  "style" : "outset",
+                  "width" : 2,
+                  "radius" : 2,
+                  "color" : {
+                    "default" : "rgba(176, 176, 176, 1)",
+                    "disabled" : "rgba(210,210,210,1)"
+                  }
+                },
+                "transform" : { },
+                "state" : {
+                  "disabled" : false,
+                  "selected" : false,
+                  "hidden" : false
+                },
+                "text" : {
+                  "label" : "END"
+                },
+                "image" : {
+                  "displayMode" : "none"
+                },
+                "cursor" : {
+                  "standard" : "auto"
+                },
+                "tabIndex" : -1,
+                "event" : { },
+                "classifiers" : [ ],
+                "link" : { },
+                "userDefinedId" : "$537679591008199",
+                "pageEditId" : "_hf0wU09SEe-Clp8nuduU4g",
+                "trace" : {
+                  "skipTrace" : false,
+                  "type" : "Button"
+                },
+                "autoLayoutLayer" : "none",
+                "cssClassNames" : [ "Button" ],
+                "contributeVariable" : false,
+                "highlight" : "none",
+                "selectionHandlerType" : "next_task",
+                "toggleType" : "none"
+              }
+            }, {
+              "type" : "CbaButton",
+              "config" : {
+                "position" : {
+                  "x" : 30,
+                  "y" : 710,
+                  "width" : 140,
+                  "height" : 30
+                },
+                "font" : {
+                  "name" : "Arial",
+                  "size" : 20,
+                  "alignmentHorizontal" : "center",
+                  "bold" : true,
+                  "italic" : false,
+                  "underlined" : false
+                },
+                "color" : {
+                  "text" : {
+                    "default" : "rgba(0, 0, 0, 1)",
+                    "selected" : "rgba(0, 0, 0, 1)",
+                    "visited" : "rgba(0, 0, 0, 1)",
+                    "disabled" : "rgba(167, 166, 170, 1)"
+                  },
+                  "background" : {
+                    "default" : "rgba(255, 255, 255, 1)"
+                  }
+                },
+                "border" : {
+                  "style" : "outset",
+                  "width" : 2,
+                  "radius" : 2,
+                  "color" : {
+                    "default" : "rgba(176, 176, 176, 1)",
+                    "disabled" : "rgba(210,210,210,1)"
+                  }
+                },
+                "transform" : { },
+                "state" : {
+                  "disabled" : false,
+                  "selected" : false,
+                  "hidden" : false
+                },
+                "text" : {
+                  "label" : "BACK"
+                },
+                "image" : {
+                  "displayMode" : "none"
+                },
+                "cursor" : {
+                  "standard" : "auto"
+                },
+                "tabIndex" : -1,
+                "event" : {
+                  "standard" : "EV_Previous"
+                },
+                "classifiers" : [ ],
+                "link" : { },
+                "userDefinedId" : "$537679591033200",
+                "pageEditId" : "_oawiJE9SEe-Clp8nuduU4g",
+                "trace" : {
+                  "skipTrace" : false,
+                  "type" : "Button"
+                },
+                "autoLayoutLayer" : "none",
+                "cssClassNames" : [ "Button" ],
+                "contributeVariable" : false,
+                "highlight" : "none",
+                "selectionHandlerType" : "none",
+                "toggleType" : "none"
               }
             } ]
           }
@@ -7511,7 +7651,7 @@
           "operator" : "callExternalPageFrame",
           "params" : [ {
             "name" : "absoluteUserDefId",
-            "value" : "/pageAreaType=main/pageAreaName=standard/id=EPF_page2"
+            "value" : "/pageAreaType=main/pageAreaName=standard/id=PA_down/id=EPF_page2"
           }, {
             "name" : "values",
             "value" : [ "PROMPT_REQUEST", "Example value for prompt parameter..." ]
@@ -7532,7 +7672,7 @@
           "operator" : "callExternalPageFrame",
           "params" : [ {
             "name" : "absoluteUserDefId",
-            "value" : "/pageAreaType=main/pageAreaName=standard/id=EPF_page2"
+            "value" : "/pageAreaType=main/pageAreaName=standard/id=PA_down/id=EPF_page2"
           }, {
             "name" : "values",
             "value" : [ "SHOW_PROMPT", {
@@ -7691,7 +7831,10 @@
       "states" : [ ]
     }, {
       "id" : "ST_Page4",
-      "transitions" : [ ],
+      "transitions" : [ {
+        "event" : "EV_Previous",
+        "target" : "ST_Page3"
+      } ],
       "states" : [ ]
     } ]
   },
