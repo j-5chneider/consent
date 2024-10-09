@@ -49,8 +49,8 @@ library(fontawesome)
 
 :::: {.columns}
 ::: {.column width="62%"}
-* Fear of **lower participation** due to data-sharing clauses, particularly with certain **data types** (e.g., video data)<br />`r fa("long-arrow-right")` Challenge for data sharing practices<br /><br />
-* Unclear reaction to more recent types of **"participant ID"** (e.g., to match several data sets)<br /><br /><br /><br />
+* Fear of **lower participation** due to data-sharing clauses,
+* particularly with certain **data types** (e.g., video data)<br />`r fa("long-arrow-right")` Challenge for data sharing practices<br /><br /><br /><br />
 * Would participants actually **agree less**?<br /><br />
 * Does participants' **understanding** align with that of the researchers?
 
@@ -100,6 +100,37 @@ library(fontawesome)
 2. Does the information on sharing data (containing vs. not containing a section on data being shared) in the informed consent influence the participants' willingness to participate? (for different data types?)<br /><br />
 3. Does the option to clarify concerns about the informed consent make a difference in the willingness to participate?
 
+
+## Study 1
+
+* Design: 2x2 between-subjects design with randomized conditions
+* Factors: Consent with different 
+  - reading level (standard vs. easy-to-read)
+  - interactivity (display-only vs. quiz-format).
+* Measures:
+  - Dwell time
+  - Self-reported reading engagement
+  - Understanding (via multiple-choice)
+  
+## Study 2
+
+* Design: 2x3 between-subjects design with randomized conditions:
+* Factors: 
+  - Data-sharing section (included vs. not included) 
+  - data collection format (video recording vs. interview vs. survey)
+* Measure: Willingness to participate (6-point Likert scale)
+
+
+## Study 3
+
+* Design: Within-subject design with consent for a fictitious video study
+* Procedure:
+  - Initial Response: Participants indicate willingness to participate (6-point Likert scale)
+  - "No" Response: Provide primary reason (open-ended)
+  - "Yes" Response: Describe a scenario for not signing consent
+  - Additional Measures: Perceptions of being well-informed and trust in research
+  - Feedback: Written feedback from an LLM addressing participant concerns
+  - Participants asked again about willingness to participate (6-point Likert scale), feeling informed, and trust
 
 # Thank you
 
