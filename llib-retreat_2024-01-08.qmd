@@ -96,32 +96,109 @@ library(fontawesome)
 
 ## Research Questions 
 
-1. Do participants understand informed consent forms in the same way researchers intend?<br /><br />
-2. Does the information on sharing data (containing vs. not containing a section on data being shared) in the informed consent influence the participants' willingness to participate? (for different data types?)<br /><br />
-3. Does the option to clarify concerns about the informed consent make a difference in the willingness to participate?
 
+\
+\
+
+1. Do participants **read** and **understand** informed consent forms in the same way researchers intend?<br /><br />
+2. Does the information on **sharing data** (containing vs. not containing a section on data being shared) influence the participants' willingness to participate? (for different **data types**?)
+
+:::{.grey-text}
+3. Does the **option to clarify** concerns about the informed consent make a difference in the willingness to participate?</span>
+:::
 
 ## Study 1
+
+:::: {.columns}
+::: {.column width="48%"}
+
+* Procedure: Presenting the actual consent, then if participants agree...
+
+:::{.grey-text}
 
 * Design: 2x2 between-subjects design with randomized conditions
 * Factors: Consent with different 
   - reading level (standard vs. easy-to-read)
   - interactivity (display-only vs. quiz-format).
+  
+:::
+  
 * Measures:
   - Dwell time
   - Self-reported reading engagement
-  - Understanding (via multiple-choice)
+  - Understanding (e.g., via multiple-choice)
+   
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="48%"}
+
+
+
+:::
+::::
+
+
+## Study 1
+
+:::: {.columns}
+::: {.column width="48%"}
+
+* Procedure: Presenting the actual consent, then if participants agree...
+
+:::{.grey-text}
+
+* Design: 2x2 between-subjects design with randomized conditions
+* Factors: Consent with different 
+  - reading level (standard vs. easy-to-read)
+  - interactivity (display-only vs. quiz-format).
+  
+:::
+  
+* Measures:
+  - Dwell time
+  - Self-reported reading engagement
+  - Understanding (e.g., via multiple-choice)
+* Controls
+  - Individual concept/knowledge of research data handling
+   
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="48%"}
+
+* Check dwell time on the consent form of **past studies**
+* Ideas to code
+  - Which population?
+  - Participants incentivized? How?
+  - Topic of study?
+
+`r fa("long-arrow-right")` Do we have consent to do this...?
+
+:::
+::::
+
+
   
 ## Study 2
 
-* Design: 2x3 between-subjects design with randomized conditions:
+* Procedure: Description of study
+* Design: 2x3x... (within?-)between-subjects design
 * Factors: 
-  - Data-sharing section (included vs. not included) 
+  - **Data-sharing** section (included vs. not included) 
   - data collection format (video recording vs. interview vs. survey)
+  - topic of study (sensitive vs. "not so" sensitive)
+  - ...?
 * Measure: Willingness to participate (6-point Likert scale)
 
 
 ## Study 3
+
+:::{.grey-text}
 
 * Design: Within-subject design with consent for a fictitious video study
 * Procedure:
@@ -131,6 +208,8 @@ library(fontawesome)
   - Additional Measures: Perceptions of being well-informed and trust in research
   - Feedback: Written feedback from an LLM addressing participant concerns
   - Participants asked again about willingness to participate (6-point Likert scale), feeling informed, and trust
+
+:::
 
 # Thank you
 
@@ -151,5 +230,6 @@ Title page: <a href="https://unsplash.com/de/@acharki95?utm_content=creditCopyTe
   
   
 Icons by Font Awesome CC BY 4.0
+
 
 
