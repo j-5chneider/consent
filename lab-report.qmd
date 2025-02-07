@@ -1,0 +1,576 @@
+---
+title: "Consent design<br />and participants consent"
+subtitle: "(or rather 'study information design')"
+title-slide-attributes:
+  data-background-image: www/title-bg.jpg
+  data-background-size: cover
+  #data-background-opacity: "0.3"
+author: "<br /><br /><b>Jürgen, Tina, Johanna, Johannes, Talha</b><br />"
+date: today # "20. Mar 2024"
+date-format: "DD MMMM YYYY"
+format: 
+  revealjs:
+      theme: [white] # sky default
+      logo: www/dipf-logo.png
+      footer: "Slides: [link pending](#)"
+      smaller: true
+      scrollable: true
+      transition: fade
+      width: 1500
+      height: 850
+      hide-inactive-cursor: false
+      embed-resources: true
+      mermaid:
+        theme: neutral
+editor: source
+# editor_options:
+#   chunk_output_type: console
+bibliography: www/references.bib
+css: www/style.css
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      message=FALSE, 
+                      warning=FALSE)
+### DOWNLOAD NEWEST SOURCES
+## befindet sich im DIPF Ordner
+# download.file("https://drive.google.com/uc?export=download&id=1ASV99YHMHSNChSNzqbZwvz2SiqYvmqO_",
+#               "www/references.bib", overwrite = T)
+
+
+library(fontawesome)
+library(ggplot2)
+library(lavaan)
+# library(lavaanPlot)
+library(DiagrammeR)
+```
+
+## Design of consent
+
+\
+\
+\
+
+:::: {.columns}
+::: {.column width="62%"}
+* Fear of **lower participation** due to data-sharing clauses,
+* particularly with certain **data types** (e.g., video data)<br />`r fa("long-arrow-right")` Challenge for data sharing practices<br /><br /><br /><br />
+* Would participants actually **agree less**?<br /><br />
+* Does participants' **understanding** align with that of the researchers?
+
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="35%"}
+![](www/model.jpg)
+:::
+::::
+
+
+
+
+## Design of consent
+
+\
+\
+\
+
+:::: {.columns}
+::: {.column width="62%"}
+
+* More general challenge: Evidence that participants often **don't read/understand** consent forms<br /><br /><br />
+* Evidence so far: 
+   - Comprehension varies with **reading level, interactivity**<br />
+   - **Dialogue** about data sharing increases consent<br />`r fa("long-arrow-right")` may be challenging with larger sample size<br />`r fa("long-arrow-right")` option for automated response?
+   
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="35%"}
+
+![](www/burning_consent.jpg)
+
+:::
+::::
+
+
+## Research Questions 
+
+
+\
+\
+
+1. Do participants **read** informed consent forms?<br /><br />
+2. Does the information on **sharing data** (containing vs. not containing a section on data being shared) influence the participants' willingness to participate? (for different **data types**?)<br /><br />
+3. Does the **option to clarify** concerns about the informed consent make a difference in the willingness to participate?
+
+
+
+## Study 1
+\
+\
+\
+
+:::{.rq}
+Do participants **read**  
+informed consent forms?
+:::
+
+
+
+
+## Study 1
+### Design
+
+
+* **Re-use** of **log-data** from past online surveys, that...
+  - measured dwell time on the consent page,
+  - allow re-use of their data according to the informed consent<br /><br />
+* **Sample**
+  - [Teachers, students, ...]
+  - $N_{participants} = ...$ participants
+  - from $N_{studies} = ...$ online surveys (*[year begin - year end]*)
+
+
+## Study 1
+### Measures
+
+
+**Dwell time on consent: Reading speed (as words per minute):**
+
+* 238: average (silent) reading speed (English) [@Brysbaert.2019]
+* \> 500-600: loss of information/comprehension (skimming)
+* \> 900: information falls out of working memory before being comprehended [@Masson.1983]
+
+
+**Additional coding**
+
+* Which population? [students, teachers, public, researchers, ...]
+* Participants incentivized? How? [not, money, ...]
+* Topic of study? [sensitive, somewhat sensitive, not sensitive]
+
+
+
+## Study 1
+### Statistical analysis
+
+```{r}
+study1_sample_data <- data.frame(study = c(rep("A", 55), rep("B", 55), rep("C", 55), rep("D", 55)),
+                                 words_per_minute = c(c(rbeta(n = 50, shape1 = 5, shape2 = 1.5) * 3600, rnorm(5, 250, 50)), 
+                                                      c(rbeta(n = 50, shape1 = 5, shape2 = 1.5) * 4100, rnorm(5, 250, 50)), 
+                                                      c(rbeta(n = 50, shape1 = 5, shape2 = 1.5) * 5400, rnorm(5, 250, 50)), 
+                                                      c(rbeta(n = 50, shape1 = 5, shape2 = 1.5) * 4200, rnorm(5, 250, 50))
+                                                     )
+                                 )
+
+ggplot() +
+  geom_rect(aes(ymin= 40,
+                ymax = 600,
+                xmin = -Inf,
+                xmax = Inf), 
+            fill = 'grey', alpha = 0.40, color = NA) +
+  geom_rect(aes(ymin= 600,
+                ymax = 900,
+                xmin = -Inf,
+                xmax = Inf), 
+            fill = 'yellow', alpha = 0.40, color = NA) +
+  geom_rect(aes(ymin= 900,
+                ymax = Inf,
+                xmin = -Inf,
+                xmax = Inf), 
+            fill = 'red', alpha = 0.20, color = NA) +
+  geom_jitter(data=study1_sample_data, aes(x=study, y=words_per_minute, colour = study), width = .25, size = 3) +
+  scale_y_continuous(limits = c(0, 5500), expand = c(0,0), breaks = c(40, 600, 900, 2000, 3000, 4000, 5000)) +
+  ggtitle("Artificial data", subtitle = "for illustration of data analysis") +
+  scale_color_viridis_d(end = .85) +
+  theme_light() +
+  theme(panel.grid.minor = element_blank(),
+        legend.position = "none",
+        text = element_text(size = 20))
+
+```
+
+
+
+
+
+
+## Study 2a
+### Conceptual Replication (and expansion) of Study 1
+\
+\
+
+:::{.rq}
+Do participants **read**  
+informed consent forms?
+:::
+
+:::{.text-center}
+`r fa("repeat")` replication part  
+`r fa("square-plus")` expansion part
+:::
+
+
+## Study 2a
+### Conceptual Replication (and expansion) of Study 1
+
+:::: {.columns}
+::: {.column width="48%"}
+
+* Procedure: Presenting the **actual consent**, then if participants **agree**...
+* Measures:<br />`r fa("repeat")` Dwell time<br />`r fa("square-plus")` Self-reported reading engagement<br />`r fa("square-plus")` Understanding (e.g., via multiple-choice)
+* Controls<br />`r fa("square-plus")` knowledge about typical process of research data handling
+
+:::
+::: {.column width="2%"}
+:::
+::: {.column width="48%"}
+:::
+::::
+
+## Study 2a
+### Conceptual Replication (and expansion) of Study 1
+
+
+```{r}
+study2a_sample_data <- data.frame(measure = c(rep("Dwell\nTime", 105), 
+                                              rep("Reading\nEngagement", 105), 
+                                              rep("Understanding", 105)),
+                                   value = c(c(rbeta(n = 100, shape1 = 1, shape2 = 15) * 6, rnorm(5, 4, 1)), 
+                                             c(rbeta(n = 100, shape1 = 1.5, shape2 = 7) * 6, rnorm(5, 4, 1)),
+                                             c(rbeta(n = 100, shape1 = 1.5, shape2 = 7) * 6, rnorm(5, 4, 1))
+                                             )
+                                 )
+
+ggplot() +
+  geom_jitter(data=study2a_sample_data, aes(x=measure, y=value, colour = measure), 
+              width = .25, size = 3, alpha = .7) +
+  scale_y_continuous(limits = c(0, 5), expand = c(0,0)) +
+  scale_color_viridis_d(end = .85) +
+  xlab("") +
+  ggtitle("Artificial data", subtitle = "for illustration of data analysis") +
+  theme_light() +
+  theme(panel.grid.minor = element_blank(),
+        legend.position = "none",
+        text = element_text(size = 20))
+
+```
+
+
+
+
+
+## Study 2a
+### Conceptual Replication (and expansion) of Study 1
+
+**Taking into account prior knowledge regarding research data handling**  
+*Structural model only (without measurement models)*
+
+```{r}
+grViz("
+digraph SEM {
+  graph [layout = dot, rankdir = LR, nodesep=0.5, splines=curved]
+
+  node [shape=ellipse]
+  knowledge
+  
+  node [shape=ellipse]
+  read_engagement
+  
+  node [shape=rectangle]
+  dwell_time
+
+  node [shape=ellipse]
+  understanding
+
+  // Create a vertical rank for dwell_time, read_engagement and understanding
+  {rank=same; read_engagement; dwell_time; understanding}
+
+  knowledge -> dwell_time [label='-']
+  knowledge -> read_engagement [label='-?']
+  knowledge -> understanding [label='+']
+  understanding:s -> dwell_time:n [dir=both]
+  dwell_time:s -> read_engagement:n [dir=both]
+  read_engagement:e -> understanding:e [dir=both]
+}
+")
+```
+
+
+## Study 2a
+### Conceptual Replication (and expansion) of Study 1
+
+`r fa("question-circle")` Trouble with dwell_time being skewed? -> log-transform?
+
+```{r}
+#| echo: true
+#| eval: false
+
+# Define the SEM model
+model <- "
+  # MEASUREMENT MODELS
+  knowledge       =~ knowledge1 +       
+                     knowledge2 +       
+                     knowledge3 +       
+                     knowledge4
+  read_engagement =~ read_engagement1 + 
+                     read_engagement2 + 
+                     read_engagement3 + 
+                     read_engagement4
+  understanding   =~ understanding1 +   
+                     understanding2 +   
+                     understanding3 +   
+                     understanding4
+
+  # REGRESSIONS
+  dwell_time      ~ knowledge
+  read_engagement ~ knowledge
+  understanding   ~ knowledge
+
+  # COVARIANCES
+  dwell_time ~~ read_engagement
+  dwell_time ~~ understanding
+  understanding ~~ read_engagement
+"
+fit <- lavaan::sem(fit, data = data)
+summary(fit, standardized = TRUE, fit.measures = TRUE)
+```
+
+
+
+
+```{r}
+# # Simulate data
+# set.seed(123)  # for reproducibility
+# simulated_data <- simulateData(model, sample.nobs = 500)
+# 
+# # Fit the SEM model to the simulated data
+# fit <- sem(model, data = simulated_data)
+# 
+# lavaanPlot(fit,
+#            graph_options = list(rankdir = "LR"),
+#            node_options = list(shape = "box", fontname = "Helvetica"),
+#            edge_options = list(color = "grey"),
+#            labels = list("knowledge1" = "",
+#                          "knowledge2" = "",
+#                          "knowledge3" = "",
+#                          "knowledge4" = "",
+#                          "read_engagement1" = "",
+#                          "read_engagement2" = "",
+#                          "read_engagement3" = "",
+#                          "read_engagement4" = "",
+#                          "understanding1" = "",
+#                          "understanding2" = "",
+#                          "understanding3" = "",
+#                          "understanding4" = ""))
+```
+
+## Study 2b
+### Effects of data sharing and data type
+\
+\
+\
+
+:::{.rq}
+Does the information on **sharing data** influence the participants' **willingness to participate**?  
+  
+(for different **data types**?)
+:::
+
+
+## Study 2b
+### Effects of data sharing and data type
+
+:::: {.columns}
+::: {.column width="63%"}
+
+* Procedure: 
+  1. Description & consent of fictitious study presented (see on the right)
+  2. then questionnaire<br /><br />
+* Design: **2x3** (within?-)between-subjects design<br /><br />
+* Factors: 
+  - **Data-sharing** section (included vs. not included) 
+  - data collection **type** (video recording vs. interview vs. survey)<br /><br />
+* Randomized:
+  - topic of study (varying degrees of **sensitivity**)
+
+
+:::
+::: {.column width="2%"}
+:::
+::: {.column width="33%"}
+:::{.smaller-font}
+*(Hover over examples to zoom)*
+:::
+![](www/consent_control1.jpg){.zoom-top .border-grey}
+![](www/consent_treat1.jpg){.zoom-bottom .border-grey}
+:::
+::::
+
+
+:::{.notes}
+Additional factor: consent for entire study vs. separately for data sharing? (as recommended by UK Data Archive)
+:::
+
+
+## Study 2b
+### Effects of data sharing and data type
+
+:::: {.columns}
+::: {.column width="63%"}
+
+* Measures: 
+  - Willingness to participate (6-point Likert scale)<br /><br />
+* Treatment checks
+  - perceived sensitivity of topic of study
+  - Dwell time
+  - Self-reported reading engagement
+  - Understanding
+
+:::
+::: {.column width="2%"}
+:::
+::: {.column width="33%"}
+:::{.smaller-font}
+*(Hover over examples to zoom)*
+:::
+![](www/consent_control1.jpg){.zoom-top .border-grey}
+![](www/consent_treat1.jpg){.zoom-bottom .border-grey}
+:::
+::::
+
+
+## Study 2b
+### Effects of data sharing and data type
+
+*Structural model only (without measurement models)*  
+perceived_sensitivity as control
+
+```{r}
+grViz("
+digraph SEM {
+  graph [layout = dot, rankdir = LR, nodesep=0.4]
+  
+  // NODES
+  data_sharing [shape=rectangle]
+  
+  perceived_sensitivity [shape=ellipse, color='#bcbcbc', fontcolor='#bcbcbc']
+  
+  willingness_participate [shape=ellipse, color='#000']
+  
+  data_type [shape=rectangle]
+  
+  invis [shape=point, style=invis]
+  
+
+  // Create a vertical rank
+  {rank=same; data_type; invis; perceived_sensitivity}
+
+
+  // Connections
+  data_sharing -> invis [label='0', dir=none, headclip=false]
+  data_type -> invis [label='+']
+  invis -> perceived_sensitivity [dir=back, color='#bcbcbc', label='+', fontcolor='#bcbcbc']
+  invis -> willingness_participate [tailclip=false]
+}
+")
+```
+
+## Study 2c
+\
+\
+\
+
+:::{.rq}
+Does the **option to clarify** concerns about the informed consent make a difference in the **willingness to participate**?
+:::
+
+
+## Study 2c
+### Effects of feedback on concerns
+
+* Design: pre-post between-subject RCT
+* Factor:
+  - Feedback on concern [yes vs. no]
+* Procedure: extends Study 2b 
+* Measures (pre-post)
+  - willingness to participate
+  - Perceptions of being well-informed about study
+  - trust in research?
+
+`r fa("question-circle")`  What does CG do?  
+`r fa("question-circle")`  Or just measure CG once and paste values to posttest? (-> statistically dependent)
+
+
+
+## Study 2c
+### Effects of feedback on concerns
+
+*Structural model only (without measurement models)*  
+
+```{r}
+grViz("
+digraph SEM {
+  graph [layout = dot, rankdir = LR, nodesep=0.4]
+  
+  // NODES
+  wp1 [shape=ellipse, label='willingness_participate']
+  wp2 [shape=ellipse, label='willingness_participate']
+  
+  is1 [shape=ellipse, label='informed']
+  is2 [shape=ellipse, label='informed']
+  
+  feedback [shape=rectangle]
+  
+  invis1 [shape=point, style=invis]
+  invis2 [shape=point, style=invis]
+  
+  // Create a vertical rank
+  {rank=same; invis1; invis2; feedback}
+  {rank=same; wp1; is1}
+  {rank=same; wp2; is2}
+
+  // Connections
+  wp1:e -> invis1 [weight=10, dir=none, headclip=false]
+  invis1 -> wp2:w [weight=10, tailclip=false]
+  is1:e -> invis2 [weight=10, dir=none, headclip=false]
+  invis2 -> is2:w [weight=10, tailclip=false]
+  feedback -> wp2
+  feedback -> is2
+  wp1 -> is1 [dir=both]
+  wp2 -> is2 [dir=both]
+}
+")
+```
+
+
+
+
+# Thank you
+
+![](www/dipf-logo.png){width="20%"}\
+\
+
+**Jürgen Schneider**\
+[ju.schneider\@dipf.de](mailto:ju.schneider@dipf.de){.email}
+
+## References
+
+::: {#refs}
+:::
+
+## Credit
+
+Title page: <a href="https://unsplash.com/de/@acharki95?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Aziz Acharki</a> on <a href="https://unsplash.com/de/fotos/mann-macht-daumen-hoch-zeichen-alANOC4E8iM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+  
+Icons by Font Awesome CC BY 4.0
+
+
+

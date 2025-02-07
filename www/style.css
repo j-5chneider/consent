@@ -20,10 +20,6 @@
 }
 
 
-
-
-
-
 .text-center {
   text-align: center;
 }
@@ -34,6 +30,10 @@ strong {
 
 .bigger {
   font-size: 1.6em;
+}
+
+.smaller-font {
+  font-size: .7em;
 }
 
 .highlight {
@@ -307,4 +307,44 @@ a:active {
   height: auto !important;
   width: 45% !important;
   boder: red solid 2px !important;
+}
+
+.rq {
+  width: 35%;
+  margin: auto;
+  padding: 20px;
+  background-color: #ececec;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 1.5em;
+}
+
+
+
+/* -------- ZOOM -----------*/
+.zoom-top {
+  transition: transform .2s;
+  }
+
+.zoom-top:hover {
+  -ms-transform: scale(2.2); /* IE 9 */
+  -webkit-transform: scale(2.2); /* Safari 3-8 */
+  transform: scale(2.2); 
+  transform-origin:top right;
+  z-index: 999;
+  position: relative;
+}
+
+
+.zoom-bottom {
+  transition: transform .2s;
+  }
+
+.zoom-bottom:hover {
+  -ms-transform: scale(2.2); /* IE 9 */
+  -webkit-transform: scale(2.2); /* Safari 3-8 */
+  transform: scale(2.2); 
+  transform-origin:bottom right;
+  z-index: 999;
+  position: relative;
 }
