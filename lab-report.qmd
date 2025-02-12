@@ -550,6 +550,20 @@ digraph SEM {
 ```
 
 
+## Questions
+\
+\
+
+**General:** Idea for a journal? -> registered report?
+\
+
+**Study 1:** How to ideally collect log-data from past online surveys -> ask in LLiB?  
+\
+  
+**Study 2:** How to collect participants? Panel provider probably biased  
+\
+  
+**Study 2:** What if participants don't read the fictitious example? -> ecological validity? internal validity?
 
 
 # Thank you
