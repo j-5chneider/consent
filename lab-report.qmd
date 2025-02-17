@@ -1,6 +1,6 @@
 ---
-title: "Do participants really care"
-subtitle: "... about researchers sharing participant data for reuse?"
+title: "Does Data Sharing in Consent Actually Reduce Participation?"
+subtitle: "Examining Data Collection Type and Concern Resolution"
 title-slide-attributes:
   data-background-image: www/title-bg.jpg
   data-background-size: cover
@@ -249,35 +249,6 @@ informed consent forms?
 :::
 ::::
 
-## Study 2a
-### Conceptual Replication (and expansion) of Study 1
-
-
-```{r}
-study2a_sample_data <- data.frame(measure = c(rep("Dwell\nTime", 105), 
-                                              rep("Reading\nEngagement", 105), 
-                                              rep("Understanding", 105)),
-                                   value = c(c(rbeta(n = 100, shape1 = 1, shape2 = 15) * 6, rnorm(5, 4, 1)), 
-                                             c(rbeta(n = 100, shape1 = 1.5, shape2 = 7) * 6, rnorm(5, 4, 1)),
-                                             c(rbeta(n = 100, shape1 = 1.5, shape2 = 7) * 6, rnorm(5, 4, 1))
-                                             )
-                                 )
-
-ggplot() +
-  geom_jitter(data=study2a_sample_data, aes(x=measure, y=value, colour = measure), 
-              width = .25, size = 3, alpha = .7) +
-  scale_y_continuous(limits = c(0, 5), expand = c(0,0)) +
-  scale_color_viridis_d(end = .85) +
-  xlab("") +
-  ggtitle("Artificial data", subtitle = "for illustration of data analysis") +
-  theme_light() +
-  theme(panel.grid.minor = element_blank(),
-        legend.position = "none",
-        text = element_text(size = 20))
-
-```
-
-
 
 
 
@@ -510,10 +481,17 @@ Does the **option to clarify** concerns about the informed consent make a differ
 ## Study 2c
 ### Effects of feedback on concerns
 
+
+
+
+:::: {.columns}
+::: {.column width="75%"}
+
+* Procedure: extends Study 2b 
 * Design: pre-post between-subject RCT
 * Factor:
   - Feedback on concern [yes vs. no]
-* Procedure: extends Study 2b 
+  - *"Which of these potential concerns about the study do you consider the most significant?"*<br />`r fa("long-arrow-right")` then feedback on this concern displayed
 * Measures (pre-post)
   - willingness to participate
   - Perceptions of being well-informed about study
@@ -521,7 +499,31 @@ Does the **option to clarify** concerns about the informed consent make a differ
 
 `r fa("question-circle")`  What does CG do?  
 `r fa("question-circle")`  Or just measure CG once and paste values to posttest? (-> statistically dependent)
+:::
+::: {.column width="2%"}
+:::
+::: {.column width="23%"}
+\
+\
+\
+\
+\
 
+[t1p.de/concern-response](https://t1p.de/concern-response)
+:::
+::::
+
+
+## Study 2c
+
+**Concern** | **Response**
+--- | ---
+*Where and how exactly will my data be stored? How can I be sure my personal data will remain secure and confidential?* | Your personal data will be securely stored on protected servers at a specialized research data center that complies with GDPR standards. Only authorized researchers will have access, following strict data protection protocols to prevent unauthorized use or breaches. Data will be retained for at least 10 years in accordance with research integrity guidelines.
+*Will others be able to identify me and relate my data with my person?* | Whenever possible, your data will be anonymized so that no one can identify you. In cases where anonymization is not feasible (e.g., video recordings or interviews), your data will be securely stored in a specialized research data center. Only authorized researchers who submit a request, transparently detailing their intended use of the data, will be granted access. No other individuals will be able to view or use your data.
+*What does data sharing mean? Who will have access to my data in the future, and how will it be used?* | If you consent, your data may be stored in a specialized research data center. Researchers who wish to access the data must submit an application detailing their research plan transparently. Only approved researchers will be granted selective access, and they are required to delete the data after completing their analyses. They are not allowed to further distribute the data. Your data will not be shared with commercial entities or used for purposes unrelated to research.
+*If I withdraw my consent, what happens to the data that has already been collected? What if my data has already been analyzed or published?* | You can withdraw your consent at any time by contacting the research team. After withdrawal, we will ensure that your data is no longer used in the study. This means that any data that can be linked to you will be fully deleted. However, results that have already been published in scientific research reports cannot be removed. In these publications, no one will be able to identify you.
+*Could my data be used in ways that I haven’t agreed to or that could harm me?* | Your data will only be used for research purposes that align with ethical and legal standards. It will not be shared with third parties for commercial or unauthorized use. Any reuse of your data by other researchers must comply with strict ethical guidelines to prevent misuse. Researchers who wish to access your data must submit a transparent plan detailing their intended use and sign a contract binding them to this specific purpose only. Access will only be granted after signing this contract. They are not permitted to further distribute the data and must delete it after completing their analyses.
+*How can I be sure the data are handled ethically?* | This study has been reviewed and approved by an ethics board to ensure that it meets ethical research standards. This includes evaluating potential risks, ensuring informed consent, and safeguarding participants' rights and well-being.
 
 
 ## Study 2c
