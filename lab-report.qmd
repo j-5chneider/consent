@@ -1,6 +1,6 @@
 ---
-title: "Consent design<br />and participants consent"
-subtitle: "(or rather 'study information design')"
+title: "Do participants really care"
+subtitle: "... about researchers sharing participant data for reuse?"
 title-slide-attributes:
   data-background-image: www/title-bg.jpg
   data-background-size: cover
@@ -27,7 +27,7 @@ editor: source
 #   chunk_output_type: console
 bibliography: www/references.bib
 css: www/style.css
-csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
+csl: www/apa7.csl
 ---
 
 ```{r setup, include=FALSE}
@@ -47,7 +47,7 @@ library(lavaan)
 library(DiagrammeR)
 ```
 
-## Design of consent
+## Data sharing section in consent
 
 \
 \
@@ -55,10 +55,14 @@ library(DiagrammeR)
 
 :::: {.columns}
 ::: {.column width="62%"}
-* Fear of **lower participation** due to data-sharing clauses,
-* particularly with certain **data types** (e.g., video data)<br />`r fa("long-arrow-right")` Challenge for data sharing practices<br /><br /><br /><br />
-* Would participants actually **agree less**?<br /><br />
-* Does participants' **understanding** align with that of the researchers?
+* Data sharing comes with perceived advantages, disadvantages and uncertainties for researchers [@Stieglitz.etal.2020]<br /><br />
+* uncertainty: Fear of 
+  - **lower participation** or [@Zuiderwijk.etal.2020]
+  - **alternation of behavior** [@Steinhardt.etal.2021]<br />due to data-sharing clauses,<br /><br />
+* particularly with 
+  - certain **data types** (e.g., interview, video) and [@Lamb.etal.2024]
+  - **sensitive** topics
+
 
 :::
 
@@ -73,7 +77,7 @@ library(DiagrammeR)
 
 
 
-## Design of consent
+## Evidence so far
 
 \
 \
@@ -82,10 +86,11 @@ library(DiagrammeR)
 :::: {.columns}
 ::: {.column width="62%"}
 
-* More general challenge: Evidence that participants often **don't read/understand** consent forms<br /><br /><br />
-* Evidence so far: 
-   - Comprehension varies with **reading level, interactivity**<br />
-   - **Dialogue** about data sharing increases consent<br />`r fa("long-arrow-right")` may be challenging with larger sample size<br />`r fa("long-arrow-right")` option for automated response?
+* More general challenge: Participants often **don't read/understand** consent forms [@Geier.etal.2021; @Parfenova.etal.2024; @Pedersen.etal.2011]<br /><br /><br />
+* Preliminary evidence
+  - **No effect** of data sharing clause on participation [@Fichtner.etal.2023]
+  - Even for very **sensitive** topics, participants agree to share data [@Campbell.etal.2023a]<br /><br /><br />
+* **Dialogue** about data sharing increases consent[@Campbell.etal.2023]
    
 :::
 
@@ -107,9 +112,13 @@ library(DiagrammeR)
 \
 
 1. Do participants **read** informed consent forms?<br /><br />
-2. Does the information on **sharing data** (containing vs. not containing a section on data being shared) influence the participants' willingness to participate? (for different **data types**?)<br /><br />
+2. Does the information on **sharing data** influence the participants' willingness to participate?<br />`r fa("long-arrow-right")` moderated my **data type**?<br /><br />
 3. Does the **option to clarify** concerns about the informed consent make a difference in the willingness to participate?
 
+
+:::{.notes}
+(containing vs. not containing a section on data being shared)
+:::
 
 
 ## Study 1
@@ -146,13 +155,13 @@ informed consent forms?
 
 * 238: average (silent) reading speed (English) [@Brysbaert.2019]
 * \> 500-600: loss of information/comprehension (skimming)
-* \> 900: information falls out of working memory before being comprehended [@Masson.1983]
+* \> 900: information falls out of working memory before being comprehended [@Masson.1983]<br /><br />
 
 
 **Additional coding**
 
 * Which population? [students, teachers, public, researchers, ...]
-* Participants incentivized? How? [not, money, ...]
+* Participants incentivized? How? [none, money, ...]
 * Topic of study? [sensitive, somewhat sensitive, not sensitive]
 
 
@@ -221,16 +230,22 @@ informed consent forms?
 ### Conceptual Replication (and expansion) of Study 1
 
 :::: {.columns}
-::: {.column width="48%"}
+::: {.column width="60%"}
 
-* Procedure: Presenting the **actual consent**, then if participants **agree**...
-* Measures:<br />`r fa("repeat")` Dwell time<br />`r fa("square-plus")` Self-reported reading engagement<br />`r fa("square-plus")` Understanding (e.g., via multiple-choice)
+* Procedure: Presenting the **actual consent**, then if participants **agree**...<br /><br />
+* Measures:<br />`r fa("repeat")` Dwell time<br />`r fa("square-plus")` Self-reported reading engagement<br />`r fa("square-plus")` Understanding (e.g., via multiple-choice)<br /><br />
 * Controls<br />`r fa("square-plus")` knowledge about typical process of research data handling
 
 :::
 ::: {.column width="2%"}
 :::
-::: {.column width="48%"}
+::: {.column width="36%"}
+\
+\
+\
+\
+
+*"Will the data be shared after the project is completed?"*<br />`r fa("square")` No, all data will be deleted.<br />`r fa("square")` Yes, data will be shared with researchers.<br />`r fa("square")` Yes, data will be shared with the public.<br />`r fa("square")` Yes, data will be shared via the University's secured website.<br />`r fa("square")` Yes, data will be shared via a trustworthy archive.
 :::
 ::::
 
