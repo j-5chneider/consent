@@ -234,7 +234,7 @@ informed consent forms?
 
 * Procedure: Presenting the **actual consent**, then if participants **agree**...<br /><br />
 * Measures:<br />`r fa("repeat")` Dwell time<br />`r fa("square-plus")` Self-reported reading engagement<br />`r fa("square-plus")` Understanding (e.g., via multiple-choice)<br /><br />
-* Controls<br />`r fa("square-plus")` knowledge about typical process of research data handling
+* Controls<br />`r fa("square-plus")` knowledge (trust?) about typical process of research data handling
 
 :::
 ::: {.column width="2%"}
@@ -479,7 +479,7 @@ Does the **option to clarify** concerns about the informed consent make a differ
 
 
 ## Study 2c
-### Effects of feedback on concerns
+### Effects of information on concerns
 
 
 
@@ -490,8 +490,8 @@ Does the **option to clarify** concerns about the informed consent make a differ
 * Procedure: extends Study 2b 
 * Design: pre-post between-subject RCT
 * Factor:
-  - Feedback on concern [yes vs. no]
-  - *"Which of these potential concerns about the study do you consider the most significant?"*<br />`r fa("long-arrow-right")` then feedback on this concern displayed
+  - Information on concern [yes vs. no]
+  - *"Which of these potential concerns about the study do you consider the most significant?"*<br />`r fa("long-arrow-right")` then information on this concern displayed
 * Measures (pre-post)
   - willingness to participate
   - Perceptions of being well-informed about study
@@ -527,7 +527,7 @@ Does the **option to clarify** concerns about the informed consent make a differ
 
 
 ## Study 2c
-### Effects of feedback on concerns
+### Effects of information on concerns
 
 *Structural model only (without measurement models)*  
 
@@ -580,8 +580,10 @@ digraph SEM {
 **Study 2:** How to collect participants? Panel provider probably biased  
 \
   
-**Study 2:** What if participants don't read the fictitious example? -> ecological validity? internal validity?
-
+**Study 2b:** What if participants don't read the fictitious example? -> ecological validity? internal validity?
+\
+  
+**Study 2c:** What does CG do?
 
 # Thank you
 
