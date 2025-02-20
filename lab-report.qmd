@@ -89,7 +89,7 @@ library(DiagrammeR)
 * More general challenge: Participants often **don't read/understand** consent forms [@Geier.etal.2021; @Parfenova.etal.2024; @Pedersen.etal.2011]<br /><br /><br />
 * Preliminary evidence
   - **No effect** of data sharing clause on participation [@Fichtner.etal.2023]
-  - Even for very **sensitive** topics, participants agree to share data [@Campbell.etal.2023a]<br /><br /><br />
+  - Even for very **sensitive** topics, participants agree to share data [@Kuula.2011; @Campbell.etal.2023a]<br /><br /><br />
 * **Dialogue** about data sharing increases consent[@Campbell.etal.2023]
    
 :::
@@ -584,6 +584,19 @@ digraph SEM {
 \
   
 **Study 2c:** What does CG do?
+
+## Feedback (Lab Report)
+
+- Concerns: Teilnehmende bringen eher diffuse concerns mit "ich habe angst, dass andere über mich lachen", die vorgeschlagenen concerns sind sehr spezifisch RDM
+- Unsere Responses auf die Concerns 
+	- passivkonstruktionen, zu sehr RDM-orientiert
+	- zu abstrakt
+	- Sind unsere Responses formuliert, um die Teilnahme zu steigern oder ehrlich? (z.B. können die Daten leaken? Eigentlich nicht, potentiell aber immer ja)
+  - Mehr dialogisch, persönlich, "bring out the people in our research" (there are people that collect your data...)
+  - Antworten in Einfacher Sprache?
+- Sind wir wirklich an concerns interessiert (emotional level and response) oder eher an misconceptions (informational level and response)
+- Study 2c: Additional control variable: Experiences with studies
+- nicht nur "willingness to participate", sondern auch "willingness to share data" abfragen -> äquivalent zu vielen informed consent Formaten, die beides separat abfragen
 
 # Thank you
 
