@@ -1,0 +1,235 @@
+---
+title: "Consent design<br />and participants consent"
+subtitle: "(or rather 'study information design')"
+title-slide-attributes:
+  data-background-image: www/title-bg.jpg
+  data-background-size: cover
+  #data-background-opacity: "0.3"
+author: "<br /><br /><b>Jürgen, Tina, Johanna, Johannes, Talha</b><br />"
+date: today # "20. Mar 2024"
+date-format: "DD MMMM YYYY"
+format: 
+  revealjs:
+      theme: [white] # sky default
+      logo: www/dipf-logo.png
+      footer: "Slides: [link pending](#)"
+      smaller: true
+      scrollable: true
+      transition: fade
+      width: 1500
+      height: 850
+      hide-inactive-cursor: false
+      embed-resources: true
+editor: source
+editor_options: 
+  chunk_output_type: console
+bibliography: www/references.bib
+css: www/style.css
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      message=FALSE, 
+                      warning=FALSE)
+### DOWNLOAD NEWEST SOURCES
+## befindet sich im DIPF Ordner
+# download.file("https://drive.google.com/uc?export=download&id=1ASV99YHMHSNChSNzqbZwvz2SiqYvmqO_",
+#               "www/references.bib", overwrite = T)
+
+
+library(fontawesome)
+```
+
+## Design of consent
+
+\
+\
+\
+
+:::: {.columns}
+::: {.column width="62%"}
+* Fear of **lower participation** due to data-sharing clauses,
+* particularly with certain **data types** (e.g., video data)<br />`r fa("long-arrow-right")` Challenge for data sharing practices<br /><br /><br /><br />
+* Would participants actually **agree less**?<br /><br />
+* Does participants' **understanding** align with that of the researchers?
+
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="35%"}
+![](www/model.jpg)
+:::
+::::
+
+
+
+
+## Design of consent
+
+\
+\
+\
+
+:::: {.columns}
+::: {.column width="62%"}
+
+* More general challenge: Evidence that participants often **don't read/understand** consent forms<br /><br /><br />
+* Evidence so far: 
+   - Comprehension varies with **reading level, interactivity**<br />
+   - **Dialogue** about data sharing increases consent<br />`r fa("long-arrow-right")` may be challenging with larger sample size<br />`r fa("long-arrow-right")` option for automated response?
+   
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="35%"}
+
+![](www/burning_consent.jpg)
+
+:::
+::::
+
+
+## Research Questions 
+
+
+\
+\
+
+1. Do participants **read** and **understand** informed consent forms in the same way researchers intend?<br /><br />
+2. Does the information on **sharing data** (containing vs. not containing a section on data being shared) influence the participants' willingness to participate? (for different **data types**?)
+
+:::{.grey-text}
+3. Does the **option to clarify** concerns about the informed consent make a difference in the willingness to participate?</span>
+:::
+
+## Study 1
+
+:::: {.columns}
+::: {.column width="48%"}
+
+* Procedure: Presenting the actual consent, then if participants agree...
+
+:::{.grey-text}
+
+* Design: 2x2 between-subjects design with randomized conditions
+* Factors: Consent with different 
+  - reading level (standard vs. easy-to-read)
+  - interactivity (display-only vs. quiz-format).
+  
+:::
+  
+* Measures:
+  - Dwell time
+  - Self-reported reading engagement
+  - Understanding (e.g., via multiple-choice)
+   
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="48%"}
+
+
+
+:::
+::::
+
+
+## Study 1
+
+:::: {.columns}
+::: {.column width="48%"}
+
+* Procedure: Presenting the actual consent, then if participants agree...
+
+:::{.grey-text}
+
+* Design: 2x2 between-subjects design with randomized conditions
+* Factors: Consent with different 
+  - reading level (standard vs. easy-to-read)
+  - interactivity (display-only vs. quiz-format).
+  
+:::
+  
+* Measures:
+  - Dwell time
+  - Self-reported reading engagement
+  - Understanding (e.g., via multiple-choice)
+* Controls
+  - Individual concept/knowledge of research data handling
+   
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="48%"}
+
+* Check dwell time on the consent form of **past studies**
+* Ideas to code
+  - Which population?
+  - Participants incentivized? How?
+  - Topic of study?
+
+`r fa("long-arrow-right")` Do we have consent to do this...?
+
+:::
+::::
+
+
+  
+## Study 2
+
+* Procedure: Description of study
+* Design: 2x3x... (within?-)between-subjects design
+* Factors: 
+  - **Data-sharing** section (included vs. not included) 
+  - data collection format (video recording vs. interview vs. survey)
+  - topic of study (sensitive vs. "not so" sensitive)
+  - ...?
+* Measure: Willingness to participate (6-point Likert scale)
+
+
+## Study 3
+
+:::{.grey-text}
+
+* Design: Within-subject design with consent for a fictitious video study
+* Procedure:
+  - Initial Response: Participants indicate willingness to participate (6-point Likert scale)
+  - "No" Response: Provide primary reason (open-ended)
+  - "Yes" Response: Describe a scenario for not signing consent
+  - Additional Measures: Perceptions of being well-informed and trust in research
+  - Feedback: Written feedback from an LLM addressing participant concerns
+  - Participants asked again about willingness to participate (6-point Likert scale), feeling informed, and trust
+
+:::
+
+# Thank you
+
+![](www/dipf-logo.png){width="20%"}\
+\
+
+**Jürgen Schneider**\
+[ju.schneider\@dipf.de](mailto:ju.schneider@dipf.de){.email}
+
+## References
+
+::: {#refs}
+:::
+
+## Credit
+
+Title page: <a href="https://unsplash.com/de/@acharki95?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Aziz Acharki</a> on <a href="https://unsplash.com/de/fotos/mann-macht-daumen-hoch-zeichen-alANOC4E8iM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+  
+Icons by Font Awesome CC BY 4.0
+
+
+
