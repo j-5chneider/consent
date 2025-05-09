@@ -61,7 +61,7 @@ library(DiagrammeR)
   - **alternation of behavior** [@Steinhardt.etal.2021]<br />due to data-sharing clauses,<br /><br />
 * particularly with 
   - certain **data types** (e.g., interview, video) and [@Lamb.etal.2024]
-  - **sensitive** topics
+  - **sensitive** topics (e.g., prostitution) [@Beck.2019, p. 23]
 
 
 :::
