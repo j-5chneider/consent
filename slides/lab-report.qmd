@@ -86,7 +86,7 @@ library(DiagrammeR)
 :::: {.columns}
 ::: {.column width="62%"}
 
-* More general challenge: Participants often **don't read** [@Geier.etal.2021; @Parfenova.etal.2024; @Pedersen.etal.2011] or **understand** consent forms [@Pietrzykowski.Smilowska.2021]<br /><br /><br />
+* More general challenge: Participants often **don't read** [@Geier.etal.2021; @Parfenova.etal.2024; @Pedersen.etal.2011; @Douglas.etal.2021; @Ittenbach.etal.2015] or **understand** consent forms [@Pietrzykowski.Smilowska.2021]<br /><br /><br />
 * Preliminary evidence
   - **No effect** of data sharing clause on participation [@Fichtner.etal.2023]
   - Participants want their data to be shared, to help science and help others [@Mozersky.etal.2020a; @VandeVusse.etal.2022]
