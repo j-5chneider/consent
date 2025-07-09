@@ -344,40 +344,98 @@ digraph SEM {
 ## Study 2a
 ### Conceptual Replication (and expansion) of Study 1
 
+
+```{r}
+grViz("
+digraph MANOVA {
+  graph [layout = dot, rankdir = LR, ranksep=3.0, nodesep=0.6]
+
+  # Knotenstil: manifeste Variablen
+  node [shape=rectangle, style=filled, fillcolor=White]
+
+  # Manifeste Prädiktoren
+  Exp_Participant [label = 'Experience as\\nResearch Participant']
+  Exp_Conducting [label = 'Experience Conducting\\nStudies']
+
+  # Manifeste AV
+  DwellTime [label = 'Dwell Time']
+
+  # Latente Variablen (andere Form)
+  node [shape=ellipse, style=filled, fillcolor=White]
+
+  # Latente Prädiktoren
+  Trust [label = 'Perceived Trust\\n(Benevolence)']
+  Risk [label = 'Perceived Risk\\nof Participation']
+
+  # Latente AVs
+  ReadingEngagement [label = 'Reading Engagement']
+  UnderstandingSpecific [label = 'Understanding:\\nSpecific']
+  UnderstandingGeneral [label = 'Understanding:\\nGeneral']
+
+  
+  {rank=same; Exp_Participant; Exp_Conducting; Trust; Risk}
+  {rank=same; DwellTime; ReadingEngagement; UnderstandingSpecific; UnderstandingGeneral}
+      
+  # Kanten: Jeder Prädiktor auf jede AV
+  Exp_Participant:e -> DwellTime:w
+  Exp_Participant:e -> ReadingEngagement:w
+  Exp_Participant:e -> UnderstandingSpecific:w
+  Exp_Participant:e -> UnderstandingGeneral:w
+
+  Exp_Conducting:e -> DwellTime:w
+  Exp_Conducting:e -> ReadingEngagement:w
+  Exp_Conducting:e -> UnderstandingSpecific:w
+  Exp_Conducting:e -> UnderstandingGeneral:w
+
+  Trust:e -> DwellTime:w
+  Trust:e -> ReadingEngagement:w
+  Trust:e -> UnderstandingSpecific:w
+  Trust:e -> UnderstandingGeneral:w
+
+  Risk:e -> DwellTime:w
+  Risk:e -> ReadingEngagement:w
+  Risk:e -> UnderstandingSpecific:w
+  Risk:e -> UnderstandingGeneral:w
+
+  # Korrelationen (bidirektionale Pfeile) zwischen den AVs
+  edge [dir=both]
+
+  DwellTime:e -> ReadingEngagement:e
+  DwellTime:e -> UnderstandingSpecific:e
+  DwellTime:e -> UnderstandingGeneral:e
+  ReadingEngagement:e -> UnderstandingSpecific:e
+  ReadingEngagement:e -> UnderstandingGeneral:e
+  UnderstandingSpecific:e -> UnderstandingGeneral:e
+}
+")
+```
+
+
+
+## Study 2a
+### Conceptual Replication (and expansion) of Study 1
+
 `r fa("question-circle")` Trouble with dwell_time being skewed? -> log-transform?
 
 ```{r}
 #| echo: true
 #| eval: false
 
-# Define the SEM model
-model <- "
-  # MEASUREMENT MODELS
-  knowledge       =~ knowledge1 +       
-                     knowledge2 +       
-                     knowledge3 +       
-                     knowledge4
-  read_engagement =~ read_engagement1 + 
-                     read_engagement2 + 
-                     read_engagement3 + 
-                     read_engagement4
-  understanding   =~ understanding1 +   
-                     understanding2 +   
-                     understanding3 +   
-                     understanding4
+library(brms)
 
-  # REGRESSIONS
-  dwell_time      ~ knowledge
-  read_engagement ~ knowledge
-  understanding   ~ knowledge
-
-  # COVARIANCES
-  dwell_time ~~ read_engagement
-  dwell_time ~~ understanding
-  understanding ~~ read_engagement
-"
-fit <- lavaan::sem(fit, data = data)
-summary(fit, standardized = TRUE, fit.measures = TRUE)
+fit <- brm(
+  formula = bf(dwell_time ~ experience_participant + experience_conducting + trust_benevolence + perceived_risk) +   # more robust: , family = student()
+            bf(reading_engagement ~ experience_participant + experience_conducting + trust_benevolence + perceived_risk) +
+            bf(understanding_specific ~ experience_participant + experience_conducting + trust_benevolence + perceived_risk) +
+            bf(understanding_general ~ experience_participant + experience_conducting + trust_benevolence + perceived_risk) + # do we actually need this?
+            set_rescor(TRUE),
+  data = mydata,
+  family = gaussian(),
+  chains = 4,
+  cores = 4,
+  iter = 4000,
+  warmup = 1000,
+  control = list(adapt_delta = 0.95))
 ```
 
 
@@ -518,6 +576,31 @@ digraph SEM {
   invis -> willingness_participate [tailclip=false]
 }
 ")
+```
+
+
+## Study 2b
+### Effects of data sharing and data type
+
+perceived_sensitivity and its interaction as control
+
+```{r}
+#| echo: true
+#| eval: false
+
+library(brms)
+
+fit <- brm(
+  formula = bf(willingness_participate ~ data_sharing * data_type_interview + 
+                                         data_sharing * data_type_video +
+                                         data_sharing * perceived_sensitivity),
+  data = mydata,
+  family = gaussian(),
+  chains = 4,
+  cores = 4,
+  iter = 4000,
+  warmup = 1000,
+  control = list(adapt_delta = 0.95))
 ```
 
 ## Study 2c
