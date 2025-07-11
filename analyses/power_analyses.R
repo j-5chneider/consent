@@ -21,7 +21,7 @@ simulate_data <- function(n_per_cell) {
           0.1 * data_sharing * data_type_interview +  # very small effect of data_type_interview
           0.35 * data_sharing * data_type_video +  # small effect of data_type_video
           0.5  * perceived_sensitivity_z +  # medium effect of perceived_sensitivity_z
-          0.35 * data_sharing * perceived_sensitivity_z, # small to medium interaction effect
+          0.25 * data_sharing * perceived_sensitivity_z, # small to medium interaction effect
         willingness_participate_z = rnorm(n(), # simulate outcome
                                           mean = eta, # with predicted eta
                                           sd = .5))   # and some noise
@@ -77,10 +77,8 @@ for (sample_size in seq(n_per_cell_from, n_per_cell_to, n_per_cell_step)) {
     
     
     hyp_sharing <- brms::hypothesis(fit, "abs(data_sharing) < .10") # Using ROPE according to ...
-    hyp_sharing_interview <- brms::hypothesis(fit, 
-                                              c("data_sharing:data_type_interview > 0", # between 0 and .15
-                                                "data_sharing:data_type_interview < 0.15"))
-    hyp_sharing_video <- brms::hypothesis(fit, "data_sharing:data_type_video > 0") # Using ROPE according to ...
+    hyp_sharing_interview <- brms::hypothesis(fit, "abs(data_sharing:data_type_interview) < .20") # Using extended ROPE 
+    hyp_sharing_video <- brms::hypothesis(fit, "data_sharing:data_type_video > 0") 
     
     results_n <- results_n %>%
       add_row(Evid.Ratio_sharing = hyp_sharing$hypothesis$Evid.Ratio[1],
