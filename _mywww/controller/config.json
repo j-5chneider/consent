@@ -1,1 +1,0 @@
-{ "mathJaxCdnUrl": "math-jax unknown", "itemSize": { "height": 768, "width": 1024 }, "players": [ { "playerId": "A", "runtimeVersion": "10.1.0", "frameContentFile": "frameContent_10_1_0.html" },{ "playerId": "B", "runtimeVersion": "9.9.0", "frameContentFile": "frameContent_9_9_0.html" } ], "showPlayerInfo": false }
