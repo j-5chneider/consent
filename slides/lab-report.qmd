@@ -236,6 +236,86 @@ ggplot() +
 
 ```
 
+## Study 1
+### Statistical analysis
+
+```{r}
+# Daten werden je nach Sprache zentriert (silent reading speed)
+data <- data %>%
+  mutate(words_per_minute_centered = case_when(
+    language == "German"  ~ words_per_minute - 260,
+    language == "English" ~ words_per_minute - 238
+  ))
+
+
+
+############################################################################## #
+## With random intercept                                                    ####
+############################################################################## #
+
+fit_gamma_RE <- brm(
+  words_per_minute ~ 1 + (1 | study),
+  data = data,
+  family = Gamma(link = "log"),
+  chains = 4, iter = 4000, cores = 4, seed = 123
+)
+
+# --- get posterior mean and CI ---
+# Posterior: erwarteter Populationsmittelwert (auf Originalskala)
+newdata <- data.frame(study = NA)   # NA in Gruppierungsvariable => neue Ebene (re_formula = NA fixiert random effects auf 0)
+epred <- posterior_epred(fit_gamma_RE, 
+                         newdata = newdata, # predict these cases
+                         re_formula = NA)  # ignore random effects, gets population average (only fixed effects)
+epred_vec <- as.numeric(epred[,1])         # get vector with posterior draws
+
+mean(epred_vec)                       # Posterior mean of population expected reading_speed
+quantile(epred_vec, c(0.025, 0.975))  # 95% CI
+
+# --- hypothesis() on log-Scale ---
+log_500 <- log(500 - 238) # words per minute for skim reading and reading limit 
+log_900 <- log(900 - 238) # aren't clearly defined. We therefore use the English
+                          # language value (and not both languages separately)
+                          # to subtract from 500 and 900
+
+hypothesis(fit_gamma_RE, "Intercept > 0")
+hypothesis(fit_gamma_RE, paste0("Intercept > ", log_500))
+hypothesis(fit_gamma_RE, paste0("Intercept > ", log_900))
+
+
+
+
+
+############################################################################## #
+## Without random intercept                                                 ####
+############################################################################## #
+library(brms)
+
+# Gamma-Modell mit log-Link, nur Intercept
+fit_gamma_noRE <- brm(
+  words_per_minute ~ 1,
+  data = tmp,
+  family = Gamma(link = "log"),
+  chains = 4, iter = 4000, cores = 4, seed = 123
+)
+
+
+# --- get posterior mean and CI ---
+epred <- posterior_epred(fit_gamma_noRE)
+epred_vec <- as.numeric(epred[, 1])
+
+mean(epred_vec)                       # Posterior mean
+quantile(epred_vec, c(0.025, 0.975))  # 95%-Intervall
+
+# --- hypothesis() on log-Scale ---
+log_500 <- log(500 - 238) # words per minute for skim reading and reading limit 
+log_900 <- log(900 - 238) # aren't clearly defined. We therefore use the English
+                          # language value (and not both languages separately)
+                          # to subtract from 500 and 900
+
+hypothesis(fit_gamma_RE, "Intercept > 0")
+hypothesis(fit_gamma_RE, paste0("Intercept > ", log_500))
+hypothesis(fit_gamma_RE, paste0("Intercept > ", log_900))
+```
 
 
 
@@ -332,45 +412,6 @@ ggplot(data_2a, aes(x=read_engagement, y=understanding, color=dwell_time)) +
 
 
 
-
-
-## Study 2a
-### Conceptual Replication (and expansion) of Study 1
-
-**Taking into account prior knowledge regarding research data handling**  
-*Structural model only (without measurement models)*
-
-```{r}
-grViz("
-digraph SEM {
-  graph [layout = dot, rankdir = LR, nodesep=0.5, splines=curved]
-
-  node [shape=ellipse]
-  knowledge
-  
-  node [shape=ellipse]
-  read_engagement
-  
-  node [shape=rectangle]
-  dwell_time
-
-  node [shape=ellipse]
-  understanding
-
-  // Create a vertical rank for dwell_time, read_engagement and understanding
-  {rank=same; read_engagement; dwell_time; understanding}
-
-  knowledge -> dwell_time [label='-']
-  knowledge -> read_engagement [label='-?']
-  knowledge -> understanding [label='+']
-  understanding:s -> dwell_time:n [dir=both]
-  dwell_time:s -> read_engagement:n [dir=both]
-  read_engagement:e -> understanding:e [dir=both]
-}
-")
-```
-
-
 ## Study 2a
 ### Conceptual Replication (and expansion) of Study 1
 
@@ -385,7 +426,7 @@ digraph MANOVA {
 
   # Manifeste Prädiktoren
   Exp_Participant [label = 'Experience as\\nResearch Participant']
-  Exp_Conducting [label = 'Experience Conducting\\nStudies']
+  Exp_Conducting [label = 'Experience\\nConducting Studies']
 
   # Manifeste AV
   DwellTime [label = 'Dwell Time']
@@ -398,44 +439,35 @@ digraph MANOVA {
   Risk [label = 'Perceived Risk\\nof Participation']
 
   # Latente AVs
-  ReadingEngagement [label = 'Reading Engagement']
-  UnderstandingSpecific [label = 'Understanding:\\nSpecific']
-  UnderstandingGeneral [label = 'Understanding:\\nGeneral']
-
+  ReadingEngagement [label = 'Reading\\nEngagement']
+  Understanding [label = 'Understanding']
   
   {rank=same; Exp_Participant; Exp_Conducting; Trust; Risk}
-  {rank=same; DwellTime; ReadingEngagement; UnderstandingSpecific; UnderstandingGeneral}
+  {rank=same; DwellTime; ReadingEngagement}
+  {rank=same; Understanding}
       
   # Kanten: Jeder Prädiktor auf jede AV
   Exp_Participant:e -> DwellTime:w
   Exp_Participant:e -> ReadingEngagement:w
-  Exp_Participant:e -> UnderstandingSpecific:w
-  Exp_Participant:e -> UnderstandingGeneral:w
 
   Exp_Conducting:e -> DwellTime:w
   Exp_Conducting:e -> ReadingEngagement:w
-  Exp_Conducting:e -> UnderstandingSpecific:w
-  Exp_Conducting:e -> UnderstandingGeneral:w
 
   Trust:e -> DwellTime:w
   Trust:e -> ReadingEngagement:w
-  Trust:e -> UnderstandingSpecific:w
-  Trust:e -> UnderstandingGeneral:w
 
   Risk:e -> DwellTime:w
   Risk:e -> ReadingEngagement:w
-  Risk:e -> UnderstandingSpecific:w
-  Risk:e -> UnderstandingGeneral:w
+
+  DwellTime:e -> Understanding:w
+  ReadingEngagement:e -> Understanding:w
 
   # Korrelationen (bidirektionale Pfeile) zwischen den AVs
   edge [dir=both]
 
-  DwellTime:e -> ReadingEngagement:e
-  DwellTime:e -> UnderstandingSpecific:e
-  DwellTime:e -> UnderstandingGeneral:e
-  ReadingEngagement:e -> UnderstandingSpecific:e
-  ReadingEngagement:e -> UnderstandingGeneral:e
-  UnderstandingSpecific:e -> UnderstandingGeneral:e
+  DwellTime:n -> ReadingEngagement:s
+  ReadingEngagement:s -> DwellTime:n
+  
 }
 ")
 ```
@@ -445,27 +477,57 @@ digraph MANOVA {
 ## Study 2a
 ### Conceptual Replication (and expansion) of Study 1
 
-`r fa("question-circle")` Trouble with dwell_time being skewed? -> log-transform?
-
 ```{r}
 #| echo: true
 #| eval: false
 
 library(brms)
 
-fit <- brm(
-  formula = bf(dwell_time ~ experience_participant + experience_conducting + trust_benevolence + perceived_risk) +   # more robust: , family = student()
-            bf(reading_engagement ~ experience_participant + experience_conducting + trust_benevolence + perceived_risk) +
-            bf(understanding_specific ~ experience_participant + experience_conducting + trust_benevolence + perceived_risk) +
-            bf(understanding_general ~ experience_participant + experience_conducting + trust_benevolence + perceived_risk) + # do we actually need this?
-            set_rescor(TRUE),
+fit_mediation <- brm(
   data = mydata,
-  family = gaussian(),
-  chains = 4,
-  cores = 4,
-  iter = 4000,
-  warmup = 1000,
-  control = list(adapt_delta = 0.95))
+  formula = 
+    bf(dwell_time ~ experience_participant + experience_conducting + trust_benevolence + perceived_risk,
+       family = Gamma(link = "log")) +  # log link as data are surely skewed
+    bf(reading_engagement ~ experience_participant + experience_conducting + trust_benevolence + perceived_risk,
+       family = student()) +
+    bf(understanding ~ experience_participant + experience_conducting + trust_benevolence + perceived_risk +
+         dwell_time + reading_engagement,
+       family = student()) +
+    set_rescor(TRUE),
+  chains = 4, iter = 4000, cores = 4, control = list(adapt_delta = 0.95)
+)
+
+posterior <- as_draws_df(fit_mediation)
+
+# Indirect effects over dwell time ############################################
+indirect_dwell <- posterior$b_dwelltime_experience_participant * posterior$b_understanding_dwell_time +
+                  posterior$b_dwelltime_experience_conducting * posterior$b_understanding_dwell_time +
+                  posterior$b_dwelltime_trust_benevolence * posterior$b_understanding_dwell_time +
+                  posterior$b_dwelltime_perceived_risk * posterior$b_understanding_dwell_time
+
+# Credible Interval + Posterior mean
+quantile(indirect_dwell, c(0.025, 0.975))
+mean(indirect_dwell)
+
+
+# Indirect effects over reading engagement #####################################
+indirect_engagement <- posterior$b_readingengagement_experience_participant * posterior$b_understanding_reading_engagement +
+                  posterior$b_readingengagement_experience_conducting * posterior$b_understanding_reading_engagement +
+                  posterior$b_readingengagement_trust_benevolence * posterior$b_understanding_reading_engagement +
+                  posterior$b_readingengagement_perceived_risk * posterior$b_understanding_reading_engagement
+
+# Credible Interval + Posterior mean
+quantile(indirect_engagement, c(0.025, 0.975))
+mean(indirect_engagement)
+
+
+# total indirect effects #######################################################
+indirect_total <- indirect_dwell + indirect_engagement
+
+# Credible Interval + Posterior mean
+quantile(indirect_total, c(0.025, 0.975))
+mean(indirect_total)
+
 ```
 
 
