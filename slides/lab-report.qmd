@@ -45,6 +45,7 @@ library(ggplot2)
 library(lavaan)
 # library(lavaanPlot)
 library(DiagrammeR)
+library(tidyverse)
 ```
 
 ## Data sharing section in consent
@@ -240,6 +241,9 @@ ggplot() +
 ### Statistical analysis
 
 ```{r}
+#| echo: true
+#| eval: false
+
 # Daten werden je nach Sprache zentriert (silent reading speed)
 data <- data %>%
   mutate(words_per_minute_centered = case_when(
@@ -343,72 +347,81 @@ informed consent forms?
 :::: {.columns}
 ::: {.column width="60%"}
 
+__Do participants read consent forms?__  
+_(spend enough time on informed consent pages in online surveys to plausibly read and process the information presented?)_
+
 * Procedure: Presenting the **actual consent**, then if participants **agree**...<br /><br />
-* Measures:<br />`r fa("repeat")` Dwell time<br />`r fa("square-plus")` Self-reported reading engagement<br />`r fa("square-plus")` Understanding (e.g., via multiple-choice)<br /><br />
-* Controls<br />`r fa("square-plus")` knowledge (trust?) about typical process of research data handling
+* Measures:<br />`r fa("repeat")` Dwell time<br />`r fa("square-plus")` Self-reported reading engagement<br />`r fa("square-plus")` Understanding (e.g., via multiple-choice)
 
 :::
 ::: {.column width="2%"}
 :::
 ::: {.column width="36%"}
-\
-\
-\
-\
 
-*"Will the data be shared after the project is completed?"*<br />`r fa("square")` No, all data will be deleted.<br />`r fa("square")` Yes, data will be shared with researchers.<br />`r fa("square")` Yes, data will be shared with the public.<br />`r fa("square")` Yes, data will be shared via the University's secured website.<br />`r fa("square")` Yes, data will be shared via a trustworthy archive.
 :::
 ::::
 
 
 ## Study 2a
+### Statistical analysis
+
+```{r}
+study1_sample_data <- data.frame(study = c(rep("A", 55), rep("B", 55), rep("C", 55), rep("D", 55)),
+                                 words_per_minute = c(c(rbeta(n = 50, shape1 = 5, shape2 = 1.5) * 3600, rnorm(5, 250, 50)), 
+                                                      c(rbeta(n = 50, shape1 = 5, shape2 = 1.5) * 4100, rnorm(5, 250, 50)), 
+                                                      c(rbeta(n = 50, shape1 = 5, shape2 = 1.5) * 5400, rnorm(5, 250, 50)), 
+                                                      c(rbeta(n = 50, shape1 = 5, shape2 = 1.5) * 4200, rnorm(5, 250, 50))
+                                                     )
+                                 )
+
+ggplot() +
+  geom_rect(aes(ymin= 40,
+                ymax = 600,
+                xmin = -Inf,
+                xmax = Inf), 
+            fill = 'grey', alpha = 0.40, color = NA) +
+  geom_rect(aes(ymin= 600,
+                ymax = 900,
+                xmin = -Inf,
+                xmax = Inf), 
+            fill = 'yellow', alpha = 0.40, color = NA) +
+  geom_rect(aes(ymin= 900,
+                ymax = Inf,
+                xmin = -Inf,
+                xmax = Inf), 
+            fill = 'red', alpha = 0.20, color = NA) +
+  geom_jitter(data=study1_sample_data, aes(x=study, y=words_per_minute, colour = study), width = .25, size = 3) +
+  scale_y_continuous(limits = c(0, 5500), expand = c(0,0), breaks = c(40, 600, 900, 2000, 3000, 4000, 5000)) +
+  ggtitle("Artificial data", subtitle = "for illustration of data analysis") +
+  scale_color_viridis_d(end = .85) +
+  theme_light() +
+  theme(panel.grid.minor = element_blank(),
+        legend.position = "none",
+        text = element_text(size = 20))
+
+```
+
+
+## Study 2a
 ### Conceptual Replication (and expansion) of Study 1
 
-
 :::: {.columns}
-::: {.column width="65%"}
-```{r}
-#| fig-width: 8
-#| fig-height: 6.5
+::: {.column width="60%"}
 
-data_2a <- data.frame(
-  understanding = c(rnorm(50, 15, 2), rnorm(200, 4, 1.5)),
-  read_engagement = c(rnorm(50, 5, .7), rnorm(200, 2, .7)),
-  dwell_time = c(rnorm(50, 120, 10), rnorm(200, 5, 2))
-  )
+__Who reads consent forms?__  
+_What individual characteristics predict whether participants read and understand informed consent forms?_
 
+* Procedure: Presenting the **actual consent**, then if participants **agree**...<br /><br />
+* Measures:<br />`r fa("repeat")` Dwell time<br />`r fa("square-plus")` Self-reported reading engagement<br />`r fa("square-plus")` Understanding (e.g., via multiple-choice)<br /><br />
+* Predictors<br />`r fa("square-plus")` Perceived Trust<br />`r fa("square-plus")` Perceived Risk of Participation<br />`r fa("square-plus")` Experience as Research Participant<br />`r fa("square-plus")` Experience Conducting Studies
 
-# data_2a <- data.frame(understanding = penguins$body_mass_g,
-#                       read_engagement = penguins$flipper_length_mm,
-#                       dwell_time = penguins$body_mass_g * penguins$flipper_length_mm)
-
-
-ggplot(data_2a, aes(x=read_engagement, y=understanding, color=dwell_time)) +
-  geom_point(size = 3, alpha = .5) +
-  scale_x_continuous(labels = c("very\nlow", "", "", "", "", "very\nhigh")) +
-  scale_colour_gradient(high = "#00CCA9", low = "#79042F") +
-  labs(title = "Artificial data", 
-       subtitle = "for illustration of data analysis",
-       x = "Reading Engagement",
-       y = "Understanding\n[points in test]",
-       color = "Dwell Time\n[in seconds]") +
-  coord_cartesian(xlim = c(1,6),
-                  ylim = c(0,20),
-                  expand = F) +
-  theme_minimal() +
-  theme(text = element_text(size = 16))
-```
 :::
 ::: {.column width="2%"}
 :::
-::: {.column width="30%"}
-\
-\
+::: {.column width="36%"}
 
-**-> Cluster Analysis? :(**
 :::
 ::::
-
 
 
 

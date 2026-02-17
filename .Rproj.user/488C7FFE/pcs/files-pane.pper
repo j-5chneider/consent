@@ -2,6 +2,10 @@
     "path": "C:/Users/ju.schneider/OneDrive - DIPF/Dokumente/R/consent",
     "sortOrder": [
         {
+            "columnIndex": 1,
+            "ascending": false
+        },
+        {
             "columnIndex": 2,
             "ascending": true
         }
