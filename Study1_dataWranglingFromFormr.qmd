@@ -1,0 +1,80 @@
+---
+title: "Consent study"
+subtitle: "Data wrangling of formr survey for Study 1"
+author:
+  - name: "Jürgen Schneider"
+    email: "juergen.schneider@ph-karlsruhe.de"
+    affiliation: "University of Education Karlsruhe"
+    correspondence: true
+date: "`r Sys.Date()`" # inserts the date of compiling
+editor: source
+execute:
+  eval: true
+  echo: true
+  warning: false
+  message: false
+  cache: false # true will prevent embed-resources
+format: 
+  html:
+    theme: ceruleanc
+    number-sections: true
+    fontsize: 0.85em
+    toc: true
+    toc-location: left
+    toc-depth: 3
+    embed-resources: true # will make standalone html file
+    code-fold: true
+    code-tools: true
+    code-link: true
+editor_options: 
+  chunk_output_type: console
+---
+
+
+```{r setup}
+library(tidyverse)
+library(here)
+library(formr)
+library(keyring)
+library(rio)
+library(janitor)
+```
+
+
+```{r}
+formr_connect(host = "https://formr.org", keyring = "formr")
+
+# surveys with dwell times documented for consent page
+survey_names <- c("UzVvTP_LAS",
+                  "base_ld_1a",
+                  "osc_0",
+                  "rbt_ext_pub_0",
+                  "rbt_ext_sci_pre",
+                  "icpl",
+                  "icpl_kg")
+
+# which are the relevant pages to get the dwelltimes from?
+relevant_pages <- list("datenschutz",
+                       c("study_descr", "datenschutz"),
+                       "dataprotect",
+                       c("note_intro", "dataprotect"),
+                       c("note_intro", "dataprotect"),
+                       c("note_intro", "datenschutz"),
+                       c("note_intro", "datenschutz"))
+
+for (i in 1:7) {
+  formr_item_displays(survey_name = survey_names[i]) %>%
+    dplyr::filter(item_name %in% relevant_pages[[i]]) %>%
+    dplyr::select(unit_session_id, item_name, shown_relative) %>%
+    mutate(shown_relative = shown_relative/100) %>% # converts to dwelltime in seconds
+    pivot_wider(id_cols = "unit_session_id", names_from = "item_name", values_from = "shown_relative") %>%
+    dplyr::select(-unit_session_id) %>%
+    dplyr::filter(if_all(all_of(relevant_pages[[i]]), ~ !is.na(.x))) %>%
+    rio::export(file = paste0("data/Study_1/", survey_names[i], ".csv"))
+}
+
+```
+
+
+
+
