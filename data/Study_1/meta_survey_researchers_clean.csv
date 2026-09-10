@@ -1,0 +1,1424 @@
+id,submitdate,lastpage,startlanguage,seed,startdate,datestamp,intro,dwellData,dwellData[filecount],consent,consentText,consentNumber,consentFile,consentFile[filecount],population[uni],population[school],population[teacher],population[public],population[research],population[other],incentive[none],incentive[money],incentive[raffle],incentive[credit],incentive[other],description,descriptionText,descriptionFile,descriptionFile[filecount],year,G01Q13,G01Q14,interviewtime,groupTime1243,introTime,dwellDataTime,consentTime,consentTextTime,consentNumberTime,consentFileTime,populationTime,incentiveTime,descriptionTime,descriptionTextTime,descriptionFileTime,yearTime,G01Q13Time,G01Q14Time
+1,2025-09-30T15:43:27Z,1,en,329301805,2025-09-30T15:34:32Z,2025-09-30T15:43:27Z,,Fehlverhalten-SES.dwell.xlsx,1,text,"Hinweise zum Forschungsvorhaben
+Durchführende Institution: Die Studie wird im Rahmen eines Forschungsprojekts am DIPF | Leibniz-Institut für Bildungsforschung und Bildungsinformation in Frankfurt am Main durchgeführt. 
+Studienleitung: Prof.'in Dr. Hanna Beißert, E- Mail: h.beissert@dipf.de  
+Forschungsgegenstand: In dieser Studie interessieren wir uns für Ihre Beurteilung einer Unterrichtssituation und Ihre Einschätzung von Erziehungs- und Ordnungsmaßnahmen an Schulen. Aus Forschungsgründen können im Vorhinein noch nicht alle Informationen zum Forschungsgegenstand mitgeteilt werden. Diese werden im Anschluss an die Befragung nachgereicht.
+Ablauf und Dauer der Befragung: In der vorliegenden Befragung werden Ihnen neben Fragen zu demografischen Angaben ein Unterrichtsszenario präsentiert und Sie werden gebeten, verschiedene Fragen dazu zu beantworten. Die Bearbeitung des Fragebogens wird ca. 10 Minuten dauern.
+Freiwilligkeit: Ihre Teilnahme an dieser Studie ist freiwillig. Es steht Ihnen zu jedem Zeitpunkt frei, Ihre Teilnahme abzubrechen, ohne einen Grund anzugeben und ohne, dass Ihnen daraus Nachteile entstehen. 
+Offene Fragen: Falls Sie noch offene Fragen zu dieser Studie haben sollten, wenden Sie sich bitte an Prof.'in Dr. Hanna Beißert,
+E-Mail: h.beissert@dipf.de., Telefon: 069 24708239 
+ 
+Datenschutzbestimmung
+Anonymität: Alle erhobenen Daten werden nur in anonymisierter Form genutzt. Das bedeutet, dass es niemandem möglich ist, Ihre Daten mit Ihnen als Person in Verbindung zu bringen. Zudem werden Sie zu keinem Zeitpunkt in dieser Untersuchung nach Ihrem Namen oder anderen Informationen gefragt, anhand derer wir Sie identifizieren können. Demografische Angaben wie Alter oder Geschlecht lassen keine eindeutigen Schlüsse auf Ihre Person zu.
+Vertraulichkeit: Die erhobenen Daten sowie persönliche Mitteilungen werden streng vertraulich behandelt. Alle im Projekt beschäftigten Personen unterliegen der Schweigepflicht. Des Weiteren wird die geplante Veröffentlichung der Ergebnisse der Studie ausschließlich in anonymisierter Form der Daten erfolgen.
+Nutzung der erhobenen Daten: Die in der Studie gewonnenen Daten werden ausschließlich zu Forschungszwecken verwendet. Damit einhergehen können Publikationen sowie Präsentationen auf Fachtagungen oder -konferenzen. Sie haben uns gegenüber das Recht, Auskunft darüber zu erhalten, welche personenbezogenen Daten wir von Ihnen verarbeiten.
+Die Erhebung der Daten erfolgt anonym, das heißt, ohne Angabe Ihres Namens oder anderer Angaben, anhand derer man Sie eindeutig identifizieren könnte. Deshalb ist es bei einem Rücktritt von der Studie nicht möglich, Ihre Daten zu löschen.
+Die Daten werden 10 Jahre aufbewahrt und dann gelöscht.
+Einverständniserklärung
+Hiermit versichere ich, dass ich mindestens 18 Jahre alt und mit der obigen Datenschutzbestimmung einverstanden bin. Ich wurde über den Zweck, die Vorgehensweise, die Datennutzung und den Datenschutz der gewonnenen Daten informiert. Diese Abschnitte habe ich gelesen und verstanden. Außerdem ist mir bewusst, dass meine Teilnahme an der Studie vollkommen freiwillig ist und für mich keinerlei Nachteile entstehen, wenn ich nicht teilnehme. Zudem hatte ich die Gelegenheit, Fragen zu stellen. Eventuelle Fragen wurden vollständig beantwortet.
+",,"",,1,0,0,0,0,0,0,0,1,0,0,text,Die Umfrage richtet sich an Lehramtsstudierende aller Schularten. Im Rahmen dieser Studie interessieren wir uns für Ihre Beurteilung einer Unterrichtssituation und Ihre Einschätzung von Erziehungs- und Ordnungsmaßnahmen an Schulen.,"",,2024,"",t.bagus@dipf.de h.beissert@dipf.de,534.87,534.87,,,,,,,,,,,,,,
+2,2025-09-30T15:56:25Z,1,en,1356642790,2025-09-30T15:44:03Z,2025-09-30T15:56:25Z,,Gender-Edu-dwell.xlsx,1,text,"Aufklärung und Einverständnis
+
+Im Folgenden werden wir Sie entsprechend der Richtlinien der Deutschen Forschungsgemeinschaft (DFG) näher über unsere Forschung und die damit zusammenhängende Datenerhebung sowie Datenverarbeitung aufklären. Diese sehen vor, dass sich die Teilnehmenden an empirischen Studien explizit und nachvollziehbar einverstanden erklären, dass sie freiwillig an entsprechender Forschung teilnehmen. 
+Aus diesem Grund möchten wir Sie bitten, sich die folgenden Hinweise durchzulesen und sich mit diesen einverstanden zu erklären, bevor Sie an unserer Studie teilnehmen.
+_________________________________________________________________________________________________________________________
+
+Durchführende Institution:
+Die Studie wird im Rahmen eines Forschungsprojekts am DIPF | Leibniz-Institut für Bildungsforschung und Bildungsinformation durchgeführt.
+
+Forschungsgegenstand:
+Die Studie beschäftigt sich mit der Beurteilung verschiedener Verhaltensweisen unter Kindern.
+
+Ablauf der Befragung:
+Die vorliegende Studie lässt sich in zwei Teile untergliedern. Dabei werden Sie zunächst gebeten, einige demografische Angaben zu machen. Im Anschluss werden Ihnen verschiedene Aussagen bezüglich Verhaltensweisen von Kindern präsentiert, bei denen uns interessiert, wie sehr Sie diesen zustimmen würden.
+Im Anschluss an die Befragung haben Sie die Möglichkeit, von der Projektleiterin detailliertere Informationen zu dieser Studie, ihrem Hintergrund und Ablauf zu erhalten. Dafür wenden Sie sich bitte mit Ihren entsprechenden Fragen an die untenstehende E-Mail-Adresse.
+
+Dauer:
+Die Bearbeitung der Studie nimmt ca. 5 bis 10 Minuten in Anspruch.
+
+Vertraulichkeit:
+Ihre Daten sind selbstverständlich vertraulich und werden nur in anonymisierter Form genutzt. Demographische Angaben wie Alter oder Geschlecht lassen keinen eindeutigen Schluss auf Ihre Person zu. Zu keinem Zeitpunkt im Rahmen der Untersuchung werden wir Sie bitten, Ihren Namen oder andere identifizierende Informationen zu nennen.
+
+Freiwilligkeit:
+Ihre Teilnahme an dieser Studie ist freiwillig. Es steht Ihnen zu jedem Zeitpunkt frei, das Einverständnis zurückzunehmen und Ihre Teilnahme abzubrechen, ohne dass Ihnen daraus Nachteile entstehen. Aufgrund der anonymen Erhebung können Ihre Daten bei einem Rücktritt von der Studienteilnahme nicht rückverfolgt und somit nicht vernichtet werden.
+
+Nutzung der erhobenen Daten:
+Die in der Studie gewonnenen Daten werden ausschließlich zu Forschungszwecken verwendet.
+Damit einhergehen können Publikationen sowie Präsentationen auf Fachtagungen oder -konferenzen.
+
+Möglicher Nutzen:
+Durch Ihre Teilnahme an dieser Studie haben Sie die Möglichkeit, nähere Einblicke in die psychologische Forschung zu erhalten. Darüber hinaus helfen die Ergebnisse der Studie, Erwartungshaltungen von Erwachsenen in Bezug auf verschiedene Verhaltensweisen von Kindern besser zu verstehen und ihre Aktualität zu überprüfen.
+
+Mit der Teilnahme verbundene Erfahrungen:
+Durch die Teilnahme an dieser Studie entsteht kein Risiko, das über Risiken des alltäglichen Lebens hinausgeht. Der genaue Zweck dieser Untersuchung kann Ihnen erst nach der Studie ausführlich und vollständig dargestellt werden, da die Gültigkeit der Ergebnisse ansonsten beeinflusst werden könnte.
+Mit dem Klicken auf """"Weiter"""" erklären Sie sich damit einverstanden, erst nach Beendigung der Untersuchung vollständig über den genauen inhaltlichen Zweck der Studie informiert zu werden.
+
+Offene Fragen:
+Falls Sie noch Fragen zu dieser Studie haben sollten, wenden Sie sich bitte an die Projektleiterin:
+
+Dr. Hanna Beißert
+Wissenschaftliche Mitarbeiterin
+Abteilung Bildung und Entwicklung
+Telefenonnummer: +49 69 24708-239
+E-Mail-Adresse: beissert@dipf.de
+",,"",,0,0,0,0,0,"Erwachsene potenziell Eltern es gibt jedoch auch die Option anzugeben, dass man keine Kinder hat ",1,0,0,0,0,text,"Im Rahmen dieser Befragung möchten wir Ihre Sicht auf bestimmte Verhaltensweisen von Kindern untersuchen. Neben demographischen Fragen, werden Ihnen in der Studie verschiedene Aussagen präsentiert, zu denen uns Ihre persönliche Meinung interessiert.","",,2022,"",t.bagus@dipf.de h.beissert@dipf.de,741.55,741.55,,,,,,,,,,,,,,
+3,2025-09-30T15:53:10Z,1,en,805788796,2025-09-30T15:49:43Z,2025-09-30T15:53:10Z,,assic1-dwell.xlsx,1,text,"Durchführende Institution: Die Studie wird im Rahmen eines Forschungsprojekts am DIPF | Leibniz-Institut für Bildungsforschung und Bildungsinformation in Frankfurt am Main durchgeführt.
+Studienleitung: Tina Bagus (t.bagus@dipf.de)
+Forschungsgegenstand: Die Studie befasst sich mit Gedanken und Gefühlen im Entscheidungsfindungsprozess.
+Ablauf und Dauer der Befragung: In der vorliegenden Befragung werden Ihnen neben Fragen zu demografischen Angaben unter anderem Fragen zu Gedanken und Gefühlen im Entscheidungsfindungsprozess gestellt. Die Bearbeitung des Fragebogens wird ca. 10 Minuten dauern.
+Freiwilligkeit: Die Teilnahme an der Studie ist freiwillig und es ergeben sich keinerlei Nachteile bei einer Nichtteilnahme. Es steht Ihnen jederzeit frei, einzelne Fragen nicht zu beantworten oder die Befragung ohne Angabe von Gründen abzubrechen.
+Vertraulichkeit: Die erhobenen Daten werden streng vertraulich behandelt. Alle im Projekt beschäftigten Personen unterliegen der Schweigepflicht. Des Weiteren wird die geplante Veröffentlichung der Ergebnisse der Studie ausschließlich in anonymisierter Form der Daten erfolgen.
+Anonymität: Alle erhobenen Daten werden nur in anonymisierter Form genutzt. Das bedeutet, dass es niemandem möglich ist, Ihre Daten mit Ihnen als Person in Verbindung zu bringen. Zudem werden Sie zu keinem Zeitpunkt in dieser Untersuchung nach Ihrem Namen oder anderen Informationen gefragt, anhand derer wir Sie identifizieren können. Demografische Angaben wie Alter oder Geschlecht lassen keine eindeutigen Schlüsse auf Ihre Person zu. Aufgrund der Anonymisierung können die Daten nach Abschluss der Befragung nicht gelöscht werden.
+Datenverarbeitung: Der Umgang mit den im Projekt erhobenen Daten unterliegt den Regelungen der Datenschutz-Grundverordnung der Europäischen Union (DSGVO). Die Daten werden in anonymisierter Form auf Datenträgern für mindestens 10 Jahre gespeichert und für wissenschaftliche Zwecke verwendet.
+Open Science: Die in dieser Studie erhobenen anonymisierten Daten werden im Sinne der Richtlinien der Deutschen Forschungsgemeinschaft zur guten wissenschaftlichen Praxis in einem kollaborativen Forschungsarchiv aufbewahrt und dort zur Nachnutzung zur Verfügung gestellt.
+Offene Fragen: Falls Sie noch offene Fragen zu dieser Studie haben sollten, wenden Sie sich bitte an t.bagus@dipf.de",,"",,0,0,0,1,0,0,0,1,0,0,0,text,"Die Studie beschäftigt sich mit Gedanken und Gefühlen im Entscheidungsprozess; Ziel ist die Entwicklung einer Skala zur Messung inneren Konflikterlebens.
+Da davon ausgegangen wird, dass inneres Konflikterleben situationsspezifisch ist, werden in einem Between-Within-Subject Design den Teilnehmenden randomisiert jeweils  zwei von fünf unterschiedlichen und kontroversen forced choice Fragestellung bzw. Situationen angezeigt, auf Basis derer die Teilnehmenden gebeten werden die Items zum inneren Konflikterleben zu beantworten. Manche Teilnehmende werden randomisiert der Fragestellung """"Sollte es ein Recht auf Schwangerschaftsabbruch geben?"""" zugewiesen (Die Teilnehmenden haben die Möglichkeit, das Thema zu wechseln). Aufgrund dieser Fragestellung und der Möglichkeit von innerem Konflikterleben bei der Beantwortung des Fragebogens wurde die Studie auf Prolific mit der content warning """"sensitive topic"""" versehen.","",,2025,Die Teilnehmenden wurden über Prolific rekrutiert.,t.bagus@dipf.de,206.95,206.95,,,,,,,,,,,,,,
+4,2025-09-30T15:58:03Z,1,en,409370351,2025-09-30T15:53:19Z,2025-09-30T15:58:03Z,,assic2-dwell.xlsx,1,text,"Durchführende Institution: Die Studie wird im Rahmen eines Forschungsprojekts am DIPF | Leibniz-Institut für Bildungsforschung und Bildungsinformation in Frankfurt am Main durchgeführt.
+Studienleitung: Tina Bagus (t.bagus@dipf.de)
+Forschungsgegenstand: Die Studie befasst sich mit Entscheidungsprozessen und Selbstwahrnehmung. Weitere Informationen zum dahinterliegenden theoretischen Konstrukt werden im Anschluss an die Befragung nachgereicht. 
+Ablauf und Dauer der Befragung: In der vorliegenden Befragung werden Ihnen neben Fragen zu demografischen Angaben unter anderem Fragen zu Entscheidungsprozessen und Ihrer Selbstwahrnehmung gestellt Die Bearbeitung des Fragebogens wird ca. 8-10 Minuten dauern.
+Freiwilligkeit: Die Teilnahme an der Studie ist freiwillig und es ergeben sich keinerlei Nachteile bei einer Nichtteilnahme. Es steht Ihnen jederzeit frei, einzelne Fragen nicht zu beantworten oder die Befragung ohne Angabe von Gründen abzubrechen.
+Vertraulichkeit: Die erhobenen Daten werden streng vertraulich behandelt. Alle im Projekt beschäftigten Personen unterliegen der Schweigepflicht. Des Weiteren wird die geplante Veröffentlichung der Ergebnisse der Studie ausschließlich in anonymisierter Form der Daten erfolgen.
+Anonymität: Alle erhobenen Daten werden nur in anonymisierter Form genutzt. Das bedeutet, dass es niemandem möglich ist, Ihre Daten mit Ihnen als Person in Verbindung zu bringen. Zudem werden Sie zu keinem Zeitpunkt in dieser Untersuchung nach Ihrem Namen oder anderen Informationen gefragt, anhand derer wir Sie identifizieren können. Demografische Angaben wie Alter oder Geschlecht lassen ohne weitere Angaben keine eindeutigen Schlüsse auf Ihre Person zu. Aufgrund der Anonymisierung können die Daten nach Abschluss der Befragung nicht gelöscht werden.
+Datenverarbeitung: Der Umgang mit den im Projekt erhobenen Daten unterliegt den Regelungen der Datenschutz-Grundverordnung der Europäischen Union (DSGVO) und denen der Deutschen Forschungsgesellschaft (DFG). Die Daten werden in anonymisierter Form auf Datenträgern für mindestens 10 Jahre gespeichert und für wissenschaftliche Zwecke verwendet.
+Open Science: Die in dieser Studie erhobenen anonymisierten Daten werden im Sinne der Richtlinien der Deutschen Forschungsgemeinschaft zur guten wissenschaftlichen Praxis in einem kollaborativen Forschungsarchiv aufbewahrt und dort zur Nachnutzung zur Verfügung gestellt.
+Offene Fragen:  Falls Sie noch offene Fragen zum Forschungsvorhaben oder zu ihren Rechten als Studienteilnehmende haben sollten, wenden Sie sich bitte an t.bagus@dipf.de 
+",,"",,0,0,0,1,0,0,0,1,0,0,0,text,"Die Studie beschäftigt sich mit Entscheidungsprozessen und Selbstwahrnehmung; Ziel ist die Validierung einer Skala zu innerem Konflikterleben. Die Teilnehmenden beantworteten u.a. Skalen zu Selbstbewusstsein, genereller Entscheidungsunsicherheit und generalisierter Angststörung. Den Teilnehmenden wurde randomisiert eins von fünf unterschiedlichen und kontroversen forced choice Fragestellung bzw. Situationen angezeigt, auf Basis derer die Teilnehmenden gebeten wurden die Items zum inneren Konflikterleben zu beantworten. Manche Teilnehmende wurden randomisiert der Fragestellung """"Sollte es ein Recht auf Schwangerschaftsabbruch geben?"""" zugewiesen (Die Teilnehmenden hatten die Möglichkeit, das Thema zu wechseln). Aufgrund dieser Fragestellung und der Möglichkeit von innerem Konflikterleben bei der Beantwortung des Fragebogens wurde die Studie auf Prolific mit der content warning """"sensitive topic"""" versehen.","",,2025,Die Teilnehmenden wurden über Prolific rekrutiert.,t.bagus@dipf.de,283.61,283.61,,,,,,,,,,,,,,
+5,2025-09-30T16:03:24Z,1,en,1804508590,2025-09-30T15:56:34Z,2025-09-30T16:03:24Z,,Hanna-Weiß-dwell.xlsx,1,text,"Datenschutzbestimmung und Forschungsvorhaben
+
+Im Folgenden werden Sie entsprechend der Richtlinien der Deutschen Forschungsgemeinschaft (DFG) näher über die Forschung und die damit zusammenhängende Datenerhebung sowie -verarbeitung aufgeklärt. Diese sehen vor, dass sich die Teilnehmer*innen an empirischen Studien explizit und nachvollziehbar einverstanden erklären, dass sie freiwillig an entsprechender Forschung teilnehmen.
+
+Aus diesem Grund möchten wir Sie bitten, sich die folgenden Hinweise durchzulesen und sich am Ende dieser Seite mit ihnen einverstanden zu erklären, bevor Sie an der vorliegenden Studie teilnehmen.
+
+
+Hinweise zum Forschungsvorhaben
+
+Durchführende Institution:
+Die vorliegende Studie wird am DIPF | Leibniz-Institut für Bildungsforschung und Bildungsinformation und an der Universität Mannheim im Rahmen einer Masterarbeit durchgeführt.
+
+Studienleitung: Hanna Weiß, E-Mail: hanna.weiss@students.uni-mannheim.de
+
+Projektleitung: Prof. Dr.  Hanna Beißert, E-Mail: h.beissert@dipf.de, Telefon: 069-24708-239
+
+Forschungsgegenstand:
+In der vorliegenden Studie interessieren wir uns dafür, wie Lehrkräfte und angehende Lehrkräfte die Fähigkeiten von Schüler*innen einschätzen. Aus Forschungsgründen können im Vorhinein noch nicht alle Informationen zum Forschungsgegenstand mitgeteilt werden. Diese werden im Anschluss an die Befragung nachgereicht.
+
+Ablauf und Dauer der Befragung:
+In der vorliegenden Studie werden Sie gebeten, einige Fragen zu beantworten und einige Informationen zu Ihrer Person anzugeben. Die Dauer der Befragung wird ungefähr 10 Minuten Ihrer Zeit in Anspruch nehmen.
+
+Freiwilligkeit:
+Ihre Teilnahme an dieser Studie ist freiwillig und ein Nichtausfüllen wird für Sie keine Nachteile mitsichbringen. Darunter fällt auch Ihr Recht, einzelne Fragen nicht zu beantworten oder die Befragung abzubrechen. Nach Abgabe des Fragebogens ist ein Widerruf nicht mehr möglich, da durch die Anonymisierung keine Rückverfolgung zu Ihrem Fragebogen mehr möglich ist.
+
+Offene Fragen:
+Falls Sie noch Fragen zu dieser Studie haben sollten, wenden Sie sich bitte an die Studienleitung Hanna Weiß (E-mail: hanna.weiss@students.uni-mannheim.de) oder die Projektleitung Prof. Dr. Hanna Beißert (E-mail: h.beissert@dipf.de, Telefonnummer: 069-24708-239)
+ 
+
+Datenschutzbestimmung
+
+Anonymität:
+Alle erhobenen Daten werden nur in anonymisierter Form genutzt. Das bedeutet, dass es niemandem möglich ist, Ihre Daten mit Ihnen als Person in Verbindung zu bringen. Zudem werden Sie zu keinem Zeitpunkt in dieser Untersuchung nach Ihrem Namen oder anderen Informationen gefragt, anhand derer wir Sie identifizieren können. Demografische Angaben wie Alter oder Geschlecht lassen keinen eindeutigen Schluss auf Ihre Person zu.
+
+Vertraulichkeit:
+Die erhobenen Daten sowie persönliche Mitteilungen werden streng vertraulich behandelt. Alle im Projekt beschäftigten Personen unterliegen der Schweigepflicht. Des Weiteren wird die geplante Veröffentlichung der Ergebnisse der Studie ausschließlich in anonymisierter Form der Daten erfolgen.
+
+Nutzung der erhobenen Daten:
+Die in der Studie gewonnenen Daten werden ausschließlich zu Forschungszwecken verwendet. Damit einhergehen können Publikationen sowie Präsentationen auf Fachtagungen oder -konferenzen. Sie haben uns gegenüber das Recht, Auskunft darüber zu erhalten, welche personenbezogenen Daten wir von Ihnen verarbeiten.
+Die Erhebung der Daten erfolgt anonym, das heißt ohne Angabe Ihres Namens oder anderer Angaben, anhand derer man Sie eindeutig identifizieren könnte. Deshalb ist es nicht möglich, Ihre Daten zu löschen. Dies gilt sowohl nach vollständiger Bearbeitung der Studie, aber auch bei einem frühzeitigen Rücktritt von der Studie.
+
+Die Daten werden nach Abschluss dieser Studie im Sinne der Richtlinien der Deutschen Forschungsgemeinschaft zur guten wissenschaftlichen Praxis an ein professionelles Forschungsdatenzentrum übergeben. Dieses gewährleistet deren sichere und zugriffsgeschützte Aufbewahrung. In dem Datenzentrum stehen die Daten anderen Forschenden zu wissenschaftlichen Zwecken in thematisch verwandten Forschungsbereichen zu definierten Forschungszwecken zur Verfügung. Ihre Daten werden stets vertraulich und unter Wahrung der Datenschutzgesetze behandelt.
+
+Möchten Sie an der Verlosung teilnehmen/Versuchspersonenstunden erhalten und/oder über die Gesamtergebnisse der Studie informiert werden, wird zusätzlich Ihre E-Mail-Adresse als personenbezogene Angabe erhoben. Die E-Mail-Adresse wird getrennt von den Daten gespeichert und kann nicht mit diesen in Verbindung gebracht werden. Die E-Mail-Adresse wird bis zur Verlosung am Ende der Erhebung und/oder bis zur Rückmeldung über die Gesamtergebnisse am Ende der Studie gespeichert, ausschließlich zur Verlosung und/oder Rückmeldung über die Gesamtergebnisse verwendet und anschließend, spätestens aber am 30.04.2025, gelöscht. Im Rahmen Ihrer Rechte als Forschungsteilnehmer*in haben Sie das Recht, die Löschung der E-Mail-Adresse vorzeitig einzufordern und Ihre Zustimmung zur vorübergehenden Speicherung der E-Mail-Adresse zu widerrufen. 
+",,"",,1,0,1,0,0,0,0,0,1,0,0,text,"In der vorliegenden Studie interessieren wir uns dafür, wie Lehrkräfte und angehende Lehrkräfte die Fähigkeiten von Schüler*innen einschätzen. ","",,2024,"",t.bagus@dipf.de h. beissert@dipf.de,409.8,409.8,,,,,,,,,,,,,,
+6,2025-09-30T16:07:26Z,1,en,1695464276,2025-09-30T16:03:42Z,2025-09-30T16:07:26Z,,Lehrer-beurteilen-Ausgrenzung-NEU.dwell.xlsx,1,text,"Aufklärung und Einverständnis
+ 
+Im Folgenden werden wir Sie entsprechend der Richtlinien der Deutschen Forschungsgemeinschaft (DFG) näher über unsere Forschung und die damit zusammenhängende Datenerhebung sowie -verarbeitung aufklären. Diese sehen vor, dass sich die Teilnehmer/-innen an empirischen Studien explizit und nachvollziehbar einverstanden erklären, dass sie freiwillig an entsprechender Forschung teilnehmen. 
+Aus diesem Grund möchten wir Sie bitten, sich die folgenden Hinweise durchzulesen und sich mit diesen einverstanden zu erklären, bevor Sie an unserer Studie teilnehmen.
+
+________________________________________
+
+ 
+Forschungsgegenstand:
+Unsere Forschungsgruppe interessiert sich für Einstellungen und Wahrnehmungen von Lehrkräften.
+Die vorliegende Studie beschäftigt sich mit einem wichtigen Teilaspekt dieses Themengebiets.
+
+Ablauf der Befragung:
+In der vorliegenden Befragung werden Sie Fragen beantworten und Bewertungen abgeben. Fragen zum genauen Ablauf der Befragung sowie zur Auswahl der Aufgaben können Sie, nachdem Sie den Fragebogen ausgefüllt haben, via der unten genannten Mailadresse an die Projektleitung richten. Es ist für unsere Forschung wichtig, dass Sie die einzelnen Aufgaben und Tätigkeiten in der vorgegebenen Reihenfolge bearbeiten.
+
+Dauer und Aufwandsentschädigung:
+Die Dauer der Studie und die Aufwandsentschädigung entsprechen den auf der ersten Seite des Fragebogens bekannt gegebenen Angaben.
+
+Möglicher Nutzen:
+Durch Ihre Teilnahme an dieser Studie haben Sie die Möglichkeit, nähere Einblicke in die psychologische Forschung zu erhalten. Darüber hinaus helfen die Ergebnisse dieser Studie uns allen in unserem Verständnis der Informationsverarbeitung des Menschen.
+
+Vertraulichkeit:
+Ihre Daten sind selbstverständlich vertraulich und werden nur in anonymisierter Form genutzt. Demographische Angaben wie Alter oder Geschlecht lassen keinen eindeutigen Schluss auf Ihre Person zu. Zu keinem Zeitpunkt im Rahmen der Untersuchung werden wir Sie bitten, Ihren Namen oder andere identifizierende Informationen zu nennen.
+
+Nutzung der erhobenen Daten:
+Die in der Studie gewonnenen Daten werden ausschließlich zu Forschungszwecken verwendet.
+Damit einhergehen können Publikationen sowie Präsentationen auf Fachtagungen oder -konferenzen.
+
+Mit der Teilnahme verbundene Erfahrungen:
+Durch die Teilnahme an dieser Studie entsteht kein Risiko, das über Risiken des alltäglichen Lebens hinausgeht. Der genaue Zweck dieser Untersuchung kann Ihnen erst nach der Studie ausführlich und vollständig dargestellt werden, da die Gültigkeit der Ergebnisse ansonsten beeinflusst werden könnte.
+Mit dem Klicken auf """"Weiter"""" erklären Sie sich damit einverstanden, erst nach Beendigung der Untersuchung vollständig über den genauen inhaltlichen Zweck der Studie informiert zu werden.
+
+Freiwilligkeit:
+Ihre Teilnahme an dieser Studie ist freiwillig. Es steht Ihnen zu jedem Zeitpunkt frei, Ihre Teilnahme abzubrechen, ohne dass Ihnen daraus Nachteile entstehen. Aufgrund der Anonymisierung können Ihre Daten bei einem Rücktritt von der Studienteilnahme nicht rückverfolgt und somit nicht vernichtet werden.
+
+Offene Fragen:
+Falls Sie noch Fragen zu dieser Studie haben sollten, wenden Sie sich bitte an die Projektleitung.
+
+Dr. Hanna Beißert  
+Leibniz-Institut für Bildungsforschung
+und Bildungsinformation
+Rostocker Straße 6     
+60323 Frankfurt am Main                                         
+Telefon 069-24708-239                                             
+beissert@dipf.de
+
+Dr. Meike Bonefeld
+Universität Mannheim   
+68131 Mannheim
+Telefon 0621-181-2494
+bonefeld@uni-mannheim.de
+ 
+",,"",,0,0,1,0,0,0,0,0,1,0,0,text,"Im Rahmen dieser Befragung möchten wir Einstellungen von Lehrerinnen und Lehrern zu Schule und Unterricht untersuchen. Wir werden Ihnen eine Situation aus dem Schulalltag präsentieren und möchten gerne etwas über Ihre Sicht darauf erfahren. Im Anschluss folgt eine Reihe von Fragen und Aussagen, die Sie und Ihre persönlichen Einschätzungen und Wahrnehmungen betreffen.","",,2018,"",t.bagus@dipf.de h.beissert@dipf.de,223.71,223.71,,,,,,,,,,,,,,
+7,2025-09-30T16:14:32Z,1,en,1292715626,2025-09-30T16:07:30Z,2025-09-30T16:14:32Z,,Lehrkraft-Reaktionen-aus-Ausgrenzung-von-syrischen-Kindern-dwell.xlsx,1,text,"Aufklärung und Einverständnis
+
+Zunächst möchten wir Sie bitten, die vorliegende Einverständniserklärung durchzulesen und zu akzeptieren, bevor Sie an unserer Studie teilnehmen.
+
+
+Durchführende Institutionen:
+Die Studie wird durchgeführt vom Leibniz-Institut für Bildungsforschung und Bildungsinformation in Kooperation mit der Universität Mannheim.
+
+Projektleitung:
+Dr. Hanna Beißert
+DIPF | Leibniz-Institut für Bildungsforschung und Bildungsinformation
+Rostockerstraße 6
+60323 Frankfurt am Main
+Telefon: 069-24708-239
+beissert@dipf.de
+
+Forschungsgegenstand:
+Unsere Forschungsgruppe interessiert sich für die Sichtweise von (angehenden) Lehrkräften auf soziale Situationen im Schulalltag. Die vorliegende Studie beschäftigt sich mit einem wichtigen Teilaspekt dieses Themengebiets.
+
+Ablauf der Befragung:
+In der vorliegenden Befragung werden Sie Fragen beantworten und Bewertungen abgeben. Fragen zum genauen Ablauf der Befragung sowie zur Auswahl der Aufgaben können Sie, nachdem Sie den Fragebogen ausgefüllt haben, via der obigen Mailadresse an die Projektleitung richten. Es ist für unsere Forschung wichtig, dass Sie die einzelnen Aufgaben und Tätigkeiten in der vorgegebenen Reihenfolge bearbeiten.
+
+Dauer:
+Die Studie dauert etwa 10-15 Minuten.
+
+Möglicher Nutzen:
+Durch Ihre Teilnahme an dieser Studie haben Sie die Möglichkeit, nähere Einblicke in die psychologische Forschung zu erhalten. Darüber hinaus helfen die Ergebnisse dieser Studie uns allen in unserem Verständnis der sozialen Informationsverarbeitung des Menschen.
+
+Vertraulichkeit:
+Ihre Daten sind selbstverständlich vertraulich und werden nur in anonymisierter Form genutzt.
+Demographische Angaben wie Alter oder Geschlecht lassen keinen eindeutigen Schluss auf Ihre Person zu. Zu keinem Zeitpunkt im Rahmen der Untersuchung werden wir Sie bitten, Ihren Namen oder andere Informationen zu nennen.
+
+Nutzung der erhobenen Daten:
+Die in der Studie gewonnenen Daten werden ausschließlich zu Forschungszwecken verwendet. Damit einhergehen können Publlikationen sowie Präsentationen auf Fachtagungen oder -konferenzen.
+
+Mit der Teilnahme verbundene Erfahrungen:
+Durch die Teilnahme an dieser Studie entsteht kein Risiko, das über Risiken des alltäglichen Lebens hinausgeht. Der genaue Zweck dieser Untersuchung kann Ihnen erst am Ende der Studie ausführlich und vollständig dargestellt werden, da die Gültigkeit der Ergebnisse ansonsten beeinflusst werden könnte. Mit dem Klicken auf weiter erklären Sie sich damit einverstanden, erst am Ende der Untersuchung vollständig über den genauen inhaltlichen Zweck der Studie informiert zu werden.
+
+Freiwilligkeit:
+Ihre Teilnahme an dieser Studie ist freiwillig. Es steht Ihnen zu jedem Zeitpunkt frei, Ihre Teilnahme
+abzubrechen, ohne dass Ihnen daraus Nachteile entstehen. Aufgrund der Anonymisierung können Ihre
+Daten bei einem Rücktritt von der Studienteilnahme nicht rückverfolgt und somit nicht vernichtet werden.
+
+Offene Fragen:
+Falls Sie noch Fragen zu dieser Studie haben sollten, wenden Sie sich bitte an die Projektleitung.
+",,"",,1,0,1,0,0,0,0,0,1,0,0,text,In dieser Studie interessieren wir uns für die Perspektive von (angehenden) Lehrkräften auf die sozialen Interaktionen im Schulalltag. Wir werden Ihnen eine Situation aus dem Schulalltag präsentieren und möchten gerne etwas über Ihre Sicht darauf erfahren. ,"",,2020,"",t.bagus@dipf.de h.beissert@dipf.de,421.57,421.57,,,,,,,,,,,,,,
+8,2025-09-30T16:19:36Z,1,en,1109538410,2025-09-30T16:15:44Z,2025-09-30T16:19:36Z,,Miriam-Paper-Folgestudie-dwell.xlsx,1,text,"Aufklärung und Einverständnis
+ 
+Die Richtlinien der Deutschen Forschungsgemeinschaft (DFG) sehen vor, dass sich die Teilnehmer*innen an empirischen Studien explizit und nachvollziehbar einverstanden erklären, dass Sie freiwillig an Forschungen teilnehmen. Aus diesem Grund möchten wir Sie bitten, die vorliegende Einverständniserklärung durchzulesen und zu akzeptieren, bevor Sie an unserer Studie teilnehmen.
+
+Zu Ihrer Information sind nachfolgend Hinweise zu unserem Forschungsvorhaben aufgeführt.
+________________________________________
+
+ 
+Forschungsgegenstand:
+Unsere Forschungsgruppe interessiert sich für Einstellungen und Wahrnehmungen von Lehrkräften.
+Die vorliegende Studie beschäftigt sich mit einem wichtigen Teilaspekt dieses Themengebiets.
+
+Ablauf der Befragung:
+In der vorliegenden Befragung werden Sie Fragen beantworten und Bewertungen abgeben. Fragen zum genauen Ablauf der Befragung sowie zur Auswahl der Aufgaben können Sie, nachdem Sie den Fragebogen ausgefüllt haben, via der unten genannten Mailadresse an die Projektleitung richten. Es ist für unsere Forschung wichtig, dass Sie die einzelnen Aufgaben und Tätigkeiten in der vorgegebenen Reihenfolge bearbeiten.
+
+Dauer und Aufwandsentschädigung:
+Die Dauer der Studie beträgt ca. 10 Minuten. Es besteht die Möglichkeit an der Verlosung von 2 Amazon-Gutscheinen in der Höhe von jeweils 25€ teilzunehmen.
+Möglicher Nutzen:
+Durch Ihre Teilnahme an dieser Studie haben Sie die Möglichkeit, nähere Einblicke in die psychologische Forschung zu erhalten. Darüber hinaus helfen die Ergebnisse dieser Studie uns allen in unserem Verständnis der Informationsverarbeitung des Menschen.
+
+Vertraulichkeit:
+Ihre Daten sind selbstverständlich vertraulich und werden nur in anonymisierter Form genutzt. Demographische Angaben wie Alter oder Geschlecht lassen keinen eindeutigen Schluss auf Ihre Person zu. Zu keinem Zeitpunkt im Rahmen der Untersuchung werden wir Sie bitten, Ihren Namen oder andere identifizierende Informationen zu nennen.
+
+Nutzung und Speicherung der erhobenen Daten:
+Die in der Studie gewonnenen Daten werden ausschließlich zu Forschungszwecken verwendet.
+Damit einhergehen können Publikationen sowie Präsentationen auf Fachtagungen oder -konferenzen. Die Daten werden ausschließlich in anonymisierter Form über die Dauer von 10 Jahren nach Abschluss der Studie gespeichert. Die Studie wird im Jahr 2021 abgeschlossen.
+
+Mit der Teilnahme verbundene Erfahrungen:
+Durch die Teilnahme an dieser Studie entsteht kein Risiko, das über Risiken des alltäglichen Lebens hinausgeht. Der genaue Zweck dieser Untersuchung kann Ihnen erst nach der Studie ausführlich und vollständig dargestellt werden, da die Gültigkeit der Ergebnisse ansonsten beeinflusst werden könnte.
+Mit dem Klicken auf """"Weiter"""" erklären Sie sich damit einverstanden, erst nach Beendigung der Untersuchung vollständig über den genauen inhaltlichen Zweck der Studie informiert zu werden.
+
+Freiwilligkeit:
+Ihre Teilnahme an dieser Studie ist freiwillig. Es steht Ihnen zu jedem Zeitpunkt frei, Ihre Teilnahme abzubrechen, ohne dass Ihnen daraus Nachteile entstehen. Aufgrund der Anonymisierung können Ihre Daten bei einem Rücktritt von der Studienteilnahme nicht rückverfolgt und somit nicht vernichtet werden.
+
+Offene Fragen:
+Falls Sie noch Fragen zu dieser Studie haben sollten, wenden Sie sich bitte an die Projektleitung.
+
+Miriam Staat
+DIPF | Leibniz-Institut für Bildungsforschung
+und Bildungsinformation
+Rostocker Straße 6     
+60323 Frankfurt am Main                                         
+miriam.staat@gmx.de
+",,"",,0,0,1,0,0,0,0,0,1,0,0,text,Im Rahmen dieser Befragung möchten wir Einstellungen von Lehrkräften zu Schule und Unterricht untersuchen.,"",,2021,"",t.bagus@dipf.de h.beissert@dipf.de,231.07,231.07,,,,,,,,,,,,,,
+9,2025-09-30T16:25:03Z,1,en,2004848107,2025-09-30T16:19:43Z,2025-09-30T16:25:03Z,,Moral-Erwachsene-Allgemeinbevölkerung-dwell.xlsx,1,text,"Aufklärung und Einverständnis
+
+Die Richtlinien der Deutschen Forschungsgemeinschaft (DFG) sehen vor, dass sich die Teilnehmer/innen an empirischen Studien explizit und nachvollziehbar einverstanden erklären, dass Sie freiwillig an unserer Forschung teilnehmen. Aus diesem Grund möchten wir Sie bitten, die vorliegende Einverständniserklärung durchzulesen und zu akzeptieren, bevor Sie an unserer Studie teilnehmen.
+
+Zu Ihrer Information sind nachfolgend Hinweise zu unserem Forschungsvorhaben aufgeführt.
+
+Projektleitung:
+Dr. Hanna Beißert
+Leibniz-Institut für Bildungsforschung und Bildungsinformation
+Rostocker Straße 6
+60323 Frankfurt am Main
+Telefon: 069-24708-239
+beissert@dipf.de
+
+
+Forschungsgegenstand:
+Unsere Forschungsgruppe interessiert sich für menschliche Einstellungen zu verschiedenen sozialen Situationen. Die vorliegende Studie beschäftigt sich mit einem wichtigen Teilaspekt dieses Themengebiets.
+
+Ablauf der Befragung:
+In der vorliegenden Befragung werden Sie Fragen beantworten und Bewertungen abgeben. Fragen zum genauen Ablauf der Befragung sowie zur Auswahl der Aufgaben können Sie, nachdem Sie den Fragebogen ausgefüllt haben, via der obigen Mailadresse an die Projektleitung richten. Es ist für unsere Forschung wichtig, dass Sie die einzelnen Aufgaben und Tätigkeiten in der vorgegebenen Reihenfolge bearbeiten.
+
+Dauer und Aufwandsentschädigung:
+Die Dauer der Studie und die Aufwandsentschädigung entsprechen den auf der ersten Seite des Fragebogens bekannt gegebenen Angaben.
+
+Möglicher Nutzen:
+Durch Ihre Teilnahme an dieser Studie haben Sie die Möglichkeit, nähere Einblicke in die psychologische Forschung zu erhalten. Darüber hinaus helfen die Ergebnisse dieser Studie uns allen in unserem Verständnis der Informationsverarbeitung des Menschen.
+
+Vertraulichkeit:
+Ihre Daten sind selbstverständlich vertraulich und werden nur in anonymisierter Form genutzt.
+Demographische Angaben wie Alter oder Geschlecht lassen keinen eindeutigen Schluss auf Ihre Person zu. Zu keinem Zeitpunkt im Rahmen der Untersuchung werden wir Sie bitten, Ihren Namen oder andere Informationen zu nennen.
+
+Nutzung der erhobenen Daten:
+Die in der Studie gewonnenen Daten werden ausschließlich zu Forschungszwecken verwendet. Damit einhergehen können Publlikationen sowie Präsentationen auf Fachtagungen oder -konferenzen.
+
+Mit der Teilnahme verbundene Erfahrungen:
+Durch die Teilnahme an dieser Studie entsteht kein Risiko, das über Risiken des alltäglichen Lebens hinausgeht. Der genaue Zweck dieser Untersuchung kann Ihnen erst am Ende der Studie ausführlich und vollständig dargestellt werden, da die Gültigkeit der Ergebnisse ansonsten beeinflusst werden könnte. Mit dem Klicken auf weiter erklären Sie sich damit einverstanden, erst am Ende der Untersuchung vollständig über den genauen inhaltlichen Zweck der Studie informiert zu werden.
+
+Freiwilligkeit:
+Ihre Teilnahme an dieser Studie ist freiwillig. Es steht Ihnen zu jedem Zeitpunkt frei, Ihre Teilnahme
+abzubrechen, ohne dass Ihnen daraus Nachteile entstehen. Aufgrund der Anonymisierung können Ihre
+Daten bei einem Rücktritt von der Studienteilnahme nicht rückverfolgt und somit nicht vernichtet werden.
+
+Offene Fragen:
+Falls Sie noch Fragen zu dieser Studie haben sollten, wenden Sie sich bitte an die Projektleitung.
+",,"",,0,0,0,1,0,0,0,0,1,0,0,text,"Wir werden Ihnen eine Situation aus dem Alltag präsentieren und möchten gerne etwas über Ihre Sicht darauf erfahren. Im Anschluss folgt eine Reihe von Fragen, die Sie und Ihre Einstellungen betreffen. ","",,2019,"",t.bagus@dipf.de h.beissert@dipf.de,319.3,319.3,,,,,,,,,,,,,,
+10,2025-09-30T16:31:23Z,1,en,1900661902,2025-09-30T16:25:40Z,2025-09-30T16:31:23Z,,PilotGenSciGo-dwell.xlsx,1,text,"Herzlich Willkommen zu unserer Studie!
+________________________________________
+
+Liebe Lehrerinnen und Lehrer, 
+ 
+wir freuen uns über Ihre Bereitschaft, an unserer Studie teilzunehmen. Die vorliegende Studie richtet sich an alle Lehrkräfte, welche sich derzeit im Schuldienst (Referendariat eingeschlossen) befinden. Im Rahmen dieser Befragung möchten wir Einstellungen von Lehrerinnen und Lehrern zu Schule und Unterricht untersuchen. Durchgeführt wird die Studie vom Leibniz-Institut für Bildungsforschung und Bildungsinformation (DIPF) in Kooperation mit der Universität Mannheim. Für die Bearbeitung dieser Studie benötigen Sie ungefähr 15 bis 20 Minuten.
+
+Im Folgenden werden wir Sie näher über unsere Forschung und die damit zusammenhängende Datenerhebung sowie -Verarbeitung aufklären.
+
+Zunächst folgt eine Reihe von Fragen und Aussagen, die Sie und Ihre persönlichen Einschätzungen und Wahrnehmungen betreffen. Es gibt dabei keine richtigen oder falschen Antworten, uns interessieren Ihre persönlichen Einschätzungen. Wählen Sie bitte jeweils die Alternative aus, die Ihrem Standpunkt am nächsten kommt. Manchmal mag es Ihnen so vorkommen, als würden sich Fragen wiederholen. Diese Fragen sind sich nur ähnlich, aber nicht identisch. Es ist wichtig für uns, dass Sie auf alle Fragen antworten. Im Anschluss wollen wir gerne noch Einiges über Ihre Person und Ihren Beruf erfahren.
+
+Alle Angaben erfolgen selbstverständlich vollkommen anonym und erlauben keine Zuordnung zu einzelnen Umfrageteilnehmer*innen. Es werden nur Daten erhoben, die für die Untersuchungsfrage dieser Studie notwendig sind. Die erhobenen Daten dienen ausschließlich wissenschaftlichen Zwecken und werden unter sorgfältiger Einhaltung der datenschutzrechtlichen Bestimmungen weiter verarbeitet. Die Anonymität Ihrer Daten ist zu jedem Zeitpunkt gesichert.
+
+Ihre Teilnahme an dieser Studie ist freiweillig. Es steht Ihnen zu jedem Zeitpunkt frei, Ihre Teilnahme abzubrechen, ohne dass Ihnen daraus Nachteile entstehen. Aufgrund der Anonymisierung können Ihre Daten bei einem Rücktritt von der Studienteilnahme nicht rückverfolgt werden und somit nicht vernichtet werden.
+
+Sollten Sie Fragen oder Anregungen haben, können Sie sich jederzeit an die Projektleitung wenden:
+ 
+Dr. Hanna Beißert                                                      
+DIPF | Leibniz-Institut für Bildungsforschung und Bildungsinformation                       
+Rostocker Str. 6                                                      
+60323 Frankfurt am Main                                           
+Telefon 069-24708-239
+beissert@dipf.de
+
+Dr. Stefan Janke
+Universtität Mannheim
+Lehrstuhl Pädagogische Psychologie
+A5, 6 Gebäudeteil B, Raum B 306
+68131 Mannheim
+Telefon 0621-181-1936
+stefan.janke@uni-mannheim.de
+                                            
+
+Die Richtlinien der Deutschen Forschungsgemeinschaft sehen vor, dass sich Teilnehmer*innen an empirischen Studien explizit und nachvollziehbar einverstanden erklären, dass Sie freiwillig an unserer Forschung teilnehmen. Aus diesem Grund möchten wir Sie bitten, Ihr Einverständnis zu den obigen Erläuterungen zu geben, bevor Sie an unserer Studie teilnehmen.
+",,"",,0,0,1,0,0,0,1,0,0,0,0,text,Im Rahmen dieser Befragung möchten wir Einstellungen von Lehrerinnen und Lehrern zu Schule und Unterricht untersuchen. ,"",,2019,"",t.bagus@dipf.de h.beissert@dipf.de,342.23,342.23,,,,,,,,,,,,,,
+11,2025-09-30T16:34:27Z,1,en,1970543856,2025-09-30T16:31:35Z,2025-09-30T16:34:27Z,,Pilotstudie-sozialer-Ausschluss-und-eigene-Erfahrung-dwell.xlsx,1,text,"Herzlich Willkommen zu unserer Studie!
+
+________________________________________
+Im Folgenden werden wir Sie entsprechend der Richtlinien der Deutschen Forschungsgemeinschaft (DFG) näher über unsere Forschung und die damit zusammenhängende Datenerhebung sowie -Verarbeitung aufklären. Sollten Sie Fragen oder Anregungen haben, können Sie sich jederzeit an die Projektleitung wenden:
+
+Dr. Hanna Beißert & Dr. Meike Bonefeld
+Deutsches Institut für Internationale Pädagogische Forschung
+Schloßstraße 29
+60486 Frankfurt am Main
+Telefon: +49 69-24708-239
+beissert@dipf.de
+
+Für die Bearbeitung dieser Studie benötigen sie ca. 10 Minuten. Vielen Dank für Ihre Bereitschaft, an unserer Studie teilzunehmen und Ihren Beitrag zu unserer Forschung!
+Die Richtlinien der DFG sehen vor, dass sich Teilnehmer/-innen an empirischen Studien explizit und nachvollziehbar einverstanden erklären, dass Sie freiwillig an unserer Forschung teilnehmen. Aus diesem Grund möchten wir Sie bitten, die hier aufzufindende Einverständniserklärung sowie nähere Informationen zur Studie durchzulesen und zu akzeptieren, bevor Sie an unserer Studie teilnehmen.
+",,"",,0,0,0,1,0,0,1,0,0,0,0,none,"","",,2018,"",t.bagus@dipf.de h.beissert@dipf.de,172.53,172.53,,,,,,,,,,,,,,
+12,2025-09-30T16:38:04Z,1,en,526884286,2025-09-30T16:34:31Z,2025-09-30T16:38:04Z,,Pretest-Lehrkraft-Reaktionen-auf-Ausgrenzung-von-syrischen-Kindern-dwell.xlsx,1,text,"Aufklärung und Einverständnis
+
+Zunächst möchten wir Sie bitten, die vorliegende Einverständniserklärung durchzulesen und zu akzeptieren, bevor Sie an unserer Studie teilnehmen.
+
+
+Durchführende Institutionen:
+Die Studie wird durchgeführt vom Leibniz-Institut für Bildungsforschung und Bildungsinformation in Kooperation mit der Universität Mannheim.
+
+Projektleitung:
+Dr. Hanna Beißert
+DIPF | Leibniz-Institut für Bildungsforschung und Bildungsinformation
+Rostockerstraße 6
+60323 Frankfurt am Main
+Telefon: 069-24708-239
+beissert@dipf.de
+
+Forschungsgegenstand:
+Unsere Forschungsgruppe interessiert sich für die Sichtweise von (angehenden) Lehrkräften auf soziale Situationen im Schulalltag. Die vorliegende Studie beschäftigt sich mit einem wichtigen Teilaspekt dieses Themengebiets.
+
+Ablauf der Befragung:
+In der vorliegenden Befragung werden Sie Fragen beantworten und Bewertungen abgeben. Fragen zum genauen Ablauf der Befragung sowie zur Auswahl der Aufgaben können Sie, nachdem Sie den Fragebogen ausgefüllt haben, via der obigen Mailadresse an die Projektleitung richten. Es ist für unsere Forschung wichtig, dass Sie die einzelnen Aufgaben und Tätigkeiten in der vorgegebenen Reihenfolge bearbeiten.
+
+Dauer:
+Die Studie dauert etwa 10-15 Minuten.
+
+Möglicher Nutzen:
+Durch Ihre Teilnahme an dieser Studie haben Sie die Möglichkeit, nähere Einblicke in die psychologische Forschung zu erhalten. Darüber hinaus helfen die Ergebnisse dieser Studie uns allen in unserem Verständnis der sozialen Informationsverarbeitung des Menschen.
+
+Vertraulichkeit:
+Ihre Daten sind selbstverständlich vertraulich und werden nur in anonymisierter Form genutzt.
+Demographische Angaben wie Alter oder Geschlecht lassen keinen eindeutigen Schluss auf Ihre Person zu. Zu keinem Zeitpunkt im Rahmen der Untersuchung werden wir Sie bitten, Ihren Namen oder andere Informationen zu nennen.
+
+Nutzung der erhobenen Daten:
+Die in der Studie gewonnenen Daten werden ausschließlich zu Forschungszwecken verwendet. Damit einhergehen können Publlikationen sowie Präsentationen auf Fachtagungen oder -konferenzen.
+
+Mit der Teilnahme verbundene Erfahrungen:
+Durch die Teilnahme an dieser Studie entsteht kein Risiko, das über Risiken des alltäglichen Lebens hinausgeht. Der genaue Zweck dieser Untersuchung kann Ihnen erst am Ende der Studie ausführlich und vollständig dargestellt werden, da die Gültigkeit der Ergebnisse ansonsten beeinflusst werden könnte. Mit dem Klicken auf weiter erklären Sie sich damit einverstanden, erst am Ende der Untersuchung vollständig über den genauen inhaltlichen Zweck der Studie informiert zu werden.
+
+Freiwilligkeit:
+Ihre Teilnahme an dieser Studie ist freiwillig. Es steht Ihnen zu jedem Zeitpunkt frei, Ihre Teilnahme
+abzubrechen, ohne dass Ihnen daraus Nachteile entstehen. Aufgrund der Anonymisierung können Ihre
+Daten bei einem Rücktritt von der Studienteilnahme nicht rückverfolgt und somit nicht vernichtet werden.
+
+Offene Fragen:
+Falls Sie noch Fragen zu dieser Studie haben sollten, wenden Sie sich bitte an die Projektleitung.
+",,"",,1,0,1,0,0,0,1,0,0,0,0,text,In dieser Studie interessieren wir uns für die Perspektive von (angehenden) Lehrkräften auf die sozialen Interaktionen im Schulalltag. ,"",,2020,"",t.bagus@dipf.de h.beissert@dipf.de,212.04,212.04,,,,,,,,,,,,,,
+13,2025-09-30T16:41:24Z,1,en,1265416334,2025-09-30T16:38:08Z,2025-09-30T16:41:24Z,,Projekt-LEA-dwell.xlsx,1,text,"Einverständniserklärung
+
+Die Richtlinien der Deutschen Forschungsgemeinschaft (DFG) sehen vor, dass sich die Teilnehmer*innen an empirischen Studien explizit und nachvollziehbar einverstanden erklären, dass sie freiwillig an der Forschung teilnehmen. Aus diesem Grund möchte ich Sie bitten, die vorliegende Einverständniserklärung durchzulesen und zu akzeptieren, bevor Sie an dieser Studie teilnehmen.
+
+Zu Ihrer Information sind nachfolgend Hinweise zu unserem Forschungsvorhaben aufgeführt.
+
+Ansprechpartnerin: 
+Lea Flacke 
+
+lea.flacke@web.de
+
+
+Einverständniserklärung 
+
+Vielen Dank für Ihr Interesse, an der Studie „Gruppenfindung im Hochschulkontext“ teilzunehmen. Bitte lesen Sie sich diesen Text aufmerksam und in Ruhe durch. Wenn Sie Fragen haben, beantworte ich diese gerne. Anschließend können Sie die Kenntnisnahme der vorliegenden Information und Ihre Bereitschaft zur Teilnahme an der Studie erklären.
+
+1. Studienziel
+Die Studie „Gruppenfindung im Hochschulkontext“ untersucht den Umgang mit internationalen Studierenden.
+
+2. Ablauf und Inhalt der Studie
+In der vorliegenden Befragung werden Sie Fragen beantworten und Urteile abgeben. Fragen zum genauen Ablauf der Befragung sowie zur Auswahl der Aufgaben können Sie, nachdem Sie den Fragebogen ausgefüllt haben, via der obigen Mailadresse an die Ansprechpartnerin richten. Es ist für meine Forschung wichtig, dass Sie die einzelnen Aufgaben und Tätigkeiten in der vorgegebenen Reihenfolge bearbeiten.
+
+3. Was passiert mit den erhobenen Informationen und Daten?
+Diese Studie wird im Rahmen einer Bachelorarbeit am Lehrstuhl für Pädagogische Psychologie an der Universität Mannheim durchgeführt. Die Arbeit folgt streng den Bestimmungen des Datenschutzes. Die im Rahmen der Studie erbetenen Angaben unterliegen der Schweigepflicht und werden unter Wahrung der Bestimmungen des Datenschutzgesetzes gespeichert und wissenschaftlich ausgewertet. Die Weitergabe personenbezogener Daten an Dritte erfolgt nicht. Alle Informationen, die ich in dieser Studie sammle, werden vertraulich behandelt und nur für wissenschaftliche Zwecke verwendet. Jegliche Angaben von Ihnen werden anonym ausgewertet und können nicht mit Ihrer Person in Verbindung gebracht werden. 
+
+Die anonymisierten Untersuchungsdaten können Kooperationspartnern zur gemeinsamen Auswertung zur Verfügung gestellt werden. Darüber hinaus können sie über Forschungsdatenbanken oder wissenschaftliche Publikationen (typischerweise über das Internet) zugänglich gemacht werden. So können erzielte Ergebnisse durch andere Wissenschaftler*innen nachvollzogen und die Qualität wissenschaftlicher Praxis erhöht werden. Die Daten können aber auch für neue Fragestellungen genutzt werden, die über das Ziel dieser Studie hinausgehen. Bitte beachten Sie, dass bei einmal veröffentlichtem Material eine Weiterverbreitung durch Dritte nicht ausgeschlossen werden kann und sich dies dem Einfluss- und Verantwortungsbereich der Universität Mannheim entzieht. Aus diesem Grund werden Untersuchungsdaten grundsätzlich ohne persönliche Daten weitergegeben oder veröffentlicht.
+
+4. Freiwilligkeit
+Die Teilnahme an der Studie ist freiwillig und Sie haben zu jeder Zeit die Möglichkeit, Ihre Mitarbeit zu beenden. Während der Untersuchung können Sie die Einwilligung zur Verwendung der erfassten Daten jederzeit und ohne negative Konsequenzen mit Wirkung für die Zukunft widerrufen. Bitte beachten Sie, dass nach Abschluss der Untersuchung Ihre Untersuchungsdaten nicht mehr Ihrer Person zugeordnet werden können. 
+
+
+Offene Fragen:
+Falls Sie noch Fragen zu dieser Studie haben sollten, wenden Sie sich bitte an die Ansprechpartnerin.
+",,"",,1,0,0,0,0,0,1,0,0,0,0,text,Durch diese Befragung möchte ich neue Erkenntnisse zu dem Thema Gruppenfindung im Hochschulkontext sammeln. ,"",,2019,"",t.bagus@dipf.de h.beissert@dipf.de,195.74,195.74,,,,,,,,,,,,,,
+14,2025-09-30T16:43:25Z,1,en,1693872937,2025-09-30T16:41:29Z,2025-09-30T16:43:25Z,,ViolAA-MH-dwell.xlsx,1,text,"Hinweise zum Forschungsvorhaben
+Durchführende Institution: Die Studie wird im Rahmen eines Forschungsprojekts am DIPF | Leibniz-Institut für Bildungsforschung und Bildungsinformation in Frankfurt am Main durchgeführt. 
+Studienleitung: Prof.'in Dr. Hanna Beißert, E- Mail: h.beissert@dipf.de  
+Forschungsgegenstand: In dieser Studie interessieren wir uns für Ihre Beurteilung einer Unterrichtssituation und Ihre Einschätzung von Erziehungs- und Ordnungsmaßnahmen an Schulen. Aus Forschungsgründen können im Vorhinein noch nicht alle Informationen zum Forschungsgegenstand mitgeteilt werden. Diese werden im Anschluss an die Befragung nachgereicht.
+Ablauf und Dauer der Befragung: In der vorliegenden Befragung werden Sie neben Fragen zu demografischen Angaben ein Unterrichtsszenario präsentiert bekommen und gebeten, verschiedene Fragen dazu zu beantworten. Die Bearbeitung des Fragebogens wird ca. 10 Minuten dauern.
+Freiwilligkeit: Ihre Teilnahme an dieser Studie ist freiwillig. Es steht Ihnen zu jedem Zeitpunkt frei, Ihre Teilnahme abzubrechen, ohne einen Grund anzugeben und ohne, dass Ihnen daraus Nachteile entstehen. 
+Offene Fragen: Falls Sie noch offene Fragen zu dieser Studie haben sollten, wenden Sie sich bitte an Prof.'in Dr. Hanna Beißert, E-Mail: h.beissert@dipf.de., Telefon: 069 24708239 
+ 
+Datenschutzbestimmung
+Anonymität: Alle erhobenen Daten werden nur in anonymisierter Form genutzt. Das bedeutet, dass es niemandem möglich ist, Ihre Daten mit Ihnen als Person in Verbindung zu bringen. Zudem werden Sie zu keinem Zeitpunkt in dieser Untersuchung nach Ihrem Namen oder anderen Informationen gefragt, anhand denen wir Sie identifizieren können. Demografische Angaben wie Alter oder Geschlecht lassen keinen eindeutigen Schluss auf Ihre Person zu.
+Vertraulichkeit: Die erhobenen Daten sowie persönliche Mitteilungen werden streng vertraulich behandelt. Alle im Projekt beschäftigten Personen unterliegen der Schweigepflicht. Des Weiteren wird die geplante Veröffentlichung der Ergebnisse der Studie ausschließlich in anonymisierter Form der Daten erfolgen.
+Nutzung der erhobenen Daten: Die in der Studie gewonnenen Daten werden ausschließlich zu Forschungszwecken verwendet. Damit einhergehen können Publikationen sowie Präsentationen auf Fachtagungen oder -konferenzen. Sie haben uns gegenüber das Recht, Auskunft darüber zu erhalten, welche personenbezogenen Daten wir von Ihnen verarbeiten.
+Die Erhebung der Daten erfolgt anonym, das heißt, ohne Angabe Ihres Namens oder anderer Angaben, anhand derer man Sie eindeutig identifizieren könnte. Deshalb ist es bei einem Rücktritt von der Studie nicht möglich, Ihre Daten zu löschen.
+Die Daten werden 10 Jahre aufbewahrt und dann gelöscht.
+Einverständniserklärung
+Hiermit versichere ich, dass ich mindestens 18 Jahre alt und mit der obigen Datenschutzbestimmung einverstanden bin. Ich wurde über den Zweck, die Vorgehensweise, die Datennutzung und den Datenschutz der gewonnenen Daten informiert. Diese Abschnitte habe ich gelesen und verstanden. Außerdem ist mir bewusst, dass meine Teilnahme an der Studie vollkommen freiwillig ist und für mich keinerlei Nachteile entstehen, wenn ich nicht teilnehme. Zudem hatte ich die Gelegenheit, Fragen zu stellen. Eventuelle Fragen wurden vollständig beantwortet.
+",,"",,1,0,1,0,0,0,0,0,1,0,0,text,Im Rahmen dieser Studie interessieren wir uns für Ihre Beurteilung einer Unterrichtssituation und Ihre Einschätzung von Erziehungs- und Ordnungsmaßnahmen an Schulen.,"",,2023,"",t.bagus@dipf.de h.beissert@dipf.de,115.83,115.83,,,,,,,,,,,,,,
+15,2025-09-30T16:45:16Z,1,en,1309942354,2025-09-30T16:43:30Z,2025-09-30T16:45:16Z,,xenophobeStereotype-dwell.xlsx,1,text,"Liebe Teilnehmer*innen!
+
+Vielen Dank für Ihr Interesse an unserer Studie!
+
+Sie haben die Gelegenheit, an einer Online-Studie teilzunehmen, die vom Leibniz-Institut für Bildungsforschung und Bildungsinformation in Kooperation mit der Universität Mannheim durchgeführt wird.
+
+Wir wollen untersuchen, welche Stereotype in Deutschland gegenüber Personen aus anderen Nationen bestehen. Dabei betrachten wir vor allem Nationen, deren Bürger*innen in größerer Zahl im Laufe der letzten Jahrzehnte im Rahmen von Migrationsbewegungen aus verschiedenen Gründen nach Deutschland gekommen sind.
+ 
+Die Umfrage richtet sich an alle Personen, die mindestens 18 Jahre alt sind und über ausreichende Deutschkenntnisse verfügen. Die Studie nimmt insgesamt ca. 10-15 Minuten in Anspruch. Um die Qualität Ihrer Antworten zu sichern, bitten wir Sie, die Anweisungen aufmerksam zu lesen, sowie spontan und intuitiv zu antworten. 
+
+
+Im Folgenden möchten wir Sie über Ihre Rechte und den Schutz Ihrer Daten aufklären:
+Die Teilnahme an der Studie ist freiwillig und Sie haben zu jeder Zeit die Möglichkeit, Ihre Teilnahme abzubrechen, ohne dass Ihnen daraus Nachteile entstehen. Bitte beachten Sie, dass aufgrund der Anonymisierung Ihre Daten bei einem Rücktritt von der Studienteilnahme nicht rückverfolgt und somit nicht vernichtet werden können.
+Selbstverständlich werden Ihre Antworten absolut vertraulich behandelt und anonymisiert, so dass Rückschlüsse auf individuelle Personen nicht möglich sein werden. Ihre Antworten dienen allein der wissenschaftlichen Forschung. Damit einhergehen können beispielsweise Publikationen sowie Präsentationen auf Fachtagungen oder -konferenzen.
+Die anonymisierten Daten werden mindestens 10 Jahre gespeichert und nur für wissenschaftliche Zwecke genutzt. Die anonymisierten Daten können Kooperationspartnern zur gemeinsamen Auswertung zur Verfügung gestellt werden. Darüber hinaus können sie über Forschungsdatenbanken oder wissenschaftliche Publikationen (typischerweise über das Internet) zugänglich gemacht werden. So können erzielte Ergebnisse durch andere Wissenschaftler nachvollzogen und die Qualität wissenschaftlicher Praxis erhöht werden.
+ 
+Für Fragen stehen wir Ihnen jederzeit gerne zur Verfügung (Kontakt: annihart@mail.uni-mannheim.de; Anfragen werden von Montag bis Freitag innerhalb von 24h beantwortet).
+",,"",,0,0,0,1,0,0,1,0,0,0,0,text,"Wir wollen untersuchen, welche Stereotype in Deutschland gegenüber Personen aus anderen Nationen bestehen. Dabei betrachten wir vor allem Nationen, deren Bürger*innen in größerer Zahl im Laufe der letzten Jahrzehnte im Rahmen von Migrationsbewegungen aus verschiedenen Gründen nach Deutschland gekommen sind.","",,2018,"",t.bagus@dipf.de h.beissert@dipf.de,106.97,106.97,,,,,,,,,,,,,,
+16,2026-02-06T13:50:34Z,1,en,58512049,2026-02-06T13:45:22Z,2026-02-06T13:50:34Z,,dwell-time-parent-questionnaire.xlsx,1,file,"",,"[{ """"title"""":"""""""",""""comment"""":""""enthält ebenfalls die Studienbeschreibung"""",""""size"""":1109.1396484375,""""name"""":""""Korrekturfahne-EF-(prompt-studie)-13.04.2023,-13-53.pdf"""",""""filename"""":""""fu_q88wfjjfxz4n2rc"""",""""ext"""":""""pdf"""" }]",1,0,1,0,0,0,0,0,1,0,0,0,text,"Die Studienbeschreibung befindet sich auch auf dem SoSci Survey Dokument, welches oben hochgeladen wurde. 
+Außerdem gibt es zb folgende Publikation aus der Studie: https://www.sciencedirect.com/science/article/pii/S0361476X25000876 ","",,2023,siehe Informationen an Salome Wagner per E-Mail,m.schaaf@dipf.de; j.breitwieser@dipf.de; g.brod@dipf.de,312.18,312.18,,,,,,,,,,,,,,
+17,2026-02-09T10:20:13Z,1,en,556497840,2026-02-09T10:10:22Z,2026-02-09T10:20:13Z,,dwelltime.xlsx,1,text,"Informationen zur Studie
+Im Folgenden informieren wir Sie über den Ablauf der Studie und über den Datenschutz. Bitte lesen Sie sich die
+Informationen zur Studie und zum Datenschutz sorgfältig durch.
+
+Ziel der Studie
+Ziel der Studie ist es, zu untersuchen, wie sich bestimmte Gestaltungsmerkmale von Erklärvideos auf den
+Wissenszuwachs von Studierenden auswirken. Wenn Sie an der Studie teilnehmen, werden Sie zunächst gebeten,
+personenbezogene demografische Informationen anzugeben (Geschlecht, Alter, Hochschulsemester etc.), welche
+anonymisiert gespeichert werden. Dann sehen Sie ein Erklärvideo mit einer Länge von etwa 10 Minuten.
+Abschließend bearbeiten Sie Aufgaben zu den Inhalten des Videos. Insgesamt werden Sie für die Studie etwa 30
+Minuten benötigen. Bitte sprechen Sie sich nicht mit anderen ab und bitte nutzen Sie keine Hilfsmittel für die
+Beantwortung der Aufgaben. Ziel ist eine Momentaufnahme, Sie erhalten für Ihre Leistung in den Aufgaben keine
+Note und niemand kann Ihr individuelles Ergebnis auf Sie zurückführen.
+
+Freiwilligkeit, Anonymität und Datenschutz
+Die Teilnahme an der Studie ist ausdrücklich freiwillig. Sie können jederzeit und ohne Angabe von Gründen die
+Teilnahme an dieser Studie beenden, ohne dass Ihnen daraus Nachteile entstehen. Nach Abschluss der
+Datenerhebung ist durch uns prinzipiell keine Zuordnung mehr zwischen den Daten im Datensatz und Ihrer Person
+möglich – der Datensatz ist anonymisiert. Um jedoch das Recht auf Löschung zu gewährleisten, können Sie auf der
+nächsten Seite ein persönliches Codewort erstellen. Mithilfe des Codeworts können nur Sie die Löschung Ihrer Daten
+verlangen. Eine Löschung ist nur solange möglich, bis der Datensatz veröffentlicht wird (siehe unten). Die Erhebung
+und Verarbeitung der Daten erfolgt am Lehrstuhl für Ökonomische Bildung und Wirtschaftsdidaktik an der Universität
+Tübingen. Alle Projektbeteiligten unterliegen der Schweigepflicht. Die Ergebnisse und Daten dieser Studie werden in
+einer Masterarbeit und darüber hinaus eventuell als wissenschaftliche Publikation(en) veröffentlicht. Dies geschieht in
+anonymisierter Form, d. h. ohne, dass die Daten einer spezifischen Person zugeordnet werden können. Die
+vollständig anonymisierten Daten dieser Studie werden als offene Daten im Internet in einem Forschungsdatenarchiv
+(Open Science Framework) zugänglich gemacht. Vor dieser Veröffentlichung wird Ihr persönliches Codewort aus dem
+Datensatz entfernt. Eine Löschung Ihrer Daten ist nach der Veröffentlichung nicht mehr möglich.
+
+Nutzung von YouTube
+Im Rahmen der Studie schauen Sie ein Video auf YouTube an. Dabei werden durch den Aufruf personenbezogene
+Daten an YouTube übertragen, zum Beispiel, wann und mit welchem Gerät Sie das Video abgerufen haben. Dieselbe
+Art von Daten wird auch übertragen, wenn Sie in Ihrer Freizeit ein eingebettetes YouTube-Video schauen. Auf die
+Daten, die im Rahmen des Fragebogens erhoben werden (z.B. Ihr Geschlecht) hat YouTube dadurch keinen Zugriff.
+Die Datenübertragung ist im Rahmen der Studie unumgänglich, d.h. wenn das für Sie nicht in Frage kommt, können
+Sie an der Studie leider nicht teilnehmen.
+
+Rückfragen zum Forschungsprojekt oder zum Datenschutz richten Sie gerne an:
+Durchführung: Afroditi Kourtoglou, afroditi.kourtoglou@student.uni-tuebingen.de
+Projektleitung: Dr. Malte Ring, Lehrstuhl für Ökonomische Bildung und Wirtschaftsdidaktik, Melanchthonstraße 30,
+72070 Tübingen, Email: malte.ring@uni-tuebingen.de, Telefon: 07071 – 29 75255
+
+Die Informationen zum Datenschutz habe ich verstanden. Mit der Erhebung, Verarbeitung, Speicherung und
+Weitergabe meiner personenbezogenen Daten entsprechend den Beschreibungen im Informationsteil bin ich
+einverstanden.
+Ich bin an einer Hochschule eingeschrieben, spreche Deutsch auf Mutterspracheniveau und bestätige, dass ich
+kein wirtschaftswissenschaftliches Fach studiere oder studiert habe.
+Ich bin damit einverstanden, dass durch die Nutzung von YouTube-Videos im Rahmen der Studie bestimmte
+Daten an YouTube übertragen werden (z.B. mit welchem Browser das Video abgerufen wird).",,"",,1,0,0,0,0,0,0,0,1,0,0,text,"In this study, we investigate the effect of how graphs are depicted in an instructional video on learning outcomes in economics. We developed two instructional videos in which the supply and demand model is illustrated with graphs and explained by an instructor. The two videos differ only in how the graphs are depicted: in one video the complete graph is shown from the beginning on each slide, whereas the graph is introduced step-by-step (matching the corresponding verbal explanation) in the second video. We investigate the effect of this difference on students‘ learning outcomes and affective variables. Specifically, we are interested in whether the difference between videos can affect a more complex ability such as graph competence.","",,2022,"I can share more information on this if necessary, I went for minimum, if you need more, let me know :)",malte.ring@uni-tuebingen.de ,591.37,591.37,,,,,,,,,,,,,,
+18,2026-02-09T10:27:05Z,1,en,2136747277,2026-02-09T10:20:25Z,2026-02-09T10:27:05Z,,dwelltime-graphs.xlsx,1,text,"Informationen zur Studie
+
+Im Folgenden informieren wir Sie über den Ablauf der Studie und über den Datenschutz. Bitte lesen Sie sich die Informationen zur
+Studie und zum Datenschutz sorgfältig durch.
+
+Informationen zur Studie
+Ziel der Studie ist es, die Fähigkeiten von Studierenden unterschiedlicher Fachrichtungen im Umgang mit wirtschaftlichen Diagrammen
+zu analysieren. Wenn Sie an der Studie teilnehmen, bearbeiten Sie einen Fragebogen mit unterschiedlichen Aufgaben. Sie werden
+dabei auch gebeten, personenbezogene demografische Informationen anzugeben (Geschlecht, Alter, Hochschulsemester etc.), welche
+anonymisiert gespeichert werden. Um den Fragebogen zu beantworten, brauchen Sie insgesamt etwa 30-45 Minuten. Manche der
+Aufgaben werden dabei für Sie eventuell schwierig zu lösen sein. Bitte sprechen Sie sich nicht mit anderen ab und bitte nutzen Sie
+keine Hilfsmittel für die Beantwortung der Aufgaben. Ziel ist eine Momentaufnahme, Sie erhalten für Ihre Leistung in den Aufgaben
+keine Note und niemand kann Ihr individuelles Ergebnis auf Sie zurückführen.
+
+Freiwilligkeit, Anonymität und Datenschutz
+Die Teilnahme an der Studie ist ausdrücklich freiwillig. Sie können jederzeit und ohne Angabe von Gründen die Teilnahme an dieser
+Studie beenden, ohne dass Ihnen daraus Nachteile entstehen. Nach Abschluss der Datenerhebung ist durch uns prinzipiell keine
+Zuordnung mehr zwischen den Daten im Datensatz und Ihrer Person möglich – der Datensatz ist anonymisiert. Um jedoch das Recht
+auf Löschung zu gewährleisten, können Sie auf der nächsten Seite ein persönliches Codewort erstellen. Mithilfe des Codeworts
+können nur Sie die Löschung Ihrer Daten verlangen. Eine Löschung ist nur solange möglich, bis der Datensatz veröffentlicht wird (siehe
+unten). Die Erhebung und Verarbeitung der Daten erfolgt am Lehrstuhl für Ökonomische Bildung und Wirtschaftsdidaktik an der
+Universität Tübingen. Alle Projektbeteiligten unterliegen der Schweigepflicht. Die Ergebnisse und Daten dieser Studie werden als
+wissenschaftliche Publikation(en) veröffentlicht. Dies geschieht in anonymisierter Form, d. h. ohne dass die Daten einer spezifischen
+Person zugeordnet werden können. Die vollständig anonymisierten Daten dieser Studie werden als offene Daten im Internet in einem
+Forschungsdatenarchiv (Open Science Framework) zugänglich gemacht. Vor dieser Veröffentlichung wird Ihr persönliches Codewort
+aus dem Datensatz entfernt. Eine Löschung Ihrer Daten ist nach der Veröffentlichung nicht mehr möglich.
+
+Rückfragen zum Forschungsprojekt oder zum Datenschutz richten Sie gerne an:
+Dr. Malte Ring, Lehrstuhl für Ökonomische Bildung und Wirtschaftsdidaktik, Melanchthonstraße 30, 72074 Tübingen, Email:
+malte.ring@uni-tuebingen.de, Telefon: 07071 – 29 75255
+
+Die Informationen zum Datenschutz habe ich verstanden. Mit der Erhebung, Verarbeitung, Speicherung und Weitergabe meiner
+personenbezogenen Daten entsprechend den Beschreibungen im Informationsteil bin ich einverstanden. Ich bin an einer
+Hochschule eingeschrieben, spreche Deutsch auf Muttersprachen-Niveau und möchte an der Studie teilnehmen.",,"",,1,0,0,0,0,0,0,0,1,0,0,text,https://doi.org/10.1016/j.iree.2024.100302,"",,2021,"If you need additional information, feel free to ask ",malte.ring@uni-tuebingen.de ,400.21,400.21,,,,,,,,,,,,,,
+19,2026-02-09T10:50:49Z,1,en,1946684025,2026-02-09T10:42:00Z,2026-02-09T10:50:49Z,,dwelltime.xlsx,1,file,"",,"[{ """"title"""":""""Consent text Mesa Study"""",""""comment"""":""""Consent text including a picture """",""""size"""":120.888671875,""""name"""":""""Consent-text.pdf"""",""""filename"""":""""fu_rfyxfeai8hawki4"""",""""ext"""":""""pdf"""" }]",1,1,0,0,0,0,0,0,0,0,1,0,text,"Einleitung und Fragestellung
+Quantitative und insbesondere mathematische Fähigkeiten spielen für das Wirtschaftsstudium eine zentrale Rolle (Benedict & Hoag, 2011; Cohn & Cohn, 1994; Demir & Tollison, 2015; Happ et al., 2018; Orlov et al., 2021; Walstad & Rebeck, 2008). Dabei gibt es auch erste Erkenntnisse zum Zusammenhang von Einstellungen und Fähigkeiten von Wirtschaftsstudierenden (z.B. McKee et al., 2023; Orlov et al., 2021; Walstad & Rebeck, 2008), allerdings handelt es sich dabei um vereinzelte Untersuchungen mit oftmals geringer Stichprobenzahl. Die Aussagekraft der Studien ist deshalb aufgrund geringer Präzision und begrenzter Verallgemeinerbarkeit als eingeschränkt zu bezeichnen. Um dieser methodischen Schwäche zu begegnen, sollen im Rahmen einer internationalen Studie des Forschungsnetzwerks EENE (Economic Education Network for Experiments, EENE) an unterschiedlichen Hochschulen Daten von Studierenden erhoben werden. Ziel ist dabei eine erhöhte Vergleichbarkeit und Verallgemeinerbarkeit der Ergebnisse.
+Für die hier vorgestellte Erhebung werden zwei Forschungsfragen verfolgt:
+(1) Über welche für das Studium der Volkswirtschaftslehre relevanten mathematischen Kompetenzen verfügen Wirtschaftsstudierende?
+(2) Wie verändern sich die Einstellungen zum VWL-Studium über den Zeitraum eines Semesters?
+Design
+In Tübingen sollen die Daten im Rahmen einer Vorlesung (Mikroökonomik I) erhoben werden.  Dabei werden zunächst zu Beginn des Semesters demografische Informationen, mathematische Kenntnisse und Einstellungen abgefragt. Am Ende des Semesters erfolgt eine zweite Erhebung, bei der nur noch die Einstellungen der Studierenden erfragt werden. Dabei werden bereits bestehende Instrumente eingesetzt (McKee et al., 2023), die für den deutschen Kontext übersetzt und angepasst wurden.
+Die Befragung verfolgt dabei nicht nur Forschungszwecke, vielmehr sollen die Ergebnisse auch direkt in die Lehre einfließen. Deshalb erhält die Lehrverantwortliche zu Beginn des Semesters Informationen über das mathematische Vorwissen ihrer Studierenden und kann damit ihre Lehre besser an die Kompetenzen der Studierenden anpassen und, falls sinnvoll, entsprechendes Zusatzmaterial zur Verfügung stellen. Die Studierenden erhalten für die Teilnahme an der Befragung Bonuspunkte für die Klausur (unabhängig von der Zustimmung der Datennutzung für Forschungszwecke).","",,2024,"For online-studies, dwelltime might be tricky if the consent form is directly on page 1 (as it is the case in this study, because students might click on the link and do it later...). ",malte.ring@uni-tuebingen.de,529.71,529.71,,,,,,,,,,,,,,
+20,2026-02-18T09:22:21Z,1,en,64504422,2026-02-18T09:09:20Z,2026-02-18T09:22:21Z,,jschneider-verweildauer-einwilligung.xlsx,1,num,"",173,"",,1,0,0,0,0,0,1,0,0,0,0,text,"Paper abstract:
+Large language models (LLMs) offer a promising avenue for generating synthetic data, with the potential to model human behavior, augment training datasets, and support the development and evaluation of adaptive educational systems. However, it remains unclear whether such simulations correspond to real human behavior, are reproducible, and reflect the innate level of variation observed in humans. This study introduces a structured, theory-informed generation architecture designed to simulate variation in learners’ self-regulated learning (SRL) and validates the resulting simulated behavior using external ratings.
+
+SRL was generated in learner–tutor dialogues and systematically varied with respect to learner age, SRL level, and task characteristics. Realism was assessed via human ratings of naturalness, and perceived tutor behavior.
+
+Results showed that the generated dialogues were largely perceived as authentic across simulation conditions. Ratings of learner behavior varied systematically across a four-factor SRL structure encompassing metacognitive regulation, task understanding, motivation and emotion, and help seeking. Mixed-effects analyses showed that variations in learner age, SRL level, and task design correspond to human SRL ratings across most factors. Furthermore human ratings revealed convergent multitrait–multimethod patterns.
+
+The results demonstrate that the proposed architecture provides a promising approach to simulating realistic variation in learners’ behavior, offering a methodological route for using LLMs to generate theory-informed synthetic learner data.","",,2025,"","Milo Olbrich, olbrich@hdm-stuttgart.de",636.7,636.7,,,,,,,,,,,,,,
+21,2026-02-23T11:27:21Z,1,en,1534001445,2026-02-23T11:14:37Z,2026-02-23T11:27:21Z,,study-data-dwell-time.xlsx,1,num,"",452,"",,1,0,0,0,0,0,0,1,0,0,0,text,"As artificial intelligence (AI) becomes increasingly relevant across professional contexts, learners must understand both its technological foundations and its ethical-societal implications. Integrating these conceptually distinct knowledge domains poses substantial cognitive demands, particularly for novices. Drawing on knowledge integration theory, the present research examines how instructional support can foster learners’ ability to connect and reconcile technological and ethical-societal knowledge about AI.
+Across two studies, we investigated whether novices’ knowledge integration can be enhanced by providing motivational (utility-value intervention) and/or cognitive instructional support (strategy instruction). In Study 1, pre-service teachers (N = 274) processed a hypertext learning environment addressing technological and ethical-societal aspects of AI. Using a 2 × 2 factorial design, we crossed the factors utility-value intervention (yes vs. no) and strategy instruction (yes vs. no). Strategy instruction enhanced both basic knowledge acquisition and the integration of technological and ethical-societal knowledge, whereas motivational support showed no significant effects.
+In Study 2 (N = 119), conducted with a sample unrelated to teacher education, we partially replicated these findings, again observing significant positive effects of strategy instruction on integrated knowledge acquisition. Across both studies, cognitive instructional support consistently facilitated knowledge integration. These findings highlight the importance of process-oriented cognitive support when learners are required to integrate multiple knowledge domains within complex socioscientific contexts such as AI.","",,2024,The data file provided contains data of participants of study 1 mentioned in the abstract.,jana.boos@uni-tuebingen.de,764.18,764.18,,,,,,,,,,,,,,
+22,2026-02-24T20:50:08Z,1,en,1849419018,2026-02-24T20:45:14Z,2026-02-24T20:50:08Z,,LR22-rawdata.xlsx,1,file,"",,"[{ """"title"""":""""Questionnaire"""",""""comment"""":"""""""",""""size"""":2914.2734375,""""name"""":""""LR22-questionnaire.pdf"""",""""filename"""":""""fu_cq3a7jk55fdjqck"""",""""ext"""":""""pdf"""" }]",1,0,0,0,1,0,0,1,0,0,0,0,file,"","[{ """"title"""":""""Paper"""",""""comment"""":"""""""",""""size"""":1408.7578125,""""name"""":""""LR22-paper.pdf"""",""""filename"""":""""fu_iqma44ydepmev5s"""",""""ext"""":""""pdf"""" }]",1,2022,This is the raw dataset before applying exclusion criteria.,marvin.fendt@psy.lmu.de,293.25,293.25,,,,,,,,,,,,,,
+23,2026-02-24T20:52:40Z,1,en,770353020,2026-02-24T20:50:11Z,2026-02-24T20:52:40Z,,LR23-rawdata.xlsx,1,file,"",,"[{ """"title"""":""""Questionnaire"""",""""comment"""":"""""""",""""size"""":219.5478515625,""""name"""":""""LR23-questionnaire.pdf"""",""""filename"""":""""fu_wykjtxn8x5szxq3"""",""""ext"""":""""pdf"""" }]",1,0,0,0,1,0,0,1,0,0,0,0,file,"","[{ """"title"""":""""Submitted Manuscript"""",""""comment"""":"""""""",""""size"""":613.7939453125,""""name"""":""""LR23-paper.pdf"""",""""filename"""":""""fu_5zkpcyygm4xn7zt"""",""""ext"""":""""pdf"""" }]",1,2023,"The manuscript is currently undergoing peer review. Please contact us before submission, we will likely be able to present a DOI by then. 
+This is the raw dataset before applying exclusion criteria.",marvin.fendt@psy.lmu.de,149.87,149.87,,,,,,,,,,,,,,
+24,2026-02-24T20:55:45Z,1,en,1636567764,2026-02-24T20:53:19Z,2026-02-24T20:55:45Z,,mediaeducation-rawdata.xlsx,1,file,"",,"[{ """"title"""":""""questionnaire"""",""""comment"""":"""""""",""""size"""":194.8583984375,""""name"""":""""mediaeducation-questionnaire.pdf"""",""""filename"""":""""fu_6dnp3qd6a5g2nts"""",""""ext"""":""""pdf"""" }]",1,0,0,0,1,0,Social Work Professionals,1,0,0,0,0,file,"","[{ """"title"""":""""submitted manuscript"""",""""comment"""":"""""""",""""size"""":1311.9248046875,""""name"""":""""mediaeducation-paper.pdf"""",""""filename"""":""""fu_96xvrmdf8tyfgxk"""",""""ext"""":""""pdf"""" }]",1,2025,"The manuscript is currently undergoing peer review. Please contact us before your final submission, we can likely provide a DOI then.
+This is the raw dataset before applying exclusion criteria.",marvin.fendt@psy.lmu.de,146.58,146.58,,,,,,,,,,,,,,
+25,2026-02-24T21:03:15Z,1,en,134083085,2026-02-24T20:55:47Z,2026-02-24T21:03:15Z,,museum-rawdata.xlsx,1,file,"",,"[{ """"title"""":"""""""",""""comment"""":"""""""",""""size"""":1583.900390625,""""name"""":""""museum-questionnaire.pdf"""",""""filename"""":""""fu_s5738yih4ks9kin"""",""""ext"""":""""pdf"""" }]",1,0,0,0,1,0,0,1,0,0,0,0,file,"","[{ """"title"""":""""paper"""",""""comment"""":"""""""",""""size"""":415.7041015625,""""name"""":""""museum-paper.pdf"""",""""filename"""":""""fu_3gwkm8nxmmbjep6"""",""""ext"""":""""pdf"""" }]",1,2024,"The manuscript is currently undergoing peer review. Please contact us before your final submission, we can likely provide a DOI then.
+This is the raw dataset before applying exclusion criteria.",marvin.fendt@psy.lmu.de,448.04,448.04,,,,,,,,,,,,,,
+26,2026-02-24T21:05:12Z,1,en,1061177943,2026-02-24T21:03:21Z,2026-02-24T21:05:12Z,,R³-rawdata.xlsx,1,file,"",,"[{ """"title"""":""""questionnaire"""",""""comment"""":"""""""",""""size"""":5947.072265625,""""name"""":""""R³-questionnaire-pretest.pdf"""",""""filename"""":""""fu_hdm9dqjamunzrfe"""",""""ext"""":""""pdf"""" }]",1,0,1,0,0,0,0,1,0,0,0,0,file,"","[{ """"title"""":""""registered report"""",""""comment"""":"""""""",""""size"""":428.9619140625,""""name"""":""""R³-paper.docx"""",""""filename"""":""""fu_qh7x3pw4fuq6nud"""",""""ext"""":""""docx"""" }]",1,2025,"The manuscript is currently undergoing peer review. Please contact us before your final submission, we can likely provide a DOI then.
+This is the raw dataset before applying exclusion criteria.",marvin.fendt@psy.lmu.de,111.97,111.97,,,,,,,,,,,,,,
+27,2026-02-27T13:36:54Z,1,en,1024194188,2026-02-27T13:00:55Z,2026-02-27T13:36:54Z,,COVISION-consent-dwell-times.csv,1,text,"Page 3 (consent for participation in this study, TIME003)
+
+""""Ich wurde schriftlich über den Inhalt der Studie aufgeklärt. Sofern ich Fragen zur Studie hatte, wurden diese von der Studienleitung vollständig und zu meiner Zufriedenheit beantwortet. Ich habe darüber hinaus den Text der Informationsschrift mit seinen beiden Teilen (Teil I: Studieninformation; Teil II: Datenschutzinformation) gelesen und verstanden. Ich hatte ausreichend Zeit, mich zu entscheiden.
+
+Mir ist bekannt, dass ich jederzeit und ohne Angabe von Gründen meine Einwilligung zur Teilnahme an der Studie und in die Verarbeitung meiner personenbezogenen Daten zurückziehen / widerrufen kann (mündlich oder schriftlich), ohne dass mir daraus Nachteile entstehen.
+
+Mir ist bekannt, dass bei dieser Studie personenbezogene Daten, insbesondere Gesundheitsdaten über mich erhoben, gespeichert und ausgewertet werden sollen. Die Verwendung meiner personenbezogenen Daten setzt vor der Teilnahme an der Studie folgende, freiwillig abgegebene, Einwilligungserklärung voraus; ohne die nachfolgende Einwilligung kann ich an der Studie nicht teilnehmen:
+1. Ich willige ein, dass im Rahmen dieser Studie personenbezogene Daten, insbesondere Angaben über meine Gesundheit, Kontaktdaten, demografische Daten, Abrechnungsdaten, Gesundheitsdaten, physiologische Daten, Fragebögen und neuropsychologische Testdaten inklusive Audioaufnahmen über mich erhoben und elektronisch gespeichert, wie in der Informationsschrift Teil II: Datenschutzinformation beschrieben, und ausgewertet werden.
+2. Ich willige ein, dass im Rahmen dieser Studie erhobene Daten – mit Ausnahme der Audioaufnahmen und meiner Kontaktdaten – pseudonymisiert an die Medizinische Hochschule Hannover übermittelt werden.
+
+Ich willige ein, an der oben genannten Studie teilzunehmen.
+Ich willige ebenfalls in die personenbezogene Datenverarbeitung, einschließlich der Verarbeitung von Daten über meine Gesundheit ein, wie in der Informationsschrift und dieser vorstehenden Einwilligungserklärung zur Übermittlung von Daten und Verarbeitung von Studienzwecken beschrieben.""""
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Page 6 (additional consent for data sharing and registration of contact details, TIME006)
+
+""""Ich willige ein, dass meine im Rahmen dieser Studie erhobenen Daten – mit Ausnahme der Audioaufnahmen und meiner Kontaktdaten – an die COFONI-Technologieplattform an der UMG Göttingen und hierüber für weitere wissenschaftliche Forschungszwecke bereitgestellt werden. Dies umfasst auch die Weitergabe meiner anonymisierten Daten in Drittländer. Diese Einwilligung hat keinen Einfluss auf Ihre Teilnahme an der Studie.
+
+Damit Ihre Forschungsdaten auch für zukünftige Forschung genutzt werden können, können Sie optional zusätzlich in die folgenden Punkte einwilligen.
+
+Ich willige darin ein, dass meine Daten zu weiteren wissenschaftlichen Forschungszwecken über die COFONI-Technologieplattform bereitgestellt werden, wie in der Informationsschrift und der vorstehenden, optionalen Einwilligung zur breiten Nachnutzung meiner Daten beschrieben.
+
+Ich willige ein, dass ich von der Carl von Ossietzky Universität Oldenburg, Fakultät VI, Department für Psychologie, Abteilung für Ambulantes Assessment erneut kontaktiert werden darf, um gegebenenfalls über weitere Studien der Abteilung für Ambulantes Assessment oder Folgestudien zu dieser Studie informiert zu werden. Zu diesem Zweck werden meine Kontaktdaten bis zu 10 Jahre über das Studienende hinaus verarbeitet.
+
+Ich willige darin ein, dass meine Kontaktdaten für andere Studien der Universität Oldenburg zwecks erneuter Kontaktaufnahme genutzt werden, wie in der Informationsschrift und der vorstehenden, optionalen Einwilligung zur Kontaktaufnahme für andere Studien der Universität Oldenburg beschrieben.
+Ich willige nicht darin ein, dass meine Kontaktdaten für anderen Studien genutzt werden.
+
+
+
+",,"",,0,0,0,0,0,Patients with Post-COVID/Long-COVID (long-term sytmpoms following COVID-19),0,1,0,0,Feedback on their symptom trajectories during the study,text,"https://www.drks.de/search/de/trial/DRKS00034612/details
+","",,2025,"The written study information was shared with the participants via e-mail and they were instructed to read it before opening the link to the questionnaire.
+Patients with post-COVID often suffer from fatigue and mild cognitive impairments, possibly increasing reading time.",ann-kathrin.knak@uol.de,2158.08,2158.08,,,,,,,,,,,,,,
+28,2026-03-03T14:36:58Z,1,en,194074613,2026-03-03T14:29:54Z,2026-03-03T14:36:58Z,,collie.csv,1,text,"Teilnahmeinformationen und Einverständniserklärung
+
+Liebe Studierende,
+
+In dieser Studie werden Sie gebeten, einen französischen Text zu lesen und einige Sprachübungen zu absolvieren. Zu verschiedenen Zeitpunkten werden Sie außerdem kurze Fragebögen ausfüllen. Die gesamte Teilnahme dauert etwa 60 Minuten.
+
+Während dieser Bearbeitung werden Sie gebeten, mehrere kurze Fragebögen auszufüllen und eine Selbstlerneinheit für Französisch durchzuarbeiten.
+
+Bitte lesen Sie vorab die Teilnahmebedingungen durch, deren Zustimmung Voraussetzung für die Teilnahme ist.
+
+Bei Rückfragen erreichen Sie uns per E-Mail unter liene.brandhuber@ph-karlsruhe.de (Liene Brandhuber) und cora.parrisius@ph-karlsruhe.de (Cora Parrisius).
+
+Wir bedanken uns ganz herzlich für Ihre Zeit und Mitarbeit!
+Ich nehme an der Studie teil und erteile hiermit meine Einwilligung zur Nutzung meiner personenbezogenen Daten gemäß den Teilnahmebedingungen. 
+
+
+
+
+Teilnahmebedingungen COLLIE Pilotstudie (Herbst 2025)
+
+Schutz personenbezogener Daten sind uns ein wichtiges Anliegen. Im Folgenden erfahren Sie,
+welche Daten wir in dieser Studie sammeln, wie wir mit diesen umgehen und sie schützen.
+
+§ 1 Gegenstand: Welche Daten werden bei einer Teilnahme erhoben?
+
+Es werden folgende personenbezogenen Daten erfasst:
+• Fragebogendaten (bspw. Antworten zu Ihren Interessen sowie motivationalen
+Variablen)
+• Leistungsdaten in Französischaufgaben
+• Verhaltensdaten
+• davon getrennt wird ihre PHKA-Kennung erfragt
+
+§ 2 Schutz Ihrer Daten: Pseudonymisierung und Anonymisierung
+
+Ihre Daten werden in anonymisierter Form erhoben, d.h. Sie werden zu keinem Zeitpunkt
+dazu aufgefordert, Ihren Namen anzugeben oder sonstige de-anonymisierende Informationen
+preiszugeben. Sie erhalten von uns zufällig ausgewählte Zugangsdaten zur in dieser Studie
+genutzten Lernplattform COLLIE.
+
+§ 3 Verwendungsart: Was geschieht mit den erhobenen Daten?
+
+Die unter §1 aufgeführten personenbezogenen Daten werden auf folgende Arten verwendet:
+• Ihre PHKA-Kennung wird verwendet, um Ihnen Versuchspersonenstunden (VPS) im
+Rahmen von Modul Biwi-M2 anrechnen zu können. Diese Information wird getrennt
+von den restlichen Studiendaten erhoben und verarbeitet.
+• Die Fragebogendaten werden durch die Onlineplattform SoSci Survey unter dem
+Betreiber SoSci Survey GmbH, welcher als Auftragsdatenverarbeiter für die
+Pädagogische Hochschule Karlsruhe tätig ist, erfasst. Die Verarbeitung erfolgt auf Basis
+eines Auftragsdatenverarbeitungsvertrags zwischen der Pädagogischen Hochschule
+Karlsruhe und der SoSci Survey GmbH und die Daten werden auf eigenen Servern
+gespeichert.
+• Ihre erhobenen Daten werden mittels statistischer Verfahren ausgewertet.
+• Die anonymisierten Daten werden zudem zur wissenschaftlichen Nachnutzung
+veröffentlicht (siehe § 7).
+Eine Verwendung der personenbezogenen Daten in einer anderen als den aufgeführten Arten
+erfolgt nicht.
+
+§ 4 Verwendungszweck: Zu welchem Zweck werden die Daten verarbeitet?
+Die unter §1 aufgeführten personenbezogenen Daten werden zu folgenden Zwecken
+verarbeitet:
+
+• Nachweis Ihrer VPS
+• Wissenschaftliche Forschung: Es wird die Wirksamkeit von individualisierten
+Lernmaterialien basierend auf die Motivation und Lernleistung untersucht.
+• Veröffentlichung der Daten: Im Sinne der Richtlinien der Deutschen
+Forschungsgemeinschaft (DFG) zur guten wissenschaftlichen Praxis werden die
+anonymisierten Daten zur wissenschaftlichen Nachnutzung durch ein
+Forschungsdatenzentrum veröffentlicht. In dem Forschungsdatenzentrum, an das die
+Daten übergeben werden, stehen die Daten anderen Forscherinnen und Forschern zu
+wissenschaftlichen Zwecken in thematisch verwandten Forschungsbereichen zu
+definierten Forschungszwecken zur Verfügung. Die Daten werden auch hier stets
+vertraulich unter Wahrung der Datenschutzgesetze behandelt.
+Eine Verwendung Ihrer personenbezogenen Daten zu anderen als den aufgeführten Zwecken
+erfolgt nicht.
+
+§ 5 Allgemeine Hinweise
+
+Die nachfolgenden Hinweise dienen Ihrer Information.
+• Rechtsgrundlage für die Verarbeitung Ihrer Daten ist diese Einwilligungserklärung.
+Eine Verpflichtung zur Bereitstellung Ihrer Daten besteht weder gesetzlich noch
+vertraglich. Die Einwilligung ist freiwillig. Wenn Sie die Einwilligung nicht erteilen
+möchten, wird dies keine Auswirkungen auf Ihren Studienfortgang haben. Insbesondere
+hat dies keine Konsequenzen für Ihre Leistungsbeurteilung.
+• Name und Kontaktdaten des Verantwortlichen:
+Jun.-Prof. Dr. Cora Parrisius
+Institut für Empirische Bildungsforschung
+Pädagogische Hochschule Karlsruhe
+Bismarckstr. 10
+76133 Karlsruhe
+• Eine Übermittlung an Dritte, welche über die unter § 2 dargestellten Nutzungsarten und
+die unter § 7 dargestellte wissenschaftliche Nachnutzung hinaus geht, erfolgt nicht.
+
+§ 6 Ihre Rechte
+
+Im Zusammenhang mit der Einwilligung in die Studienteilnahme bestehen folgende Rechte:
+• Widerrufsmöglichkeit: Sie können Ihre Einwilligung jederzeit mit Wirkung für die
+Zukunft ganz oder teilweise widerrufen. Bei Ausübung Ihres Widerrufsrechts werden
+Ihre Daten unverzüglich gelöscht. Der Widerruf kann per Email unter Nennung ihrer
+COLLIE-Zugangsdaten an cora.parrisius@ph-karlsruhe.de erfolgen.
+
+§ 7 Wissenschaftliche Nachnutzung
+
+Die anonymisierten Daten werden nach Abschluss der Datenerhebung im Sinne der Richtlinien
+der Deutschen Forschungsgemeinschaft (DFG) zur guten wissenschaftlichen Praxis
+veröffentlicht. In diesem Stadium sind keine Rückschlüsse mehr auf Ihre Person möglich.
+Zur Veröffentlichung werden die anonymisierten Daten an ein professionelles
+Forschungsdatenzentrum übergeben. Die Übergabe an ein Forschungsdatenzentrum
+gewährleistet sichere und zugriffsgeschützte Aufbewahrung der Daten. In dem Datenzentrum
+stehen die Daten anderen Forscherinnen und Forschern zu wissenschaftlichen Zwecken in
+thematisch verwandten Forschungsbereichen zu definierten Forschungszwecken zur
+Verfügung. Die Daten werden stets vertraulich unter Wahrung der Datenschutzgesetze
+behandelt.",,"",,1,0,0,0,0,0,0,0,0,0,Versuchspersonenstunden,text,"In second language (L2) instruction, grammar exercises are often situated within a meaningful context, for example, creating travel plans. Although the importance that learners attach to these meaningful contexts has received little attention in the language learning literature, findings from the adjacent field of mathematics education suggest that context personalisation, the tailoring of contexts to align with individual students' interests, can be an effective avenue for enhancing motivation, situational interest, and learning outcomes (e.g., Walkington & Bernacki, 2014).
+
+We explore the effects of context personalisation in computerised L2 French grammar practice that uses Artificial Intelligence to systematically manipulate the congruency of practice exercise contexts to individual interests, in two sequential studies. In Study 1, we provided 60 undergraduate students with a 60-minute learning session in a tutoring system for L2 French. Participants were randomly assigned to receive either personalised learning material (i.e., material matching their individual interests) or not. Contrary to our expectations, students in the personalised condition reported lower situational interest and task value, with mixed emotional responses. In Study 2, 32 learners completed the same 60-minute learning session, but the intervention followed a 2 x 2 design: participants either received personalised or non-personalised material, and were either given the option to choose from a selection of offered material or not. Our findings indicate that personalisation yielded more positive motivational and emotional outcomes when participants received both personalisation and choice, whereas personalisation yielded inferior outcomes when no choice was provided.
+
+These mixed findings may indicate the activation of different motivational mechanisms during learning, with interest matching and autonomy support through choice contributing differently across conditions. Providing students with choice seems particularly beneficial when learning materials align with their interests. Future research should therefore examine more closely how personalisation and choice can be optimally integrated in technology-enhanced L2 grammar instruction.","",,2025,"The provided data stem from """"Study 1"""" in the abstract.",cora.parrisius@ph-karlsruhe.de,423.21,423.21,,,,,,,,,,,,,,
+29,2026-03-04T09:11:19Z,1,en,1465095685,2026-03-04T09:06:34Z,2026-03-04T09:11:19Z,,inmie-2.csv,1,text,"Teilnahmeinformationen und Einverständniserklärung
+
+Liebe Studierende,
+ein Forschungsteam an der Pädagogischen Hochschule in Karlsruhe hat Materialien entwickelt, die den Studierenden dabei helfen sollen, sich besser auf die Inhalte ihrer Methodenvorlesungen einlassen zu können.
+
+Bevor die Materialien jedoch während der Vorlesung eingesetzt werden können, interessiert uns, wie Studierende diese Materialien wahrnehmen, ob sie als hilfreich empfunden werden und wie sie weiter verbessert werden können.
+
+Im Folgenden möchten wir Sie zunächst bitten, vorab einen kurzen Fragebogen (ca. 15 Minuten) auszufüllen. Dieser hilft uns ein Gefühl dafür zu entwickeln, was Studierende zu ihrem Studium motiviert und was möglicherweise als hinderlich wahrgenommen wird.
+
+Zu einem späteren Zeitpunkt werden wir Ihnen dann die Materialien präsentieren, um eine Bearbeitung bitten und nach Ihrer Erfahrung während der Bearbeitung fragen. Im Verlauf des weiteren Semesters werden wir Ihnen noch 3 weitere Fragebögen vorlegen, die dem ersten sehr ähneln werden.
+
+Bitte lesen Sie dazu die Datenschutzerklärung durch.
+
+Sind Sie damit einverstanden, an dieser Studie teilzunehmen, um uns bei der Verbesserung der entwickelten Materialien zu unterstützen?
+
+Rechtsgrundlage für die Teilnahme ist Ihre Einwilligungserklärung. Durch die Einwilligung bestätigen Sie, dass Sie die Datenschutzerklärung gelesen haben und ihr zustimmen.
+Ja, Einwilligung erteilen
+Nein, Einwilligung nicht erteilen
+
+
+
+
+Datenschutzerklärung
+Schutz personenbezogener Daten ist uns ein wichtiges Anliegen. Im Folgenden
+erfahren Sie, welche Daten wir in folgender Studie sammeln, wie wir mit diesen
+umgehen und sie schützen.
+Gegenstand: Welche Daten werden bei einer Teilnahme von mir erhoben?
+Es werden zu drei verschiedenen Zeitpunkten in diesem Semester folgende Daten
+erhoben: Fragebogendaten zu Studiengang, Fachsemester, Hochschulsemester,
+Angaben zu Leistungen, Antworten zu kognitiven, affektiven, motivationalen, und
+behavioralen Variablen sowie Rückmeldungen zu den Materialien.
+Darüber hinaus werden folgende personenbezogene Daten erfragt:
+• Alter;
+• Geschlecht;
+• Note in der Vorlesung „Qualitative und quantitative Forschungsmethoden“
+nach Abschluss des Semesters.
+Die Fragebogendaten werden durch die Onlineplattform SoSci Survey (Betreiber:
+SoSci Survey GmbH) erhoben.
+Darüber hinaus werden bei Einwilligung in die Teilnahme an der Studie die in
+Moodle entstandenen Verhaltensdaten bei der Bearbeitung von Aufgaben im
+Rahmen der Forschungsmethoden-Vorlesung in die Studie mit einbezogen. Daraus
+können bspw. Informationen wie die Häufigkeit und die Dauer der Bearbeitung von
+Aufgaben ermittelt werden.
+Verwendungsart: Was geschieht mit den erhobenen Daten?
+Ihre erhobenen Daten werden durch unser Team von Forscherinnen und Forschern
+an der Pädagogischen Hochschule Karlsruhe (Institut für Bildungswissenschaftliche
+Forschungsmethoden) ausgewertet. Die Forschungsergebnisse, nicht jedoch die
+personenbezogenen Daten, werden in Publikationen oder auf Tagungen
+veröffentlicht.
+Schutz Ihrer Daten: Pseudonymisierung und Anonymisierung
+Ihre Daten werden in pseudonymisierter Form erhoben, d.h. Sie werden zu keinem
+Zeitpunkt dazu aufgefordert, Ihren Namen anzugeben. Stattdessen werden die
+Daten zunächst unter der Moodle-ID gespeichert. Die Nutzung der Moodle-ID ist
+für die Längsschnittverknüpfung sowie für die Verknüpfung von Daten derselben
+Person (Moodle & Fragebogen) notwendig. Ihre Moodle-ID wird nach Abschluss der
+Erhebung (zum 31.10.2024) aus dem Datensatz gelöscht, bzw. durch eine neue,
+zufällige ID ersetzt. Es wird keine Zuordnung zwischen Moodle-ID und der neuen
+ID geben. Ihre Daten liegen ab diesem Zeitpunkt unwiderruflich anonymisiert vor.
+Bis zum Zeitpunkt der Anonymisierung (31.10.2024) besteht das Recht auf
+Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und auf
+Widerspruch gegen die weitere Verarbeitung der personenbezogenen Daten. Wenn
+Sie der Auffassung sind, dass wir bei der Verarbeitung der Daten
+datenschutzrechtliche Vorschriften nicht beachtet haben, können Sie sich mit einer
+Beschwerde an die zuständige Aufsichtsbehörde wenden, die die Beschwerde
+prüfen wird. Einer Aufforderung zur späteren Löschung Ihrer Daten kann ab
+diesem Zeitpunkt nicht mehr nachgekommen werden.
+Freiwilligkeit der Teilnahme und Widerruf
+Die Teilnahme an dieser Befragung ist freiwillig. Durch die Nichtteilnahme
+entstehen keinerlei Nachteile. Insbesondere hat eine Nichtteilnahme keine
+Auswirkungen auf Ihre Leistungsbeurteilung. Der Widerruf der Teilnahme kann per
+E-Mail unter Nennung Ihrer Moodle-ID an liene.brandhuber@ph-karlsruhe.de
+erfolgen. Ein Widerruf ist bis zum Zeitpunkt der Anonymisierung (31.10.2024)
+möglich.
+Aufbewahrung und Zugriff
+Die Daten werden geschützt aufbewahrt und nur berechtigte Forscherinnen und
+Forscher erhalten Zugriff darauf. Die Mitarbeiterinnen und Mitarbeiter, die zum
+Zwecke der Auswertung Zugriff auf diese Daten haben, werden schriftlich zur
+Einhaltung der datenschutzrechtlichen Bestimmungen verpflichtet.
+Veröffentlichung
+Die Veröffentlichung von Forschungsergebnissen in Publikationen oder auf
+Tagungen erfolgt ausschließlich in anonymisierter Form und lässt zu keinem
+Zeitpunkt Rückschlüsse auf Sie zu. Das bedeutet: Niemand kann aus den
+Ergebnissen erkennen, von welcher Person die Angaben gemacht worden sind.
+Wissenschaftliche Nachnutzung
+Die anonymisierten personenbezogenen Daten werden nach Abschluss der
+Datenerhebung im Sinne der Richtlinien der Deutschen Forschungsgemeinschaft
+(DFG) zur guten wissenschaftlichen Praxis an ein professionelles
+Forschungsdatenzentrum übergeben. Die Übergabe an ein
+Forschungsdatenzentrum gewährleistet eine sichere und zugriffsgeschützte
+Aufbewahrung der Daten. In dem Datenzentrum stehen die Daten anderen
+Forscherinnen und Forschern zu wissenschaftlichen Zwecken in thematisch
+verwandten Forschungsbereichen zu definierten Forschungszwecken zur
+Verfügung. Die Daten werden stets vertraulich unter Wahrung der
+Datenschutzgesetze behandelt.
+Projektverantwortliche und Kontaktdaten
+Projektverantwortliche sind Jun.-Prof. Dr. Cora Parrisius und Liene Brandhuber
+Pädagogische Hochschule Karlsruhe
+Institut für Bildungswissenschaftliche Forschungsmethoden
+Bismarckstr. 10
+76133 Karlsruhe
+Deutschland
+Bei Rückfragen erreichen Sie uns per E-Mail unter liene.brandhuber@ph-
+karlsruhe.de (Liene Brandhuber).
+Wir bedanken uns ganz herzlich für Ihre Zeit und Mitarbeit!",,"",,1,0,0,0,0,0,1,0,0,0,0,text,"Es handelt sich bei dieser experimentellen Feldstudie um die Replikation einer Vorläuferstudie, die an der Universität Tübingen durchgeführt wurde (siehe angehängten Ethikantrag und -votum). Die Studie hat zum Ziel, die Wirksamkeit einer individualisierten (d.h. bedarfsgerechten) Zuweisung von verschiedenen Motivationsinterventionen im Vergleich zu einer zufälligen Zuweisung im Hochschulkontext zu testen. 
+Hierfür werden fünf Motivationsinterventionen eingesetzt, die sich von unterschiedlichen Motivationstheorien ableiteten (Achievement-Goal, Dickhäuser & Stiensmeier-Pelster, 2000; Spinath & Steinmayr, 2012; Growth-Mindset, Dweck, 2008; Utility-Value, Eccles & Wigfield, 2020; Social-Belonging, Walton & Cohen, 2007; Attributionstheorie, Weiner, 2012).
+Zunächst werden die Studierenden der PH Karlsruhe aus der Vorlesung „Qualitative und quantitative Forschungsmethoden“ (Bachelor Grundschule und Bachelor Sek I) im Sommersemester 2024 gebeten, im Rahmen eines Prätests einen Fragebogen auszufüllen. Mittels Prätests wird ermittelt, für welche der fünf Motivationsinterventionen ein individuell erhöhter Bedarf besteht. Innerhalb der Gruppe an Studierenden desselben Bedarfs wird zufällig entweder die passende Intervention zugewiesen (individualisierte Interventionsbedingung) oder eine der vier anderen Interventionen (Kontrollbedingung). Das heißt, dass bspw. die Hälfte derjenigen Studierenden, die besonders niedrige Nützlichkeitsüberzeugungen berichten, eine Nützlichkeitsintervention erhalten, wohingegen die andere Hälfte zufällig eine der anderen vier Interventionen zugewiesen bekommt. Die Motivationsinterventionen sind parallel gestaltet und bestehen jeweils aus einem Kurzvideo (10-15 Minuten) zu dem jeweiligen motivationalen Konstrukt und anschließend einem 15-minütigen schriftlichen Arbeitsauftrag. Die Intervention wird als Hausaufgabe in die Vorlesung eingebunden sein und wird von den Studierenden individuell und im eigenen Tempo zu Hause bearbeitet.
+In einer der darauffolgenden Vorlesungssitzungen werden die Studierenden gebeten, im Rahmen eines Posttests erneut einen Fragebogen auszufüllen. Am Ende des Semesters ist eine Follow-Up Erhebung plus zusätzliche Notenerfassung der Studierenden geplant.
+Im Rahmen der Vorlesung bearbeiten die Studierenden regelmäßig Aufgaben in Moodle. Liegt eine Zustimmung zur Teilnahme an der Studie vor, werden dabei entstandene Verhaltensdaten bei der Aufgabenbearbeitung ebenfalls in die Studie einbezogen.
+","",,2024,"",cora.parrisius@ph-karlsruhe.de,285.3,285.3,,,,,,,,,,,,,,
+30,2026-03-04T09:16:10Z,1,en,1895643654,2026-03-04T09:11:35Z,2026-03-04T09:16:10Z,,inmie-d.csv,1,text,"Teilnahmeinformationen und Einverständniserklärung
+
+Liebe Studierende,
+ein Forschungsteam an der Pädagogischen Hochschule in Karlsruhe hat Materialien entwickelt, die den Studierenden dabei helfen sollen, ihr Lernpotenzial zu entfalten und Lernchancen besser zu nutzen, was sich positiv auf ihre Lernleistung auswirken könnte. Bevor die Materialien jedoch flächendeckend in Lehrveranstaltungen eingesetzt werden können, interessiert uns, wie Studierende diese Materialien wahrnehmen, ob sie als hilfreich empfunden werden und wie sie weiter verbessert werden könnten.
+
+Im Folgenden möchten wir Sie zunächst bitten, vorab einen kurzen Fragebogen (ca. 15 Minuten) auszufüllen. Dieser hilft uns ein Gefühl dafür zu entwickeln, was Studierende zu ihrem Studium motiviert und was möglicherweise als hinderlich wahrgenommen wird.
+
+Zu einem späteren Zeitpunkt werden wir Ihnen dann die Materialien präsentieren, um eine Bearbeitung bitten und nach Ihrer Erfahrung während der Bearbeitung fragen. Im Verlauf des weiteren Semesters werden wir Ihnen noch 2 weitere Fragebögen vorlegen, die dem ersten sehr ähneln werden.
+
+Die Forschungsergebnisse, die auf diesen Daten basieren (aber selbst keine personenbezogenen Daten enthalten), werden in wissenschaftlichen Publikationen, Tagungen oder in Formaten, die klar dem Zwecke der Wissenschaftskommunikation dienen, veröffentlicht.
+
+Wir sind auf jede einzelne Einschätzung angewiesen – mit Ihren Rückmeldungen helfen Sie uns, die Materialien weiterzuentwickeln und für zukünftige Studierende zu optimieren.
+
+Bitte beachten Sie: Die Sichtung und Bearbeitung der Materialien werden obligatorischer Teil dieser Lehrveranstaltung sein – ob Sie Ihre Rückmeldungen jedoch geben und als wertvollen Beitrag an die Wissenschaft spenden möchten, bleibt Ihnen überlassen.
+
+Bitte lesen Sie dazu die Teilnahmebedingungen durch.
+
+Bei Rückfragen erreichen Sie uns per E-Mail unter liene.brandhuber@ph-karlsruhe.de (Liene Brandhuber) und nilani.suriakumar@ph-karlsruhe.de (Nilani Suriakumar).
+
+Wir bedanken uns ganz herzlich für Ihre Zeit und Mitarbeit!
+Ich nehme an der Studie teil und erteile hiermit meine Einwilligung zur Nutzung meiner personenbezogenen Daten gemäß den Teilnahmebedingungen. Diese Angabe ist notwendig, um an der Studie teilzunehmen.
+Ich willige zudem der Verknüpfung meiner Daten mit meinen Daten der Studie „Zusammenhang von Erleben und Lernverhalten Studierender in intelligenten tutoriellen Lernsystemen“ (CoTutor-Studie in der Psychologie-Vorlesung) ein.
+
+
+
+Teilnahmebedingungen InMI-D Studie
+Schutz personenbezogener Daten sind uns ein wichtiges Anliegen. Im Folgenden erfahren Sie,
+welche Daten wir in dieser Studie sammeln, wie wir mit diesen umgehen und sie schützen.
+
+§ 1 Gegenstand: Welche Daten werden bei einer Teilnahme erhoben?
+
+Es werden zu verschiedenen Zeitpunkten in diesem Semester plus anschließend einmal pro
+Semester bis einschließlich Sommersemester 2027 folgende personenbezogenen Daten erfasst:
+• Alter
+• Geschlecht
+• Note in der Vorlesung „Qualitative und quantitative Forschungsmethoden“ (im
+Folgenden Forschungsmethoden-Vorlesung genannt)
+• Email-Adresse
+• Fragebogendaten (bspw. zu Studiengang, Fachsemester, Hochschulsemester, Angaben
+zu Leistungen, Studienabbruch, Antworten zu kognitiven, affektiven, motivationalen
+und Persönlichkeitsvariablen sowie Rückmeldungen zu Video- und
+Arbeitsauftragsmaterialien)
+Darüber hinaus werden bei gesonderter Einwilligung die hier entstehenden Studiendaten mit
+Daten der Studie „Zusammenhang von Erleben und Lernverhalten Studierender in intelligenten
+tutoriellen Lernsystemen“ verknüpft, die im Sommersemester 2025 ebenfalls an der
+Pädagogischen Hochschule Karlsruhe im Rahmen der Vorlesung „Einführung in die
+Grundlagen der Psychologie“ durchgeführt wird. Hierbei handelt es sich um Fragebogendaten
+sowie Verhaltensdaten aus der Nutzung der Onlineplattform CoTutor. Daraus können bspw.
+Informationen wie die Häufigkeit und die Dauer der Bearbeitung von Aufgaben im Rahmen der
+Vorlesung „Einführung in die Grundlagen der Psychologie“ abgeleitet werden.
+
+§ 2 Schutz Ihrer Daten: Pseudonymisierung und Anonymisierung
+
+Ihre Daten werden in pseudonymisierter Form erhoben, d.h. Sie werden zu keinem Zeitpunkt
+dazu aufgefordert, Ihren Namen anzugeben. Stattdessen werden die Daten zunächst unter Ihrer
+Moodle-ID und einem durch Sie generierten Versuchspersonencode gespeichert.
+Ihre Moodle-ID sowie Ihr Versuchspersonencode werden nach Abschluss des Projekts (zum
+31.12.2027) aus dem Datensatz gelöscht bzw. durch eine neue, zufällige ID ersetzt. Es wird
+keine Zuordnung zwischen Moodle-ID, Versuchspersonencode und der neuen ID geben. Ihre
+Daten liegen ab diesem Zeitpunkt unwiderruflich anonymisiert vor.
+Ihre Emailadresse wird gesondert von Ihren anderen Daten erhoben und ist zu keinem Zeitpunkt
+mit Ihren Daten verknüpfbar. Ihre Emailadresse wird nach Abschluss des Projekts (31.12.2027)
+gelöscht.
+
+§ 3 Verwendungsart: Was geschieht mit den erhobenen Daten?
+
+Die unter §1 aufgeführten personenbezogenen Daten werden auf folgende Arten verwendet:
+• Die Fragebogendaten werden durch die Onlineplattform SoSci Survey unter dem
+Betreiber SoSci Survey GmbH, welcher als Auftragsdatenverarbeiter für die
+Pädagogische Hochschule Karlsruhe tätig ist, erfasst. Die Verarbeitung erfolgt auf Basis
+eines Auftragsdatenverarbeitungsvertrag zwischen der Pädagogischen Hochschule
+Karlsruhe und der SoSci Survey GmbH.
+• Ihre erhobenen Daten werden mittels statistischer Verfahren ausgewertet.
+• Die anonymisierten Daten werden zudem zur wissenschaftlichen Nachnutzung
+veröffentlicht (siehe § 7).
+Eine Verwendung der personenbezogenen Daten in einer anderen als den aufgeführten Arten
+erfolgt nicht.
+
+§ 4 Verwendungszweck: Zu welchem Zweck werden die Daten verarbeitet?
+
+Die unter §1 aufgeführten personenbezogenen Daten werden zu folgenden Zwecken
+verarbeitet:
+• Wissenschaftliche Forschung: Es wird die Wirksamkeit von individualisierten
+Motivationsinterventionen und Auswirkungen auf Studienabbruch untersucht.
+• Veröffentlichung der Daten: Im Sinne der Richtlinien der Deutschen
+Forschungsgemeinschaft (DFG) zur guten wissenschaftlichen Praxis werden die
+anonymisierten Daten zur Wissenschaftlichen Nachnutzung durch ein
+Forschungsdatenzentrum veröffentlich. In dem Forschungsdatenzentrum, an das die
+Daten übergeben werden, stehen die Daten anderen Forscherinnen und Forschern zu
+wissenschaftlichen Zwecken in thematisch verwandten Forschungsbereichen zu
+definierten Forschungszwecken zur Verfügung. Die Daten werden auch hier stets
+vertraulich unter Wahrung der Datenschutzgesetze behandelt.
+• Ihre gesondert erhobene Emailadresse wird verwendet, um Sie für weitere
+Erhebungszeitpunkte der Studie (bis einschließlich Sommersemester 2027) zu
+kontaktieren und Sie zur Teilnahme einzuladen.
+Eine Verwendung Ihrer personenbezogenen Daten zu anderen als den aufgeführten Zwecken
+erfolgt nicht.
+
+§ 5 Allgemeine Hinweise
+
+Die nachfolgenden Hinweise dienen Ihrer Information.
+• Rechtsgrundlage für die Verarbeitung Ihrer Daten ist diese Einwilligungserklärung.
+Eine Verpflichtung zur Bereitstellung Ihrer Daten besteht weder gesetzlich noch
+vertraglich. Die Einwilligung ist freiwillig. Wenn Sie die Einwilligung nicht erteilen
+möchten, wird dies keine Auswirkungen auf Ihren Studienfortgang haben. Insbesondere
+hat dies keine Konsequenzen für Ihre Leistungsbeurteilung.
+• Name und Kontaktdaten des Verantwortlichen:
+Jun.-Prof. Dr. Cora Parrisius
+Institut für Bildungswissenschaftliche Forschungsmethoden
+Pädagogische Hochschule Karlsruhe
+Bismarckstr. 10
+76133 Karlsruhe
+• Eine Übermittlung an Dritte, welche über die unter § 2 dargestellten Nutzungsarten und
+die unter § 7 dargestellte Wissenschaftliche Nachnutzung hinaus geht, erfolgt nicht.
+
+§ 6 Ihre Rechte
+
+Im Zusammenhang mit der Einwilligung in die Studienteilnahme bestehen folgende Rechte:
+• Widerrufsmöglichkeit: Sie können Ihre Einwilligung bis zum Zeitpunkt der
+Anonymisierung (31.12.2027) mit Wirkung für die Zukunft ganz oder teilweise
+widerrufen. Bei Ausübung Ihres Widerrufsrechts werden Ihre personenbezogenen
+Daten unverzüglich entfernt. Der Widerruf kann per Email unter Nennung ihres
+Versuchspersonencodes an cora.parrisius@ph-karlsruhe.de erfolgen.
+• Betroffenenrechte: Sie haben bis zum Zeitpunkt der Anonymisierung (31.12.2027) das
+Recht auf Auskunft, Berichtigung und Löschung, Sperrung sowie Einschränkung der
+Verarbeitung. Nach diesem Zeitpunkt hat eine vollständige Anonymisierung Ihrer Daten
+stattgefunden.
+
+§ 7 Wissenschaftliche Nachnutzung
+
+Die anonymisierten Daten werden nach Abschluss der Datenerhebung im Sinne der Richtlinien
+der Deutschen Forschungsgemeinschaft (DFG) zur guten wissenschaftlichen Praxis
+veröffentlicht. In diesem Stadium sind keine Rückschlüsse mehr auf Ihre Person möglich.
+Zur Veröffentlichung werden die anonymisierten Daten an ein professionelles
+Forschungsdatenzentrum übergeben. Die Übergabe an ein Forschungsdatenzentrum
+gewährleistet sichere und zugriffsgeschützte Aufbewahrung der Daten. In dem Datenzentrum
+stehen die Daten anderen Forscherinnen und Forschern zu wissenschaftlichen Zwecken in
+thematisch verwandten Forschungsbereichen zu definierten Forschungszwecken zur
+Verfügung. Die Daten werden stets vertraulich unter Wahrung der Datenschutzgesetze
+behandelt.",,"",,1,0,0,0,0,0,1,0,0,0,0,text,"Es handelt sich bei dieser experimentellen Feldstudie um die Replikation einer Vorläuferstudie, die im Sommersemester 2024 an der PH Karlsruhe durchgeführt wurde (damaliges Ethikvotum: Ref. 24-100-1). Das zugrundeliegende Forschungsprogramm hat zum Ziel, die Wirksamkeit individualisierter Motivationsinterventionen zu untersuchen. Die Vorläuferstudie gibt darauf Hinweis, dass sich durch individualisierte Motivationsintervention (im Vergleich zu nicht-individualisierten Motivationsinterventionen) die Motivation steigern und Studienabbruchsintention senken lassen (Brandhuber et al., in prep.). Für dieses Forschungsprogramm wurden fünf Motivationsinterventionen entwickelt, die sich von unterschiedlichen Motivationstheorien ableiten und jeweils aus einem 8-10 minütigen psycho-edukativen Video sowie einem etwa 15 minütigen schriftlichen Arbeitsauftrag bestehen. Das Forschungsdesign sieht vor, dass die Hälfte der Probrand:innen entsprechend ihrer motivationalen Bedürfnisse einer der fünf Motivationsinterventionen erhält, während die andere Hälfte zufällig eine der Motivationsinterventionen erhält, die nicht dem motivationalen Bedarf entspricht. 
+
+Die Interventionen sollen nun im SoSe 2025 erneut implementiert werden, wobei im Vergleich zur Vorläuferstudie die Interventionen optimiert wurden und das Studiendesign längerfristig angelegt und der Fokus stärker auf Studienabbruch gelegt ist. Besonderheit an dieser Folgestudie ist somit, dass die Datenerhebung auf einen Zeitraum von 2 Jahren angelegt ist, um auch mögliche längerfristige Effekte der Intervention(en) messen zu können.
+
+Wir streben an, dass Lehramtsstudierende unterschiedlicher Hochschulen in den ersten Bachelor-Semestern an der Studie teilnehmen. An der PHKA betrifft dies die Studierenden aus der Vorlesung „Qualitative und quantitative Forschungsmethoden“ (Bachelor Grundschule und Bachelor Sek I) im SoSe 2025.  
+Mittels eines Quasi-Experiments im Prätest-Posttest-Follow-Up Design wird die Wirksamkeit der bedarfsgerechten (versus zufälligen) Zuweisung je einer Motivationsintervention getestet. Die drei Datenerhebungen im SoSe 2025 (Prätest – Posttest – Follow-Up) werden ergänzt durch jeweils eine weitere Fragebogenerhebungen pro Folgesemester bis einschließlich SoSe 2027 (d.h. je 1 x WiSe 25/26, SoSe 26, WiSe 26/27, SoSe 27), um längerfristige Effekte messen zu können. Die Aufforderung und Erinnerung zur Teilnahme während des SoSe 2025 erfolgt über die jeweilige Lehrperson. Darüber hinaus und zur Teilnahme an den Folgesemester-Erhebungen wird via Email aufgerufen, sofern die Studierenden einwilligen, dass sie hierfür durch uns kontaktiert werden dürfen und ihre Email-Adresse (getrennt von den restlichen Daten) angeben.
+
+Alle Studierenden, deren Dozierenden sich zur Teilnahme bereit erklären, erhalten im Rahmen der Lehrveranstaltung als Hausaufgabe genau eine der fünf Interventionen - ungeachtet dessen, ob eine Einwilligung zur Teilnahme vorliegt oder nicht. Die Intervention ist obligatorischer Bestandteil der Lehrveranstaltung. Es werden dabei jedoch lediglich von denjenigen Studierenden Daten gesammelt, die dem aktiv mittels Einwilligungserklärung zustimmen.
+Welche der fünf Interventionen die einzelne Person erhält, ergibt sich aus dem individuellen motivationalen Bedarf und nachfolgend der zufällig zugewiesenen Interventionsbedingung. Studierende ohne Einwilligungserklärung erhalten zufällig eine der fünf Interventionen, da eine Bedarfsermittlung aufgrund des Nichtvorliegens hierfür benötigter Daten nicht möglich ist. 
+Die jeweilige Intervention wird als Hausaufgabe in die Lehrveranstaltungen eingebunden und von den Studierenden individuell und im eigenen Tempo zu Hause bearbeitet.
+
+Sollte sich herausstellen, dass die rekrutierte Stichprobe groß genug ist, werden wir darüber hinaus eine Wartekontrollbedingung realisieren, die zunächst keine Intervention erhält, sondern erst verzögert im späteren Verlauf des Semesters (siehe hierzu Punkt 2.5). 
+
+Am Standort Karlsruhe gibt es zudem noch eine Besonderheit: Gegeben der (gesonderten) Zustimmung der Proband:innen, werden die Daten dieser Studie mit denen der parallel an der PHKA laufenden Studie „Zusammenhang von Erleben und Lernverhalten Studierender in intelligenten tutoriellen Lernsystemen“ (Ethikvotum: AZ_25-100-03) verknüpft, in der dieselbe Gruppe an Studierenden in der Parallelveranstaltung „Einführung in die Grundlagen der Psychologie“ mit dem intelligenten tutoriellen System CoTutor arbeitet und die Nutzungsdaten spendet.
+","",,2025,"",cora.parrisius@ph-karlsruhe.de,275.15,275.15,,,,,,,,,,,,,,
+31,2026-03-04T09:20:43Z,1,en,2044846007,2026-03-04T09:16:12Z,2026-03-04T09:20:43Z,,la-uvi.csv,1,text,"Herzlich Willkommen
+
+Liebe Studierende,
+
+stellen Sie sich vor, Sie könnten die Vorlesung „Forschungsmethoden“ direkt mitgestalten. Genau diese Chance haben Sie jetzt: Ihre Meinung ist gefragt, um die Vorlesung praxisnäher und noch hilfreicher für angehende Lehrkräfte zu gestalten.
+
+In einer aktuellen Studie zur Zufriedenheit mit dem Lehramtsstudium an PHs (VBE, 2025) wurde durch Studierende ein stärkerer Praxisbezug im Lehramtsstudium gefordert. Ihre Antworten helfen uns, diesem Wunsch einen Schritt näher zu kommen. Dabei interessiert uns vor allem Ihre persönliche Sichtweise: Wo sehen Sie einen (möglichen) Nutzen von Forschungsmethoden für Ihr eigenes Leben - zum Beispiel im Alltag, für Ihr Studium oder für Ihre zukünftige Tätigkeit als Lehrkraft?
+
+Im Folgenden finden Sie 2 Arbeitsaufträge, mit deren Hilfe Sie angeleitet über die Nützlichkeit von Forschungsmethoden für Sie ganz persönlich reflektieren sollen. Danach folgen einige geschlossene Fragen zur Vorlesung und Ihrer Person. Die Bearbeitung dauert insgesamt etwa 25 Minuten.
+
+Bitte beachten Sie: Antworten generativer KI (ChatGPT und Co.) können wir nicht auswerten. Wir wären Ihnen daher sehr dankbar, wenn Sie Ihre Einschätzungen selbst formulieren würden - von Ihren Schüler:innen werden Sie sich das später einmal genauso erhoffen.
+
+Die Teilnahme findet anonym statt. Ihre Antworten werden nicht rückverfolgbar sein, und es entstehen keinerlei Nachteile durch Ihre Teilnahme oder Nicht-Teilnahme.
+Bitte lesen Sie vorab die Teilnahmebedingungen durch, deren Zustimmung Voraussetzung für die Teilnahme ist.
+
+Bei Rückfragen erreichen Sie uns per E-Mail unter cora.parrisius@ph-karlsruhe.de.
+
+Bitte beachten Sie, dass Sie am Ende des Fragebogens die Möglichkeit haben werden, Ihre PH-Kennung anzugeben, um die Teilnahme in Form von Versuchspersonenstunden (VPS) verbucht zu bekommen.
+
+Wir bedanken uns ganz herzlich für Ihre Zeit und Mitarbeit!
+Ich nehme an der Studie teil und erteile hiermit meine Einwilligung zur Nutzung meiner Daten gemäß den Teilnahmebedingungen.
+
+
+Teilnahmebedingungen UVA-Studie (Winter 2025)
+Schutz personenbezogener Daten sind uns ein wichtiges Anliegen. Im Folgenden erfahren Sie,
+welche Daten wir in dieser Studie sammeln, wie wir mit diesen umgehen und sie schützen.
+
+§ 1 Gegenstand: Welche Daten werden bei einer Teilnahme erhoben?
+
+Es werden folgende personenbezogenen Daten erfasst:
+• Fragebogendaten (bspw. Angaben zu motivationalen Variablen,
+Nützlichkeitswahrnehmungen, demografische Angaben)
+• davon getrennt wird ihre PHKA-Kennung erfragt
+
+§ 2 Schutz Ihrer Daten: Pseudonymisierung und Anonymisierung
+
+Ihre Fragebogen-Daten werden in anonymisierter Form erhoben, d.h. Sie werden zu keinem
+Zeitpunkt dazu aufgefordert, Ihren Namen anzugeben oder sonstige de-anonymisierende
+Informationen preiszugeben. Getrennt von Ihren Fragebogen-Daten wird Ihre PHKA-Kennung
+erfragt. Die Informationen sind nicht verknüpfbar und eine Anonymisierung Ihrer Fragebogen-
+Daten ist gewährleistet.
+
+§ 3 Verwendungsart: Was geschieht mit den erhobenen Daten?
+
+Die unter §1 aufgeführten personenbezogenen Daten werden auf folgende Arten verwendet:
+• Ihre PHKA-Kennung wird verwendet, um Ihnen Versuchspersonenstunden (VPS) im
+Rahmen von Modul Biwi-M2 anrechnen zu können. Diese Information wird getrennt
+von den restlichen Studiendaten erhoben und verarbeitet.
+• Die Fragebogendaten werden durch die Onlineplattform SoSci Survey unter dem
+Betreiber SoSci Survey GmbH, welcher als Auftragsdatenverarbeiter für die
+Pädagogische Hochschule Karlsruhe tätig ist, erfasst. Die Verarbeitung erfolgt auf Basis
+eines Auftragsdatenverarbeitungsvertrags zwischen der Pädagogischen Hochschule
+Karlsruhe und der SoSci Survey GmbH und die Daten werden auf eigenen Servern
+gespeichert.
+• Ihre erhobenen Daten werden mittels statistischer Verfahren ausgewertet.
+• Die anonymisierten Daten werden zudem zur wissenschaftlichen Nachnutzung
+veröffentlicht (siehe § 7).
+Eine Verwendung der personenbezogenen Daten in einer anderen als den aufgeführten Arten
+erfolgt nicht.
+
+§ 4 Verwendungszweck: Zu welchem Zweck werden die Daten verarbeitet?
+
+Die unter §1 aufgeführten personenbezogenen Daten werden zu folgenden Zwecken
+verarbeitet:
+• Nachweis Ihrer VPS
+• Wissenschaftliche Forschung: Es wird untersucht, welche Nützlichkeitsargumente
+Lehramtsstudierende für Forschungsmethoden anführen und inwiefern deren Auftreten
+mit anderen motivationalen Eigenschaften in Zusammenhang stehen.
+• Veröffentlichung der Daten: Im Sinne der Richtlinien der Deutschen
+Forschungsgemeinschaft (DFG) zur guten wissenschaftlichen Praxis werden die
+anonymisierten Daten zur wissenschaftlichen Nachnutzung durch ein
+Forschungsdatenzentrum veröffentlicht. In dem Forschungsdatenzentrum, an das die
+Daten übergeben werden, stehen die Daten anderen Forscherinnen und Forschern zu
+wissenschaftlichen Zwecken in thematisch verwandten Forschungsbereichen zu
+definierten Forschungszwecken zur Verfügung. Die Daten werden auch hier stets
+vertraulich unter Wahrung der Datenschutzgesetze behandelt.
+Eine Verwendung Ihrer personenbezogenen Daten zu anderen als den aufgeführten Zwecken
+erfolgt nicht.
+
+§ 5 Allgemeine Hinweise
+
+Die nachfolgenden Hinweise dienen Ihrer Information.
+• Rechtsgrundlage für die Verarbeitung Ihrer Daten ist diese Einwilligungserklärung.
+Eine Verpflichtung zur Bereitstellung Ihrer Daten besteht weder gesetzlich noch
+vertraglich. Die Einwilligung ist freiwillig. Wenn Sie die Einwilligung nicht erteilen
+möchten, wird dies keine Auswirkungen auf Ihren Studienfortgang haben. Insbesondere
+hat dies keine Konsequenzen für Ihre Leistungsbeurteilung.
+• Name und Kontaktdaten des Verantwortlichen:
+Jun.-Prof. Dr. Cora Parrisius
+Institut für Empirische Bildungsforschung
+Pädagogische Hochschule Karlsruhe
+Bismarckstr. 10
+76133 Karlsruhe
+• Eine Übermittlung an Dritte, welche über die unter § 2 dargestellten Nutzungsarten und
+die unter § 7 dargestellte wissenschaftliche Nachnutzung hinaus geht, erfolgt nicht.
+
+§ 6 Ihre Rechte
+
+Im Zusammenhang mit der Einwilligung in die Studienteilnahme bestehen folgende Rechte:
+• Widerrufsmöglichkeit: Sie können Ihre Einwilligung bis zum Abschluss der
+Bearbeitung des widerrufen. Bei Ausübung Ihres Widerrufsrechts werden Ihre Daten
+unverzüglich gelöscht. Eine Verbuchung der VPS erfolgt in diesem Fall nicht.
+
+§ 7 Wissenschaftliche Nachnutzung
+
+Die anonymisierten Daten werden nach Abschluss der Datenerhebung im Sinne der Richtlinien
+der Deutschen Forschungsgemeinschaft (DFG) zur guten wissenschaftlichen Praxis
+veröffentlicht. In diesem Stadium sind keine Rückschlüsse mehr auf Ihre Person möglich.
+Zur Veröffentlichung werden die anonymisierten Daten an ein professionelles
+Forschungsdatenzentrum übergeben. Die Übergabe an ein Forschungsdatenzentrum
+gewährleistet sichere und zugriffsgeschützte Aufbewahrung der Daten. In dem Datenzentrum
+stehen die Daten anderen Forscherinnen und Forschern zu wissenschaftlichen Zwecken in
+thematisch verwandten Forschungsbereichen zu definierten Forschungszwecken zur
+Verfügung. Die Daten werden stets vertraulich unter Wahrung der Datenschutzgesetze
+behandelt.",,"",,1,0,0,0,0,0,0,0,0,0,Versuchspersonenstunden,text,"In der hier beschriebenen Studie werden Lehramtsstudierende gebeten, über die Nützlichkeit von Forschungsmethoden für sie ganz persönlich zu reflektieren.
+
+Es handelt sich dabei um zwei kurze Reflexionsaufgaben, die schriftlich bearbeitet werden, plus einen nachgelagerten Fragebogen mit etablierten Motivationsskalen und demografischen Angaben. Die Studie wird online und asynchron durchgeführt. 
+","",,2025,"",cora.parrisius@ph-karlsruhe.de,270.12,270.12,,,,,,,,,,,,,,
+32,2026-05-22T12:05:58Z,1,en,234548034,2026-05-22T11:58:16Z,2026-05-22T12:05:58Z,,,0,file,"",,"[{ """"title"""":""""Einwilligung"""",""""comment"""":"""""""",""""size"""":16.4423828125,""""name"""":""""Anlage01-Einwilligung-final.docx"""",""""filename"""":""""fu_dix6abe8i7xvhdr"""",""""ext"""":""""docx"""" }]",1,1,0,0,0,0,0,0,0,1,0,0,text,https://doi.org/10.30935/cedtech/15144,"",,2023,link to the data: https://osf.io/dqby5/,c.koehler@dipf.de,461.98,461.98,,,,,,,,,,,,,,
+33,2026-09-09T14:00:52Z,1,en,1191147554,2026-09-09T13:51:14Z,2026-09-09T14:00:52Z,,icpl-kg.csv,1,text,"Seite note_intro:
+Willkommen
+und herzlichen Dank für Ihre Teilnahme an der Befragung.
+
+Das Seminar """"Schulpraxis in Theorie und Forschung"""" befindet sich in der Weiterentwicklung und soll mit Ihrer Hilfe weiter optimiert werden. Hierzu haben wir auf drei kurzen Seiten ein paar Fragen. Dauer: ca. 3min (auf Basis bisheriger Durchläufe).
+
+
+Seite datenschutz:
+Ihr Datenschutz
+Das Ausfüllen der Befragung ist freiwillig und ein Nichtausfüllen wird für Sie keinerlei Nachteile mit sich bringen.
+Die Ergebnisse der Befragung werden ausschließlich in anonymisierter Form dargestellt, sodass niemand aus den Ergebnissen erkennen kann, von welcher Person diese Angaben gemacht worden sind.
+Alle Daten werden streng vertraulich behandelt und nur für wissenschaftliche Zwecke genutzt.
+Es gibt keine Weitergabe an Dritte, die Ihre Person erkennen lassen.
+Ich habe die Datenschutzbestimmungen gelesen, verstanden und willige ein, an der Befragung teilzunehmen. (Fragen an juergen.schneider[at]uni-tuebingen.de )
+",,"",,1,0,0,0,0,0,1,0,0,0,0,text,"Beschreibung des Vorhabens (max. 3500 Zeichen inkl. Leerzeichen)
+Ausgehend von den Spezifika des Master-Studiengangs „Schulforschung und Schulentwicklung“ und
+den heterogenen Voraussetzungen und Bedürfnissen seiner Studierenden (siehe Punkt 4a) sowie im
+
+Zuge der Stärkung der digitalen Lehre (siehe hierzu Gesamtstrategie der Universität Tübingen: Pres-
+semitteilung vom 18.10.2018) verfolgt das geplante Vorhaben das Ziel, in einem ersten erziehungs-
+wissenschaftlichen Master-Studiengang die Begleitung des Praktikums (Modul 6) zu flexibilisieren, ad-
+ressatengerecht zu individualisieren und innovativ auszugestalten. Das Vorhaben ist darüber hinaus
+
+so angelegt, dass es eine digitalisierte Praxisbegleitung in Modul BWS-ME 1 des Bildungswissen-
+schaftlichen Studiums (M.Ed.), welches jährlich von sehr vielen Studierenden belegt wird, gezielt vor-
+bereitet. Aufgrund der strukturellen und inhaltlichen Nähe der beiden Module ist hier eine Übertragung
+
+gut möglich. Zudem hat das Projekt Modellcharakter für weitere Studiengänge am Institut für Erzie-
+hungswissenschaft, was über den Vorstand des Instituts angebahnt ist. Die genannten Ziele sollen
+
+über die folgenden fünf Schritte erreicht werden:
+
+1. Weiterentwicklung des Curriculums für das Begleitseminar „Schulpraxis in Theorie und For-
+schung“ innerhalb des Moduls 6 „Praktikum“ im Master-Studiengang „Schulforschung und Schul-
+entwicklung“.
+
+2. Entwicklung didaktischer Arrangements (inkl. Methoden, Materialien und Aufgaben) für ein E-
+Learning-Angebot, auch mit Blick auf Struktur, Ziele und Erfordernisse des BWS.
+
+3. Programmierung des Online-Seminars in Moodle.
+4. Pilotierung des Seminars an einer (freiwilligen) Studierenden-Stichprobe von 10-15 Personen.
+5. Adaption und Nutzung der Grundstruktur des E-Learning-Angebots im Bildungswissenschaftlichen
+Studium (M.Ed.) sowie Dissemination der Erfahrungen und Ergebnisse in weiteren strukturaffinen
+
+Masterstudiengängen am Institut sowie (wenn gewünscht) in weiteren Studiengängen der Fakul-
+tät.
+
+Erfolgreich studieren in Tübingen – ESIT
+
+Entwicklung innovativer Curricula und praxisorientierter Lehrmodule fördern – ICPL
+
+Das zu digitalisierende Begleitseminar „Schulpraxis in Theorie und Forschung“ innerhalb des Moduls
+
+„Praktikum“ mit entwicklungsbezogener Ausrichtung (Modul 6a) dient dazu, pädagogische und insbe-
+sondere schulische Handlungsfelder und Aufgaben von Akteuren im Bildungsbereich kennen zu ler-
+nen und einen reflexiven Zugang zu diesen zu gewinnen. Von zentraler Bedeutung ist es, Theorie und
+
+Forschung einerseits und Praxis andererseits aufeinander zu beziehen und Praxis theorie- und for-
+schungsgeleitet zu analysieren, zu reflektieren und weiterzuentwickeln (Neuweg, 2018). Bedeutsam
+
+erscheint dabei u.a. die Auseinandersetzung mit dem Spannungsverhältnis zwischen Konzepten, Prin-
+zipien und Strategien handelnder Akteure einerseits und den jeweils vorgefundenen institutionellen
+
+Rahmenbedingungen andererseits. Hierfür eignet sich der Einsatz digitaler Medien in besonderer
+Weise (vgl. Punkt 6b), da er Individualisierungen und Arbeiten an konkreten Situationen ermöglicht.
+Im Online-Seminar soll mit der Methode des problem- bzw. fallorientierten Lernens (Syring et al.,
+2016) sowohl in Einzel- als auch in (virtueller) Gruppenarbeit gearbeitet werden. Nach einer kurzen
+theoretischen Einführung mit Reflexionsfragen erfolgt in den jeweiligen Sitzungen eine individuelle
+
+Schwerpunktsetzung entlang der Auseinandersetzung mit authentischen (Problem-)Situationen im je-
+weiligen Praktikum. Regelmäßig erhalten die Studierenden auf eingereichte Aufgaben digitale Rück-
+meldungen/ Feedback durch die Dozierenden bzw. sind aufgefordert, sich gegenseitig Feedback zu
+
+geben.","",,2020,(◔/‿\◔),juergen.schneider@ph-karlsruhe.de,578.04,578.04,,,,,,,,,,,,,,
+34,2026-09-09T14:05:24Z,1,en,890311084,2026-09-09T14:01:00Z,2026-09-09T14:05:24Z,,icpl.csv,1,text,"Willkommen
+und herzlichen Dank für Ihre Teilnahme an der Befragung.
+
+Das Seminar """"Schulpraxis in Theorie und Forschung"""" befindet sich in der Entwicklung und soll mit Ihrer Hilfe weiter optimiert werden. Hierzu haben wir auf fünf Seiten ein paar Fragen. Dauer: ca. 6min (auf Basis bisheriger Durchläufe).
+
+----
+next page
+---
+
+Ihr Datenschutz
+Das Ausfüllen der Befragung ist freiwillig und ein Nichtausfüllen wird für Sie keinerlei Nachteile mit sich bringen.
+Die Ergebnisse der Befragung werden ausschließlich in anonymisierter Form dargestellt, sodass niemand aus den Ergebnissen erkennen kann, von welcher Person diese Angaben gemacht worden sind.
+Alle Daten werden streng vertraulich behandelt und nur für wissenschaftliche Zwecke genutzt.
+Es gibt keine Weitergabe an Dritte, die Ihre Person erkennen lassen.
+Ich habe die Datenschutzbestimmungen gelesen, verstanden und willige ein, an der Befragung teilzunehmen. (Fragen an juergen.schneider[at]uni-tuebingen.de )
+",,"",,1,0,0,0,0,0,1,0,0,0,0,text,"Beschreibung des Vorhabens (max. 3500 Zeichen inkl. Leerzeichen)
+Ausgehend von den Spezifika des Master-Studiengangs „Schulforschung und Schulentwicklung“ und
+den heterogenen Voraussetzungen und Bedürfnissen seiner Studierenden (siehe Punkt 4a) sowie im
+
+Zuge der Stärkung der digitalen Lehre (siehe hierzu Gesamtstrategie der Universität Tübingen: Pres-
+semitteilung vom 18.10.2018) verfolgt das geplante Vorhaben das Ziel, in einem ersten erziehungs-
+wissenschaftlichen Master-Studiengang die Begleitung des Praktikums (Modul 6) zu flexibilisieren, ad-
+ressatengerecht zu individualisieren und innovativ auszugestalten. Das Vorhaben ist darüber hinaus
+
+so angelegt, dass es eine digitalisierte Praxisbegleitung in Modul BWS-ME 1 des Bildungswissen-
+schaftlichen Studiums (M.Ed.), welches jährlich von sehr vielen Studierenden belegt wird, gezielt vor-
+bereitet. Aufgrund der strukturellen und inhaltlichen Nähe der beiden Module ist hier eine Übertragung
+
+gut möglich. Zudem hat das Projekt Modellcharakter für weitere Studiengänge am Institut für Erzie-
+hungswissenschaft, was über den Vorstand des Instituts angebahnt ist. Die genannten Ziele sollen
+
+über die folgenden fünf Schritte erreicht werden:
+
+1. Weiterentwicklung des Curriculums für das Begleitseminar „Schulpraxis in Theorie und For-
+schung“ innerhalb des Moduls 6 „Praktikum“ im Master-Studiengang „Schulforschung und Schul-
+entwicklung“.
+
+2. Entwicklung didaktischer Arrangements (inkl. Methoden, Materialien und Aufgaben) für ein E-
+Learning-Angebot, auch mit Blick auf Struktur, Ziele und Erfordernisse des BWS.
+
+3. Programmierung des Online-Seminars in Moodle.
+4. Pilotierung des Seminars an einer (freiwilligen) Studierenden-Stichprobe von 10-15 Personen.
+5. Adaption und Nutzung der Grundstruktur des E-Learning-Angebots im Bildungswissenschaftlichen
+Studium (M.Ed.) sowie Dissemination der Erfahrungen und Ergebnisse in weiteren strukturaffinen
+
+Masterstudiengängen am Institut sowie (wenn gewünscht) in weiteren Studiengängen der Fakul-
+tät.
+
+Erfolgreich studieren in Tübingen – ESIT
+
+Entwicklung innovativer Curricula und praxisorientierter Lehrmodule fördern – ICPL
+
+Das zu digitalisierende Begleitseminar „Schulpraxis in Theorie und Forschung“ innerhalb des Moduls
+
+„Praktikum“ mit entwicklungsbezogener Ausrichtung (Modul 6a) dient dazu, pädagogische und insbe-
+sondere schulische Handlungsfelder und Aufgaben von Akteuren im Bildungsbereich kennen zu ler-
+nen und einen reflexiven Zugang zu diesen zu gewinnen. Von zentraler Bedeutung ist es, Theorie und
+
+Forschung einerseits und Praxis andererseits aufeinander zu beziehen und Praxis theorie- und for-
+schungsgeleitet zu analysieren, zu reflektieren und weiterzuentwickeln (Neuweg, 2018). Bedeutsam
+
+erscheint dabei u.a. die Auseinandersetzung mit dem Spannungsverhältnis zwischen Konzepten, Prin-
+zipien und Strategien handelnder Akteure einerseits und den jeweils vorgefundenen institutionellen
+
+Rahmenbedingungen andererseits. Hierfür eignet sich der Einsatz digitaler Medien in besonderer
+Weise (vgl. Punkt 6b), da er Individualisierungen und Arbeiten an konkreten Situationen ermöglicht.
+Im Online-Seminar soll mit der Methode des problem- bzw. fallorientierten Lernens (Syring et al.,
+2016) sowohl in Einzel- als auch in (virtueller) Gruppenarbeit gearbeitet werden. Nach einer kurzen
+theoretischen Einführung mit Reflexionsfragen erfolgt in den jeweiligen Sitzungen eine individuelle
+
+Schwerpunktsetzung entlang der Auseinandersetzung mit authentischen (Problem-)Situationen im je-
+weiligen Praktikum. Regelmäßig erhalten die Studierenden auf eingereichte Aufgaben digitale Rück-
+meldungen/ Feedback durch die Dozierenden bzw. sind aufgefordert, sich gegenseitig Feedback zu
+
+geben.","",,2020,"",juergen.schneider@ph-karlsruhe.de,263.27,263.27,,,,,,,,,,,,,,
+35,2026-09-09T14:11:18Z,1,en,689136658,2026-09-09T14:05:29Z,2026-09-09T14:11:18Z,,rbt-ext-sci-pre.csv,1,text,"Welcome
+and thank you for participating in this survey.
+
+In this study, we are interested in your opinion on scientific research results.
+
+We will show you two title pages of scientific publications and ask for your opinion on them.
+The duration (based on previous runs) is approx. 12 minutes.
+
+
+This study is conducted by the University of Tübingen in cooperation with the Leibniz Institute for Psychology.
+
+---
+next page
+---
+
+Declaration of consent
+
+I have been informed in writing about the study and the experimental procedure. I agree to work on questionnaires and tasks related to psychology and the topic """"Trust in scientists"""". 
+
+I agree with the described collection and processing of data (questionnaires, task results). The recording and evaluation of the data are done anonymously at the University of Tübingen (Germany), i.e. it is not possible for anyone to associate my data with my name. I agree that my anonymized data may be used for research purposes, may be stored for at least 10 years, and may be made publicly accessible in completely anonymized form (i.e. without information on age, gender, and education) for further use. 
+
+I had sufficient time to make a decision and I am willing to participate in the study. I know that participation in the study is voluntary and that I can terminate my participation at any time without giving reasons. 
+
+If I have questions or other concerns, I can contact the following person: Jürgen Schneider juergen.schneider[at]uni-tuebingen.de",,"",,0,0,0,0,1,0,1,0,0,0,0,text,"Abstract
+In three experimental studies, we investigated whether badges for open-science practices have the potential to affect trust in scientists and topic-specific epistemic beliefs by student teachers (n = 270), social scientists (n = 250), or the public (n = 257), all of whom were at least 16 years old. Furthermore, we analyzed the moderating role of epistemic beliefs for badges and trust. Each participant was randomly assigned to two of three conditions: badges awarded, badges not awarded, and no badges (control). In all samples, our Bayesian analyses indicated that badges influence trust as expected, with one exception in the public sample: An additional positive effect of awarded badges (compared with no badges) was not supported. For students and scientists, we found evidence for the relation of badges and epistemic beliefs as well as epistemic beliefs and trust. Further, we found evidence for the absence of moderation by epistemic beliefs.
+
+https://doi.org/10.1177/09567976221097499","",,2021,"",juergen.schneider@ph-karlsruhe.de,348.91,348.91,,,,,,,,,,,,,,
+36,2026-09-09T14:15:29Z,1,en,909665204,2026-09-09T14:11:24Z,2026-09-09T14:15:29Z,,rbt-ext-pub-0.csv,1,text,"Welcome
+and thank you for participating in this survey.
+
+In this study we are interested in your opinion on scientific research results.
+
+We will show you short plain language summaries of real scientific publications and ask for your opinion on them.
+The duration (based on previous runs) is approx. 15 minutes.
+
+
+This study is conducted by the University of Tübingen in cooperation with the Leibniz Institute for Psychology.
+
+---
+next page
+---
+
+Declaration of consent
+
+I have been informed in writing about the study and the experimental procedure. I agree to work on questionnaires and tasks related to psychology and the topic """"Trust in scientists"""".   
+
+I agree with the described collection and processing of data (questionnaires, task results). The recording and evaluation of the data is done anonymously at the University of Tübingen (Germany), i.e. it is not possible for anyone to associate my data with my name. I agree that my anonymized data may be used for research purposes, may be stored for at least 10 years, and may be made publicly accessible in completely anonymized form (i.e. without information on age, gender, and education) for further use.   
+
+I had sufficient time to make a decision and I am willing to participate in the study. I know that participation in the study is voluntary and that I can terminate my participation at any time without giving reasons.  
+
+If I have questions or other concerns, I can contact the following person: Jürgen Schneider juergen.schneider[at]uni-tuebingen.de",,"",,0,0,0,1,0,0,0,1,0,0,0,text,"Abstract
+In three experimental studies, we investigated whether badges for open-science practices have the potential to affect trust in scientists and topic-specific epistemic beliefs by student teachers (n = 270), social scientists (n = 250), or the public (n = 257), all of whom were at least 16 years old. Furthermore, we analyzed the moderating role of epistemic beliefs for badges and trust. Each participant was randomly assigned to two of three conditions: badges awarded, badges not awarded, and no badges (control). In all samples, our Bayesian analyses indicated that badges influence trust as expected, with one exception in the public sample: An additional positive effect of awarded badges (compared with no badges) was not supported. For students and scientists, we found evidence for the relation of badges and epistemic beliefs as well as epistemic beliefs and trust. Further, we found evidence for the absence of moderation by epistemic beliefs.
+
+https://doi.org/10.1177/09567976221097499
+","",,2021,"",juergen.schneider@ph-karlsruhe.de,245.9,245.9,,,,,,,,,,,,,,
+37,2026-09-09T14:30:44Z,1,en,1797913945,2026-09-09T14:15:33Z,2026-09-09T14:30:44Z,,osc-0.csv,1,text,"Hello and thank you
+
+
+
+for participating in this study on the applicability of certain practices in research projects.
+
+This project is conducted by the University of Tübingen, Germany.
+
+☰ Declaration of consent
+I agree to work on questionnaires and tasks related to the applicability of certain practices in research projects.
+
+I agree with the described collection and processing of data (questionnaires, task results). The recording and evaluation of the data are done anonymously at the University of Tübingen (Germany), i.e. it is not possible for anyone to associate my data with my name. I agree that my anonymized data may be used for research purposes, may be stored for at least 10 years, and may be made publicly accessible in completely anonymized form (i.e. without information on age, gender, and education) for further use.
+
+I had sufficient time to make a decision and I am willing to participate in the study. I know that participation in the study is voluntary and that I can terminate my participation at any time without giving reasons.
+
+If I have questions or other concerns, I can contact the following person: Jürgen Schneider juergen.schneider[at]uni-tuebingen.de.
+
+By clicking next, you agree to the """"Declaration of consent"""".",,"",,0,0,0,0,1,0,1,0,0,0,0,text,"Abstract
+Open science is an increasingly important topic for research, politics and funding agencies. However, the discourse on open science is heavily influenced by certain research fields and paradigms, leading to the risk of generalizing what counts as openness to other research fields, regardless of its applicability. In our paper, we provide evidence that researchers perceive different profiles in the potential to apply open science practices to their projects, making a one-size-fits-all approach unsuitable. In a pilot study, we first systematized the breadth of open science practices. The subsequent survey study examined the perceived applicability of 13 open science practices across completed research projects in a broad variety of research disciplines. We were able to identify four different profiles in the perceived applicability of open science practices. For researchers conducting qualitative-empirical research projects, comprehensively implementing the breadth of open science practices is tendentially not feasible. Further, research projects from some disciplines tended to fit a profile with little opportunity for public participation. Yet, disciplines and research paradigms appear not to be the key factors in predicting the perceived applicability of open science practices. Our findings underscore the case for considering project-related conditions when implementing open science practices. This has implications for the establishment of policies, guidelines and standards concerning open science.
+
+https://doi.org/10.1098/rsos.230595","",,2021,"",juergen.schneider@ph-karlsruhe.de,910.48,910.48,,,,,,,,,,,,,,
+38,2026-09-09T14:44:21Z,1,en,904736507,2026-09-09T14:30:52Z,2026-09-09T14:44:21Z,,UzVvTP-LAS.csv,1,text,"Ihr Datenschutz
+Das Ausfüllen der Befragung ist freiwillig und ein Nichtausfüllen wird für Sie keinerlei Nachteile mit sich bringen.
+Sie können jederzeit ihr Einverständnis zur Befragung zurückziehen. Kontaktieren Sie hierzu den Studienleiter (siehe Fußzeile).
+Die Ergebnisse der Befragung werden ausschließlich in anonymisierter Form dargestellt, so dass niemand aus den Ergebnissen erkennen kann, von welcher Person diese Angaben gemacht worden sind.
+Alle Daten werden streng vertraulich behandelt und nur für wissenschaftliche Zwecke genutzt.
+Es gibt keine Weitergabe an Dritte, die Ihre Person erkennen lassen.
+Ich habe die Datenschutzbestimmungen gelesen, verstanden und willige der Befragung ein. (Fragen an juergen.schneider[at]uni-tuebingen.de )",,"",,1,0,0,0,0,0,0,0,1,0,0,text,"Abstract
+Das Verhältnis von Theorie und Praxis in der Lehramtsbildung ist ein zentrales Thema schulpädagogischer Diskurse (Makrinus, 2013). Bisherige Studien zeigen, dass Lehramtsstudierende einen erhöhten Bedarf an Praxisbezug äußern (Wagener et al., 2019), wobei Überzeugungen zu diesem Verhältnis entscheidend für die professionelle Entwicklung sind (Möller et al., 2023). Bisherige Erhebungsinstrumente erfassen diese Überzeugungen jedoch nicht umfassend. Der vorliegende Beitrag stellt daher ein neues Instrument zur Erfassung der Faktorenstruktur und Konstruktvalidität von Überzeugungen zum Theorie-Praxis-Verhältnis vor.
+In Studie 1 (N = 219) wurde die Faktorenstruktur explorativ untersucht. Die Ergebnisse zeigen eine 4-Faktor-Lösung (Transfer, Selektion, Enrichment, Relationierung) mit hoher interner Konsistenz (ω = .737–.762) und klarer inhaltlicher Trennschärfe. Studie 2 (N = 201) bestätigte diese Struktur konfirmatorisch (CFI = .942, RMSEA = .033) und prüfte die Konstruktvalidität. Ein experimenteller Ansatz testete die Gegenstandsspezifität der Überzeugungen (CTML vs. STP), wobei keine signifikanten Unterschiede in den Transferüberzeugungen gefunden wurden (BF₀₁ = 32.051). Die konvergente Validierung mit bestehenden Skalen (Fischer et al., 2016) zeigte keine erwarteten Korrelationen, was auf die Notwendigkeit weiterer Validierungsstudien hinweist.
+Das Instrument ermöglicht eine differenzierte Erfassung von Überzeugungen und bietet eine Grundlage für zukünftige Forschung zur professionellen Entwicklung von Lehramtsstudierenden.
+","",,2019,Fun fact: A single average cloud weighs about one million tonnes,juergen.schneider@ph-karlsruhe.de,809.13,809.13,,,,,,,,,,,,,,
+39,2026-09-09T14:46:28Z,1,en,460112053,2026-09-09T14:44:25Z,2026-09-09T14:46:27Z,,UzVvTP-LAS-II.csv,1,text,"Ihr Datenschutz
+Das Ausfüllen der Befragung ist freiwillig und ein Nichtausfüllen wird für Sie keinerlei Nachteile mit sich bringen.
+Die Ergebnisse der Befragung werden ausschließlich in anonymisierter Form dargestellt, so dass niemand aus den Ergebnissen erkennen kann, von welcher Person diese Angaben gemacht worden sind.
+Alle Daten werden streng vertraulich behandelt und nur für wissenschaftliche Zwecke genutzt.
+Es gibt keine Weitergabe an Dritte, die Ihre Person erkennen lassen.
+Ich habe die Datenschutzbestimmungen gelesen, verstanden und willige der Befragung ein. (Fragen an juergen.schneider[at]uni-tuebingen.de )
+
+",,"",,1,0,0,0,0,0,0,0,1,0,0,text,"Abstract Das Verhältnis von Theorie und Praxis in der Lehramtsbildung ist ein zentrales Thema schulpädagogischer Diskurse (Makrinus, 2013). Bisherige Studien zeigen, dass Lehramtsstudierende einen erhöhten Bedarf an Praxisbezug äußern (Wagener et al., 2019), wobei Überzeugungen zu diesem Verhältnis entscheidend für die professionelle Entwicklung sind (Möller et al., 2023). Bisherige Erhebungsinstrumente erfassen diese Überzeugungen jedoch nicht umfassend. Der vorliegende Beitrag stellt daher ein neues Instrument zur Erfassung der Faktorenstruktur und Konstruktvalidität von Überzeugungen zum Theorie-Praxis-Verhältnis vor. In Studie 1 (N = 219) wurde die Faktorenstruktur explorativ untersucht. Die Ergebnisse zeigen eine 4-Faktor-Lösung (Transfer, Selektion, Enrichment, Relationierung) mit hoher interner Konsistenz (ω = .737–.762) und klarer inhaltlicher Trennschärfe. Studie 2 (N = 201) bestätigte diese Struktur konfirmatorisch (CFI = .942, RMSEA = .033) und prüfte die Konstruktvalidität. Ein experimenteller Ansatz testete die Gegenstandsspezifität der Überzeugungen (CTML vs. STP), wobei keine signifikanten Unterschiede in den Transferüberzeugungen gefunden wurden (BF₀₁ = 32.051). Die konvergente Validierung mit bestehenden Skalen (Fischer et al., 2016) zeigte keine erwarteten Korrelationen, was auf die Notwendigkeit weiterer Validierungsstudien hinweist. Das Instrument ermöglicht eine differenzierte Erfassung von Überzeugungen und bietet eine Grundlage für zukünftige Forschung zur professionellen Entwicklung von Lehramtsstudierenden.","",,2020,"",juergen.schneider@ph-karlsruhe.de,122.99,122.99,,,,,,,,,,,,,,
+40,2026-09-09T15:00:13Z,1,en,724270995,2026-09-09T14:46:37Z,2026-09-09T15:00:13Z,,base-ld-1a.csv,1,text,"Infos zur Studie
+Sollten Sie an detaillierteren Informationen zur Studie interessiert sein, klicken Sie bei Bedarf auf die entsprechenden Themen-Buttons.
+
+ⓘ Ablauf der Studie
+Das folgende Experiment gliedert sich in zwei Teile. Zuerst werden Sie nun (im ersten Teil) über den Studienverlauf aufgeklärt. Wenn Sie Ihr Einverständnis zur Teilnahme geben bitten wir Sie einen Vorabfragebogen auszufüllen. Abschließend wählen Sie sich einen Termin für die Hauptstudie (zweiter Teil) aus. Hierbei geben Sie auch Ihre E-Mailadrese für mögliche Rückfragen an. Selbstverständlich wird Ihre E-Mailadresse unabhängig von Ihren sonstigen Angaben gespeichert und nach Abschluss der Studie gelöscht. In der Hauptstudie werden Sie gebeten sich das Onlineportal TüDi-BASE während eines Interviews (über BigBlueButton) anzuschauen, wobei wir Ihnen einige Fragen zur eingeschätzten Verständlichkeit der dargebotenen Inhalte stellen werden. Abschließend gibt es nochmals einen kurzen Fragebogen. Insgesamt dauert die Befragung (Teil 1 + Teil 2 zusammen) ca. 60 Minuten.
+
+Ihre Aufgabe ist es, zuerst im Vorabfragebogen ein paar wenige Angaben zu ihrer Person zu machen, wie Alter, Berufserfahrung bzw. Fachsemester, Unterrichtsfächer und eine Selbsteinschätzung Ihrer Erfahrung zum Unterrichten mit digitalen Medien und statistischen Vorkenntnissen. Während des individuellen Interviewtermins werden Sie gebeten sich zuerst unser Onlineportal TüDi-BASE zu betrachten und so viele Gedanken und Eindrücke wie möglich direkt zu verbalisieren. Nach dieser Explorationsphase haben wir noch ein paar direkte Nachfragen zu einzelnen Aspekten des Onlineangebots. Damit wir alle Ihre Erkenntnisse dokumentieren können, wollen wir Ihren Ton sowie Ihre Bildschirmnavigation aufzeichnen. Aus Datenschutzgründen werden wir Sie hierzu bitten Ihre Kamera auszuschalten (keine Aufzeichnung Ihrer Person). Ihr Gesprochenes wird anschließend verschriftlicht und die Tonspur gelöscht, so dass Sie nicht identifiziert werden können.
+
+Sollten Sie noch Fragen haben, wenden Sie sich damit bitte an den Ansprechpartner (juergen.schneider@uni-tuebingen.de).
+
+
+
+ⓘ Freiwilligkeit und Anonymität
+Die Teilnahme an der Studie ist freiwillig. Sie können jederzeit und ohne Angabe von Gründen die Teilnahme an dieser Studie beenden, ohne dass Ihnen daraus Nachteile entstehen.
+
+Die im Rahmen dieser Studie erhobenen, oben beschriebenen Daten und persönlichen Mitteilungen werden vertraulich behandelt. So unterliegen diejenigen Projektmitarbeiter, die durch direkten Kontakt mit Ihnen über personenbezogene Daten verfügen, der Schweigepflicht bzw. dem Datengeheimnis. Des Weiteren wird die Veröffentlichung der Ergebnisse der Studie in anonymisierter Form erfolgen, d. h. ohne dass Ihre Daten Ihrer Person zugeordnet werden können.
+
+
+
+ⓘ Datenschutz
+Die Erhebung Ihrer oben beschriebenen persönlichen Daten erfolgt vollständig pseudonymisiert, an keiner Stelle wird Ihr Name erfragt. Ihre Antworten und Ergebnisse werden unter einem Pseudonym gespeichert, das aus Ihren Angaben auf der übernächsten Seite generiert wird. Aus dem Pseudonym können diese Angaben nicht abgelesen oder hergestellt werden. Das heißt, es ist niemandem möglich, Ihre Daten mit Ihrem Namen in Verbindung zu bringen. Die anonymisierten Daten werden mindestens 10 Jahre gespeichert. Bis zur vollständigen Anonymisierung können Sie allerdings die Löschung der von Ihnen erhobenen Daten verlangen. Dazu müssen Sie uns nicht Ihren Namen verraten, sondern lediglich Ihr Pseudonym. Zum Abruf Ihres Pseudonyms erhalten Sie von uns einen Link, kontaktieren Sie hierzu die Ombudsperson Eszter Stuber (eszter.stuber@uni-tuebingen.de).
+
+
+
+ⓘ Vergütung
+Für die Teilnahme an der Untersuchung erhalten Sie eine Vergütung in Höhe von 10 €. Die Vergütung wird Ihnen in bargeldlos per Überweisung ausgezahlt. Bei einer Überweisung der Vergütung müssen Sie Ihre Kontoverbindung angeben. Bei Bedarf können Sie diese auch telefonisch durchgeben. Alle diesbezüglichen Informationen werden völlig separat von den Untersuchungsdaten aufbewahrt. Die Informationen zur Vergütung erhalten Sie nach der Abschlussbefragung.
+
+---
+next page
+---
+
+Einwilligungserklärung
+Für nähere Informationen zur Einwilligung klicken Sie auf den Button.
+
+ⓘ Informationen zur Einwilligung
+Ich bin schriftlich über die Studie und den Versuchsablauf aufgeklärt worden. Ich willige ein, an der Expertenbefragung zur ‚Tübinger Bibliothek aufbereiteter Forschungssynthesen – TüDi-BASE‘ teilzunehmen.
+
+Sofern ich Fragen zu dieser vorgesehenen Studie hatte, wurden sie vollständig und zu meiner Zufriedenheit beantwortet.
+
+Mit der beschriebenen Erhebung und Verarbeitung der Daten meiner Einschätzung und Wahrnehmung von TüDi-BASE, sowie einige Rahmendaten zu meinem Alter, meiner Berufserfahrung, Unterrichtsfächer und meiner Selbsteinschätzung zu meiner Erfahrung mit digitalen Medien und statistischen Vorkenntnissen bin ich einverstanden. Die Aufzeichnung und Auswertung dieser Daten erfolgt pseudonymisiert in der Tübingen School of Education, d.h., unter Verwendung eines Pseudonyms. Dieses Pseudonym wird lediglich dazu genutzt, um meinen Vorabfragebogen mit der Hauptstudie und dem Abschlussfragebogen zu verknüpfen. Sobald diese Verknüpfung stattgefunden hat, werden die Daten anonymisiert, d.h., auch das Pseudonym durch eine zufällig gezogene Versuchspersonennummerersetzt. Damit ist es niemandem mehr möglich, die erhobenen Daten mit meinem Namen in Verbindung zu bringen. Bis zur Anonymisierung der Daten habe ich die Möglichkeit meine Daten unter Angabe meines persönlichen Kennwortes löschen zu lassen.
+
+Mir ist bekannt, dass ich mein Einverständnis zur Aufbewahrung bzw. Speicherung dieser Daten widerrufen kann, ohne dass mir daraus Nachteile entstehen. Ich bin darüber informiert worden, dass ich jederzeit eine Löschung all meiner Daten verlangen kann. Wenn allerdings die Daten bereits anonymisiert sind, kann mein Datensatz nicht mehr identifiziert und also auch nicht mehr gelöscht werden. Ich bin einverstanden, dass meine anonymisierten Daten zu Forschungszwecken weiterverwendet werden können und mindestens 10 Jahre gespeichert bleiben.
+
+
+
+ⓘ Rückmeldung von Ergebnissen
+Wenn ich an den Ergebnissen der Studie interessiert bin, dann melde ich dies beim Studienleiter Dr. Jürgen Schneider (juergen.schneider@uni-tuebingen.de). Ergebnisse erhalte ich zu gegebener Zeit per E-Mail.
+
+Ich habe die Informationen der Einwilligungerklärung verstanden und willige der Teilnahme ein.
+",,"",,1,0,1,0,0,0,0,1,0,0,0,text,"Die Einlösung evidenzbasierter Praxis setzt hohe Anforderungen an die Lehrpersonen und Lehrpersonenbildung. Herausforderungen liegen darin, dass wissenschaftliche Publikationen ein hohes Maß an methodischem und fachlichem Vorwissen voraussetzen, um die Erkenntnisse umfassend verstehen, einordnen und evaluieren zu können. Um den Zugang und die Nutzung aktueller Forschungserkenntnisse zu erleichtern, wurde die ‚Tübinger digitale Bibliothek aufbereiteter Forschungssynthesen – TüDi-BASE‘ entwickelt. TüDi-BASE ist ein Onlineangebot für Lehrerbildende und Lehrpersonen aller Phasen, auf dem Forschungssynthesen (d.h., Metaanalysen und systematische Übersichtsarbeiten) zum Themengebiet ‘digitale Medien in Schule und Unterricht’ aufbereitet und die Erkenntnisse sowohl aus wissenschaftlicher als auch unterrichtspraktischer Perspektive aufbereitet und eingeordnet werden. Der Aufbau von TüDi-BASE orientiert sich dabei an bestehenden Clearinghouse-Initiativen und deren Beforschung, sowie Forschung zur Wissenschaftskommunikation. Die Auswahl der Themen und Forschungssynthesen erfolgt anhand der Trias: Aktualität, Umsetzbarkeit und Innovationspotential, sowie etablierter Standards zur Beurteilung wissenschaftlicher Reviews. Jede aufbereitete Forschungssynthese gliedert sich in drei Hauptkomponenten: (1) thematische, praxisnahe Einführung, (2) Erkenntnisse der Forschungssynthese mit individuell abrufbaren Informationen zu Gütekriterien und (3) Implikationen für die unterrichtliche Praxis mit konkreten Umsetzungsmöglichkeiten. Damit kann TüDi-BASE sowohl für Lehrerbildende einen Überblick über ein Themengebiet geben, als auch entlang der Lehrerbildungskette eingesetzt werden. TüDi-BASE wird von einer systematischen Begleitforschung flankiert, die zum einen die Usability und Nutzung durch die unterschiedlichen Zielgruppen evaluiert (Laut Denken), sowie Prinzipien zur Gestaltung von Clearinghouses ableitet (Verständlichkeit von Effektstärken).
+
+=> Diese Studie ist die laut-denken Studie, in der es einen Begleitfragebogen gab","",,2022,"",juergen.schneider@ph-karlsruhe.de,816.98,816.98,,,,,,,,,,,,,,
