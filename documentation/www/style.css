@@ -1,0 +1,33 @@
+blockquote {
+  background-color: #ff847a;
+}
+
+.greybg {
+  background-color: #ececec;
+  border: 2px #5e5e5e solid;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#metadata, #metadata-1 {
+  visibility: collapse;
+  height: 0px !important;
+}
+
+
+:is(#variables, #variables-1) > h2 {
+  visibility: collapse;
+  height: 0px !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+h1 {
+  margin-top: 70px;
+}
+
+/* Versteckt den TOC-Eintrag visuell */
+.tocify-item[data-unique="Metadata"],
+.tocify-item[data-unique="Metadata15"] {
+  display: none !important;
+}

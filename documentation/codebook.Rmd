@@ -1,0 +1,323 @@
+---
+title: "Codebook"
+subtitle: '....'
+author:
+  - name: "Jürgen Schneider"
+    email: "juergen.schneider@ph-karlsruhe.de"
+    affiliation: "University of Education Karlsruhe"
+    correspondence: true
+date: "`r Sys.Date()`" # inserts the date of compiling
+output:
+  html_document:
+    theme: cerulean
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    code_folding: 'hide'
+    self_contained: true
+  pdf_document:
+    toc: yes
+    toc_depth: 3
+    latex_engine: xelatex
+css: www/style.css
+---
+
+#### Setup {.unnumbered .unlisted}
+```{r }
+library(tidyverse)
+library(labelled)
+library(codebook)
+library(here)
+
+knitr::opts_chunk$set(
+  warning = FALSE, # show warnings during codebook generation
+  message = FALSE, # show messages during codebook generation
+  error = FALSE, # do not interrupt codebook generation in case of errors,
+                # usually better for debugging
+  echo = FALSE  # show R code
+)
+ggplot2::theme_set(ggplot2::theme_bw())
+```
+
+#### Import {.unnumbered .unlisted}
+```{r }
+# import and clean
+df_pilot_public <- rio::import(here("data/Study_2_pilot/consentStudy_pilot_publicSample.csv")) %>% # load data
+  dplyr::filter(!is.na(submitdate)) %>%   # delete trial cases
+  rename_with(~ gsub("\\[(\\w+)\\]$", "_\\1", .x)) # change separators in variable names
+
+df_pilot_students <- rio::import(here("data/Study_2_pilot/consentStudy_pilot_studentSample.csv")) %>% # load data
+  dplyr::filter(!is.na(submitdate)) %>%   # delete trial cases
+  rename_with(~ gsub("\\[(\\w+)\\]$", "_\\1", .x)) %>% # change separators in variable names
+  dplyr::mutate(ReasonLowDwellTime_other = trimws(as.character(ReasonLowDwellTime_other)),,
+                ReasonLowDwellTime_other = if_else(ReasonLowDwellTime_other %in% c("", "0"),
+                                                   NA_character_, ReasonLowDwellTime_other))
+
+df_pilot <- bind_rows(df_pilot_public, df_pilot_students) %>%
+  dplyr::mutate(sensitivityT1_l1 = as.numeric(recode_values(sensitivityT1_l1,
+                                                         "AO01" ~ 1,
+                                                         "AO02" ~ 2,
+                                                         "AO03" ~ 3,
+                                                         "AO04" ~ 4,
+                                                         "AO05" ~ 5)))
+```
+
+#### Wrangle {.unnumbered .unlisted}
+```{r}
+# recode inverse items
+df_pilot <- df_pilot %>%
+  mutate(
+#          readEngageT1_01R = 7 - readEngageT1_01,
+#          readEngageT1_04R = 7 - readEngageT1_04,
+#          readEngageT1_06R = 7 - readEngageT1_06,
+#          readEngageT1_08R = 7 - readEngageT1_08,
+#          readEngageT1_09R = 7 - readEngageT1_09
+EpistemicTrust_1R = 7 - EpistemicTrust_1,
+EpistemicTrust_2R = 7 - EpistemicTrust_2,
+EpistemicTrust_3R = 7 - EpistemicTrust_3,
+EpistemicTrust_4R = 7 - EpistemicTrust_4) %>% 
+  # delete original reverse coded items
+  dplyr::select(-c(EpistemicTrust_1,
+                   EpistemicTrust_2,
+                   EpistemicTrust_3,
+                   EpistemicTrust_4
+#                    readEngageT1_01,
+#                    readEngageT1_04,
+#                    readEngageT1_06,
+#                    readEngageT1_08,
+#                    readEngageT1_09
+))
+```
+
+#### Knowledge test {.unnumbered .unlisted}
+```{r}
+# knoweldge test ################################################################################### #
+df_pilot <- df_pilot %>%
+  # recode knowledge-items
+  # and built scale
+  mutate(# item 1
+        RecallT1Q1_1c = recode_values(RecallT1Q1_1,
+                                       0 ~ 1,
+                                       1 ~ 0),
+        RecallT1Q1_2c = recode_values(RecallT1Q1_2,
+                                       0 ~ 1,
+                                       1 ~ 0),
+        RecallT1Q1_3c = RecallT1Q1_3,                # correct answer, leave coding as is
+        RecallT1Q1_4c = recode_values(RecallT1Q1_4,
+                                       0 ~ 1,
+                                       1 ~ 0),
+
+        # item 2
+        RecallT1Q2_1c = recode_values(RecallT1Q2_1,
+                                       0 ~ 1,
+                                       1 ~ 0),
+        RecallT1Q2_2c = recode_values(RecallT1Q2_2,
+                                       0 ~ 1,
+                                       1 ~ 0),
+        RecallT1Q2_3c = recode_values(RecallT1Q2_3, 
+                                       0 ~ 1,
+                                       1 ~ 0),
+        RecallT1Q2_4c = RecallT1Q2_4,# correct answer, leave coding as is
+
+        # item 3
+        RecallT1Q3_1c = RecallT1Q3_1, # correct answer, leave coding as is
+        RecallT1Q3_2c = recode_values(RecallT1Q3_2,
+                                       0 ~ 1,
+                                       1 ~ 0),
+        RecallT1Q3_3c = recode_values(RecallT1Q3_3, 
+                                       0 ~ 1,
+                                       1 ~ 0),
+        RecallT1Q3_4c = recode_values(RecallT1Q3_4,
+                                       0 ~ 1,
+                                       1 ~ 0),
+
+        # item 4
+        RecallT1Q4_1c = RecallT1Q4_1, # correct answer, leave coding as is
+        RecallT1Q4_2c = recode_values(RecallT1Q4_2,
+                                       0 ~ 1,
+                                       1 ~ 0),
+        RecallT1Q4_3c = recode_values(RecallT1Q4_3, 
+                                       0 ~ 1,
+                                       1 ~ 0),
+        RecallT1Q4_4c = recode_values(RecallT1Q4_4,
+                                       0 ~ 1,
+                                       1 ~ 0),
+
+        # item 5
+        RecallT1Q5_1c = RecallT1Q5_1, # correct answer, leave coding as is
+        RecallT1Q5_2c = RecallT1Q5_2, # correct answer, leave coding as is
+        RecallT1Q5_3c = RecallT1Q5_3, # correct answer, leave coding as is
+        RecallT1Q5_4c = RecallT1Q5_4, # correct answer, leave coding as is
+
+        # scale, grant mean over all items
+        # RecallT1 = rowSums(data.frame(RecallT1Q1_1c:RecallT1Q5_4c)) / 20
+        ) %>%
+  dplyr::select(-c(RecallT1Q1_1:RecallT1Q5_4))
+```
+
+#### Variable labels {.unnumbered .unlisted}
+```{r prepare_codebook}
+# 1) Variablenlabels
+var_label(df_pilot) <- list(
+  condition = "Experimentelle Bedingung",
+  readEngageT1_01 = "Ich habe den Text überflogen.",
+  readEngageT1_02 = "Ich habe überlegt, wie die Informationen in der Einverständniserklärung mit meiner eigenen Teilnahme an der Studie zusammenhängen.",
+  readEngageT1_03 = "Ich habe darüber nachgedacht, welche persönlichen Erfahrungen ich bisher bezüglich der Informationen in der Einverständniserklärung gemacht habe.",
+  readEngageT1_04 = "Während des Lesens habe ich meine Aufmerksamkeit nur auf die Inhalte gerichtet, die mir wichtig erschienen.",
+  readEngageT1_05 = "Ich habe mir Gedanken über die praktische Anwendung der Informationen in der Einverständniserklärung gemacht.",
+  readEngageT1_06 = "Ich muss gestehen, einige Stellen habe ich nicht sehr konzentriert gelesen.",
+  readEngageT1_07 = "Ich habe darüber nachgedacht, ob bzw. wie ich die Informationen im Einwilligungsformular auf meine Teilnahme beziehe.",
+  readEngageT1_08 = "Mit den Inhalten des Textes habe ich mich eher oberflächlich beschäftigt.",
+  readEngageT1_09 = "Ich muss zugeben, nicht alle von den vielen neuen Informationen habe ich behalten können.",
+  readEngageT1_10 = "Ich habe einige Parallelen zu Inhalten gesehen, mit denen ich mich schon einmal beschäftigt habe.",
+
+  RecallT1Q1_1c = "Weitergabe der Daten: Nein, alle Daten werden gelöscht.",
+  RecallT1Q1_2c = "Weitergabe der Daten: Ja, über die gesicherte Website der Universität ohne Zugangsbeschränkungen.",
+  RecallT1Q1_3c = "Weitergabe der Daten: Ja, über ein vertrauenswürdiges Archiv ohne Zugangsbeschränkungen.",
+  RecallT1Q1_4c = "Weitergabe der Daten: Ja, über ein Forschungsdatenzentrum mit eingeschränktem Zugang.",
+  RecallT1Q2_1c = "Verantwortlich für Datenschutz: Die Leitung des Forschungsteams",
+  RecallT1Q2_2c = "Verantwortlich für Datenschutz: Dr. Jürgen Schneider",
+  RecallT1Q2_3c = "Verantwortlich für Datenschutz: DIPF | Leibniz-Institut für Bildungsforschung und Bildungsinformation",
+  RecallT1Q2_4c = "Verantwortlich für Datenschutz: Die/der Datenschutzbeauftragte des Instituts",
+  RecallT1Q3_1c = "Anonymisierung: Ja, zum Zeitpunkt der Datenerhebung, keine Zuordnung möglich.",
+  RecallT1Q3_2c = "Anonymisierung: Ja, aber erst nachdem die Daten analysiert wurden.",
+  RecallT1Q3_3c = "Anonymisierung: Nein, Erfassung mit persönlichen Identifikatoren zur späteren Zuordnung.",
+  RecallT1Q3_4c = "Anonymisierung: Nein, Pseudonymisierung, Re-Identifizierung bleibt möglich.",
+  RecallT1Q4_1c = "Datenerhebung: Ich werde einen Fragebogen ausfüllen.",
+  RecallT1Q4_2c = "Datenerhebung: Ich werde interviewt.",
+  RecallT1Q4_3c = "Datenerhebung: Ich werde auf Video aufgezeichnet.",
+  RecallT1Q4_4c = "Datenerhebung: Es wurden keine Informationen darüber gegeben, wie die Daten erhoben werden.",
+  RecallT1Q5_1c = "Erhobene Daten: Interaktion mit der Befragung (z. B. aufgewendete Zeit, Aufmerksamkeit beim Lesen).",
+  RecallT1Q5_2c = "Erhobene Daten: Verständnis und Eindrücke vom Studieninhalt.",
+  RecallT1Q5_3c = "Erhobene Daten: Vorerfahrungen mit wissenschaftlicher Forschung und Teilnahmebereitschaft.",
+  RecallT1Q5_4c = "Erhobene Daten: Sensitivität des Themas und Gefühl der Informiertheit.",
+
+  experience_participate = "Ich habe Erfahrung mit der Teilnahme an wissenschaftlichen Studien, bei denen meine Daten erhoben und für Analysen verwendet wurden.",
+  experience_plan = "Ich habe Erfahrung in der Planung von wissenschaftlichen Studien, einschließlich des Umgangs mit und der Speicherung von Daten.",
+
+  ReasonLowDwellTime_1 = "Kurze Lesezeit, weil: Der Text war zu lang.",
+  ReasonLowDwellTime_2 = "Kurze Lesezeit, weil: Der Text war schwer verständlich.",
+  ReasonLowDwellTime_3 = "Kurze Lesezeit, weil: Die Darstellung des Textes war nicht ansprechend.",
+  ReasonLowDwellTime_4 = "Kurze Lesezeit, weil: Ich gehe davon aus, dass die Teilnahme mit wenig Risiko verbunden ist.",
+  ReasonLowDwellTime_5 = "Kurze Lesezeit, weil: Ich vertraue den Forschenden.",
+  ReasonLowDwellTime_6 = "Kurze Lesezeit, weil: Ich habe bereits Einverständniserklärungen gesehen und weiß, was darin steht.",
+  ReasonLowDwellTime_other = "Kurze Lesezeit, weil: Sonstiges",
+
+  participateT1_l1 = "Ich nehme an der beschriebenen Studie teil.",
+  sensitivityT1_l1 = "Wie wohl fühlen Sie sich dabei, die Fragen zum Thema der Studie ehrlich zu beantworten?",
+  concerns = "Welche Aspekte der geplanten Studie empfinden Sie am ehesten als besorgniserregend?",
+
+  benefits_1 = "Die Teilnahme an der Studie könnte mir helfen, mich selbst oder meine Erfahrungen besser zu verstehen.",
+  benefits_2 = "Ich könnte für meine Teilnahme an der Studie Vorteile wie zum Beispiel Geld erhalten.",
+  benefits_3 = "Die Forschenden könnten meinen Ansichten und Erfahrungen mehr Aufmerksamkeit schenken, wenn ich an der Studie teilnehme.",
+  benefits_4 = "Die Teilnahme an der Studie ermöglicht es mir, eine aktivere Rolle dabei zu übernehmen, mich selbst zu verstehen und zu erforschen.",
+  benefits_5 = "Durch die Teilnahme an der Studie könnte ich neue Reflexionsmöglichkeiten oder Informationen erhalten, die mir sonst nicht zugänglich wären.",
+  benefits_6 = "Die Teilnahme an der Studie könnte Menschen in meinem näheren Umfeld helfen, meine Ansichten oder Erfahrungen besser zu verstehen.",
+  benefits_7 = "Meine Teilnahme an der Studie könnte dazu beitragen, dass andere Menschen in Zukunft von verbesserten Erkenntnissen profitieren.",
+  benefits_8 = "Die Teilnahme an der Studie könnte helfen, Angebote im Bildungs- und Sozialbereich in meiner Gemeinde oder meinem Land zu verbessern.",
+  benefits_9 = "Insgesamt denke ich, dass die Teilnahme an der Studie mehr Vorteile als Risiken hat.",
+  benefitsOther = "Ich sehe noch andere Vorteile:",
+
+  EpistemicTrust_1R = "Die Autor*innen der geplanten Studie erscheinen mir ... unmoralisch-moralisch",
+  EpistemicTrust_2R = "Die Autor*innen der geplanten Studie erscheinen mir ... unethisch-ethisch",
+  EpistemicTrust_3R = "Die Autor*innen der geplanten Studie erscheinen mir ... unverantwortlich-verantwortungsvoll",
+  EpistemicTrust_4R = "Die Autor*innen der geplanten Studie erscheinen mir ... rücksichtslos-rücksichtsvoll",
+
+  feelingInformed_1 = "Ich verstehe, was die Teilnahme an der beschriebenen Studie mit sich bringt.",
+  feelingInformed_2 = "Die mir gegebenen Informationen umfassten alles, was ich wissen wollte.",
+  feelingInformed_3 = "Die mir gegebenen Informationen waren für mich leicht verständlich.",
+  feelingInformed_4 = "Ich hatte das Gefühl, dass ich die Möglichkeit hätte, Fragen zu stellen, bevor ich mich entscheide, an dieser Studie teilzunehmen."
+)
+```
+
+#### Value labels {.unnumbered .unlisted}
+```{r}
+# 2) Wertelabels
+add_labels <- function(labels) function(x) { val_labels(x) <- labels; x }
+
+lab6 <- c("stimme überhaupt nicht zu (1)" = 1, "(2)" = 2, "(3)" = 3,
+          "(4)" = 4, "(5)" = 5, "stimme voll und ganz zu (6)" = 6)
+lab6Tr <- c("[low trust] (1)" = 1, "(2)" = 2, "(3)" = 3,
+            "(4)" = 4, "(5)" = 5, "[high trust] (6)" = 6)
+lab5 <- c("sehr unwohl" = 1, "unwohl" = 2, "neutral" = 3, "wohl" = 4, "sehr wohl" = 5)
+lab01 <- c("nicht ausgewählt" = 0, "ausgewählt" = 1)
+labWR <- c("inkorrekt" = 0, "korrekt" = 1)
+
+items6 <- c("readEngageT1_01", "readEngageT1_02", "readEngageT1_03", "readEngageT1_04", 
+            "readEngageT1_05", "readEngageT1_06", "readEngageT1_07", "readEngageT1_08", 
+            "readEngageT1_09", "readEngageT1_10", "experience_participate", "experience_plan",
+            "participateT1_l1", paste0("benefits_", 1:9), paste0("feelingInformed_", 1:4))
+items6Tr <- c(paste0("EpistemicTrust_", 1:4, "R"))
+items01 <- c(paste0("ReasonLowDwellTime_", 1:6))
+itemsWR <- c(paste0("RecallT1Q", rep(1:5, each = 4), "_", 1:4, "c"))
+
+df_pilot <- df_pilot %>%
+  mutate(across(all_of(items6), add_labels(lab6)),
+         across(all_of(items6Tr), add_labels(lab6Tr)),
+         across(all_of(items01), add_labels(lab01)),
+         across(all_of(itemsWR), add_labels(labWR)),
+         sensitivityT1_l1 = add_labels(lab5)(sensitivityT1_l1),
+         condition = add_labels(c(
+           "Niedrig/Fragebogen" = 1, "Niedrig/Interview" = 2, "Niedrig/Video" = 3,
+           "Mittel/Fragebogen" = 4, "Mittel/Interview" = 5, "Mittel/Video" = 6,
+           "Hoch/Fragebogen" = 7, "Hoch/Interview" = 8, "Hoch/Video" = 9))(condition))
+```
+
+#### Scales {.unnumbered .unlisted}
+```{r}
+# scales
+df_pilot$elaboration <- df_pilot %>%
+  dplyr::select(readEngageT1_02, readEngageT1_03, readEngageT1_05,
+                readEngageT1_07, readEngageT1_10) %>%
+  aggregate_and_document_scale()
+
+df_pilot$surface_reading <- df_pilot %>%
+  dplyr::select(readEngageT1_01, readEngageT1_06,
+                readEngageT1_08, readEngageT1_09) %>%
+  aggregate_and_document_scale()
+
+df_pilot$RecallT1 <- df_pilot %>%
+  dplyr::select(RecallT1Q1_1c:RecallT1Q5_4c) %>%
+  aggregate_and_document_scale()
+
+
+df_pilot$benefits <- df_pilot %>%
+  dplyr::select(benefits_1:benefits_9) %>%
+  aggregate_and_document_scale()
+
+df_pilot$EpistemicTrust <- df_pilot %>%
+  dplyr::select(EpistemicTrust_1R:EpistemicTrust_4R) %>%
+  aggregate_and_document_scale()
+
+df_pilot$feelingInformed <- df_pilot %>%
+  dplyr::select(feelingInformed_1:feelingInformed_3) %>%
+  aggregate_and_document_scale()
+
+df_pilot$ReasonLowDwellTime <- df_pilot %>%
+  dplyr::select(ReasonLowDwellTime_1:ReasonLowDwellTime_6) %>%
+  aggregate_and_document_scale()
+
+# delete variables not needed in codebook
+df_pilot <- df_pilot %>%
+  dplyr::select(-c(id, concerns, benefitsOther, submitdate:actualConsentText, Datenschutz, actualConsent_yes, 
+                   introConsent:consentTextHigVideo, consentRepLowSurvey:consentRepHigVideo,
+                   interviewtime:groupTime1444,
+                   ReasonLowDwellTime_other,
+                   readEngageT1_04, #deleted item from scale
+                   feelingInformed_4 #deleted item from scale, publication had no results on reliabilities
+                   ))
+
+codebook_data <- detect_scales(df_pilot)
+```
+
+
+#### Create Codebook {.unnumbered .unlisted}
+```{r codebook}
+# omit metadata_json (uses HTML) to avoid an error when knitting to PDF;
+# metadata_table and other components are automatically
+# rendered as static tables for PDF output
+codebook(codebook_data)
+
+# run rendering in vscode/positron
+# rmarkdown::render("documentation/codebook.Rmd", output_format = "html_document")
+```
