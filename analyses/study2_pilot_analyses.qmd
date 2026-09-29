@@ -1,0 +1,317 @@
+---
+title: "..."
+subtitle: "..."
+author:
+  - name: "Jürgen Schneider"
+    email: "juergen.schneider@ph-karlsruhe.de"
+    affiliation: "University of Education Karlsruhe"
+    correspondence: true
+date: "`r Sys.Date()`" # inserts the date of compiling
+editor: source
+execute:
+  eval: true
+  echo: true
+  warning: false
+  message: false
+  cache: false # true will prevent embed-resources
+format: 
+  html:
+    theme: lumen
+    number-sections: true
+    fontsize: 0.85em
+    toc: true
+    toc-location: left
+    toc-depth: 2
+    embed-resources: true # will make standalone html file
+    code-fold: true
+    code-tools: true
+    code-link: true
+    grid:
+      sidebar-width: 250px
+      body-width: 1000px
+      margin-width: 100px
+      gutter-width: 1.5rem
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r check R version}
+required_r_version <- renv::lockfile_read()$R$Version
+
+if (as.character(getRversion()) != required_r_version) {
+  stop(
+    "Wrong R-version in use. ",
+    "Lockfile expects R ",
+    required_r_version,
+    ", currently running: ",
+    R.version.string,
+    "."
+  )
+}
+```
+
+```{r packages and seed}
+library(rio)
+library(here)
+library(tidyverse)
+library(lavaan)
+library(psych)
+
+set.seed(1789)
+```
+
+# Import and wrangling
+
+```{r}
+# import and clean
+df_pilot_public <- rio::import(here("data/Study_2_pilot/consentStudy_pilot_publicSample.csv")) %>% # load data
+  dplyr::filter(!is.na(submitdate)) %>%   # delete trial cases
+  rename_with(~ gsub("\\[(\\w+)\\]$", "_\\1", .x)) # change separators in variable names
+
+df_pilot_students <- rio::import(here("data/Study_2_pilot/consentStudy_pilot_studentSample.csv")) %>% # load data
+  dplyr::filter(!is.na(submitdate)) %>%   # delete trial cases
+  rename_with(~ gsub("\\[(\\w+)\\]$", "_\\1", .x)) %>% # change separators in variable names
+  dplyr::mutate(ReasonLowDwellTime_other = trimws(as.character(ReasonLowDwellTime_other)),,
+                ReasonLowDwellTime_other = if_else(ReasonLowDwellTime_other %in% c("", "0"),
+                                                   NA_character_, ReasonLowDwellTime_other))
+
+df_pilot <- bind_rows(df_pilot_public, df_pilot_students) %>%
+  dplyr::mutate(sensitivityT1_l1 = as.numeric(recode_values(sensitivityT1_l1,
+                                                         "AO01" ~ 1,
+                                                         "AO02" ~ 2,
+                                                         "AO03" ~ 3,
+                                                         "AO04" ~ 4,
+                                                         "AO05" ~ 5)))
+
+# recode inverse items
+df_pilot <- df_pilot %>%
+  mutate(
+#          readEngageT1_01R = 7 - readEngageT1_01,
+#          readEngageT1_04R = 7 - readEngageT1_04,
+#          readEngageT1_06R = 7 - readEngageT1_06,
+#          readEngageT1_08R = 7 - readEngageT1_08,
+#          readEngageT1_09R = 7 - readEngageT1_09
+EpistemicTrust_1R = 7 - EpistemicTrust_1,
+EpistemicTrust_2R = 7 - EpistemicTrust_2,
+EpistemicTrust_3R = 7 - EpistemicTrust_3,
+EpistemicTrust_4R = 7 - EpistemicTrust_4) %>% 
+  # delete original reverse coded items
+  dplyr::select(-c(EpistemicTrust_1,
+                   EpistemicTrust_2,
+                   EpistemicTrust_3,
+                   EpistemicTrust_4
+#                    readEngageT1_01,
+#                    readEngageT1_04,
+#                    readEngageT1_06,
+#                    readEngageT1_08,
+#                    readEngageT1_09
+))
+```
+
+# CFAs for unidimensionality
+
+:::{.panel-tabset}
+
+### Model with two correlated factors
+Two factors: Elaboration and surface reading.
+```{r}
+model_2factors <- '
+  # Faktor 1: Regular Items
+  elaboration =~ readEngageT1_02 + readEngageT1_03 + 
+                 readEngageT1_05 + readEngageT1_07 + 
+                 readEngageT1_10
+  
+  # Faktor 2: Reverse Items
+  surface_reading =~ readEngageT1_01 + # readEngageT1_04 + # delete item 4?
+                     readEngageT1_06 + readEngageT1_08 + 
+                     readEngageT1_09
+'
+
+fit_2factors <- cfa(
+  model_2factors,
+  data = df_pilot,
+  estimator = "MLR",
+  missing = "fiml"
+)
+
+summary(fit_2factors, fit.measures = TRUE, standardized = TRUE)
+```
+
+:::
+
+\
+\
+
+
+# Internal Consistencies
+
+:::{.panel-tabset}
+
+## Reading engagement
+
+### Reading engagement: Elaboration
+```{r}
+psych::omega(
+  df_pilot %>%
+    dplyr::select(
+      readEngageT1_02,
+      readEngageT1_03,
+      readEngageT1_05,
+      readEngageT1_07,
+      readEngageT1_10
+    ),
+  nfactors = 1
+)
+```
+
+### Reading engagement: surface reading
+```{r}
+psych::omega(
+  df_pilot %>%
+    dplyr::select(
+      readEngageT1_01, # readEngageT1_04,
+      readEngageT1_06,
+      readEngageT1_08,
+      readEngageT1_09
+    ),
+  nfactors = 1
+)
+```
+
+:::
+
+\
+\
+
+#### Knowledge test {.unnumbered .unlisted}
+```{r}
+# knoweldge test ################################################################################### #
+df_pilot <- df_pilot %>%
+  # recode knowledge-items
+  # and built scale
+  mutate(
+    # item 1
+    RecallT1Q1_1c = recode_values(RecallT1Q1_1, 0 ~ 1, 1 ~ 0),
+    RecallT1Q1_2c = recode_values(RecallT1Q1_2, 0 ~ 1, 1 ~ 0),
+    RecallT1Q1_3c = RecallT1Q1_3, # correct answer, leave coding as is
+    RecallT1Q1_4c = recode_values(RecallT1Q1_4, 0 ~ 1, 1 ~ 0),
+
+    # item 2
+    RecallT1Q2_1c = recode_values(RecallT1Q2_1, 0 ~ 1, 1 ~ 0),
+    RecallT1Q2_2c = recode_values(RecallT1Q2_2, 0 ~ 1, 1 ~ 0),
+    RecallT1Q2_3c = recode_values(RecallT1Q2_3, 0 ~ 1, 1 ~ 0),
+    RecallT1Q2_4c = RecallT1Q2_4, # correct answer, leave coding as is
+
+    # item 3
+    RecallT1Q3_1c = RecallT1Q3_1, # correct answer, leave coding as is
+    RecallT1Q3_2c = recode_values(RecallT1Q3_2, 0 ~ 1, 1 ~ 0),
+    RecallT1Q3_3c = recode_values(RecallT1Q3_3, 0 ~ 1, 1 ~ 0),
+    RecallT1Q3_4c = recode_values(RecallT1Q3_4, 0 ~ 1, 1 ~ 0),
+
+    # item 4
+    RecallT1Q4_1c = RecallT1Q4_1, # correct answer, leave coding as is
+    RecallT1Q4_2c = recode_values(RecallT1Q4_2, 0 ~ 1, 1 ~ 0),
+    RecallT1Q4_3c = recode_values(RecallT1Q4_3, 0 ~ 1, 1 ~ 0),
+    RecallT1Q4_4c = recode_values(RecallT1Q4_4, 0 ~ 1, 1 ~ 0),
+
+    # item 5
+    RecallT1Q5_1c = RecallT1Q5_1, # correct answer, leave coding as is
+    RecallT1Q5_2c = RecallT1Q5_2, # correct answer, leave coding as is
+    RecallT1Q5_3c = RecallT1Q5_3, # correct answer, leave coding as is
+    RecallT1Q5_4c = RecallT1Q5_4, # correct answer, leave coding as is
+
+    # scale, grant mean over all items
+    # RecallT1 = rowSums(data.frame(RecallT1Q1_1c:RecallT1Q5_4c)) / 20
+  ) %>%
+  dplyr::select(-c(RecallT1Q1_1:RecallT1Q5_4))
+```
+
+# Results
+
+## Treatment check sensitivity
+
+```{r}
+df_pilot <- df_pilot %>%
+  mutate(data_format = case_when(
+                          condition == 3 | condition == 6 | condition == 9 ~ "Video",
+                          condition == 2 | condition == 5 | condition == 8 ~ "Interview",
+                          condition == 1 | condition == 4 | condition == 7 ~ "Fragebogen"),
+         topic_sensitivity = case_when(
+                          condition == 1 | condition == 2 | condition == 3 ~ "Niedrig",
+                          condition == 4 | condition == 5 | condition == 6 ~ "Mittel",
+                          condition == 7 | condition == 8 | condition == 9 ~ "Hoch")
+         )
+
+ggplot(df_pilot, aes(x = topic_sensitivity, y = 6 - sensitivityT1_l1, groups = data_format, fill = data_format, color = data_format)) +
+  stat_summary(geom = "pointrange", fun.data = "mean_cl_boot", position = position_dodge(width = .4), size = 1.5) + 
+  scale_y_continuous(limits = c(1,5), breaks = c(1:5), labels = c("sehr wohl", "wohl", "neutral", "unwohl", "sehr unwohl"))
+```
+
+Die FRage ist, ob den Teilnehmenden überhaupt bewusst ist, was das Thema der Studie ist und inwiefern dieses (Un)Bewusstsein dann überhaupt die wahrgenommene Sensitivität beeinflussen kann.
+
+## Create scales and standardize.
+
+```{r}
+#| eval: false
+df_pilot <- df_pilot %>%
+  mutate(
+    RecallT1 = scale(
+      rowMeans(dplyr::select(., matches("^RecallT1Q[1-5]_[1-4]c$")), na.rm = TRUE)
+    ),
+    benefits = scale(
+      rowMeans(data.frame(benefits_1, benefits_2, benefits_3, benefits_4, benefits_5,
+      benefits_6, benefits_7, benefits_8, benefits_9), na.rm = TRUE)
+    ),
+    EpistemicTrust = scale(
+      rowMeans(data.frame(EpistemicTrust_1R, EpistemicTrust_2R, 
+                          EpistemicTrust_3R, EpistemicTrust_4R), 
+               na.rm = TRUE)
+    ),
+    feelingInformed = scale(
+      rowMeans(data.frame(feelingInformed_1, feelingInformed_2, feelingInformed_3), na.rm = TRUE)
+    ),
+    surface_reading = scale(
+      rowMeans(
+        data.frame(
+          readEngageT1_01,
+          readEngageT1_06,
+          readEngageT1_08,
+          readEngageT1_09
+        ),
+        na.rm = T
+      )
+    ),
+    elaboration = scale(
+      rowMeans(
+        data.frame(
+          readEngageT1_02,
+          readEngageT1_03,
+          readEngageT1_05,
+          readEngageT1_07,
+          readEngageT1_10
+        ),
+        na.rm = T
+      )
+    )
+  )
+```
+
+
+
+\
+\
+\
+
+# Computational environment
+
+## Packages
+
+```{r}
+installed.packages()[names(sessionInfo()$otherPkgs), "Version"]
+```
+
+## R Version
+
+```{r}
+R.Version()
+```
